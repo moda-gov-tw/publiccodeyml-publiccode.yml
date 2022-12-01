@@ -1,0 +1,2377 @@
+#
+msgid ""
+msgstr ""
+
+#: ./en-md/categories-list.md:block 1 (paragraph)
+msgid "# List of software categories {#categories-list}"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 2 (paragraph)
+msgid ""
+"Here follows a controlled vocabulary of useful tags for categorizing the "
+"software."
+msgstr ""
+
+#: ./en-md/categories-list.md:block 3 (paragraph)
+msgid "## Valid Tags"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "accounting"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "agile-project-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "applicant-tracking"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "application-development"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "appointment-scheduling"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "backup"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "billing-and-invoicing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "blog"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "budgeting"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "business-intelligence"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "business-process-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "cad"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "call-center-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "cloud-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "collaboration"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "communications"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "compliance-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "contact-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "content-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "crm"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "customer-service-and-support"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "data-analytics"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "data-collection"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "data-visualization"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "digital-asset-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "digital-citizenship"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "document-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "donor-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "e-commerce"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "e-signature"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "educational-content"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "email-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "email-marketing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "employee-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "enterprise-project-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "enterprise-social-networking"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "erp"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "event-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "facility-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "feedback-and-reviews-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "financial-reporting"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "fleet-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "fundraising"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "gamification"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "geographic-information-systems"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "grant-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "graphic-design"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "help-desk"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "hr"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "ide"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "identity-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "instant-messaging"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "inventory-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "it-asset-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "it-development"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "it-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "it-security"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "it-service-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "knowledge-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "learning-management-system"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "marketing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "mind-mapping"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "mobile-marketing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "mobile-payment"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "network-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "office"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "online-booking"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "online-community"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "payment-gateway"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "payroll"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "predictive-analysis"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "procurement"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "productivity-suite"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "project-collaboration"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "project-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "property-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "real-estate-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "remote-support"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "resource-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "sales-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "seo"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "service-desk"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "social-media-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "survey"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "talent-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "task-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "taxes-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "test-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "time-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "time-tracking"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "translation"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "video-conferencing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "video-editing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "visitor-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "voip"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "warehouse-management"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "web-collaboration"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "web-conferencing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "website-builder"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "whistleblowing"
+msgstr ""
+
+#: ./en-md/categories-list.md:block 4 (unordered list)
+msgid "workflow-management"
+msgstr ""
+
+#: ./en-md/country.md:block 1 (paragraph)
+msgid "# Country-Specific Sections {#country-section}"
+msgstr ""
+
+#: ./en-md/country.md:block 2 (paragraph)
+msgid ""
+"While the standard is structured to be meaningful on an international level,"
+" there are additional information that can be added that makes sense in "
+"specific countries, such as declaring compliance with local laws or "
+"regulations. The provided extension mechanism is the usage of country-"
+"specific sections."
+msgstr ""
+
+#: ./en-md/country.md:block 3 (paragraph)
+msgid ""
+"All country-specific sections live under a key named after two-letter "
+"lowercase [ISO 3166-1 alpha-2 country "
+"codes](<<https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2>>). For instance "
+"[spid]{.title-ref} is a property for Italian software declaring whether the "
+"software is integrated with the Italian Public Identification System."
+msgstr ""
+
+#: ./en-md/country.md:block 4 (paragraph)
+msgid "If a software is compliant I will find:"
+msgstr ""
+
+#: ./en-md/country.md:block 5 (paragraph)
+msgid ""
+"``` yaml it:   countryExtensionVersion: \"1.0\"   piattaforme:    - spid: "
+"true``\\`"
+msgstr ""
+
+#: ./en-md/country.md:block 6 (paragraph)
+msgid ""
+"Notice that country-specific keys within international sections are not "
+"allowed. Countries that want to extend the format should add a country-"
+"specific section instead."
+msgstr ""
+
+#: ./en-md/country.md:block 7 (paragraph)
+msgid "## Italy {#italian-sections}"
+msgstr ""
+
+#: ./en-md/country.md:block 8 (paragraph)
+msgid ""
+"All the keys listed below are specific for Italy and, as such, they must be "
+"inserted in a section named with the [it]{.title-ref} code. Every Country is"
+" specified using a two letters *country code* following the ISO 3166-1 "
+"alpha-2 standard."
+msgstr ""
+
+#: ./en-md/country.md:block 9 (paragraph)
+msgid "### Key [countryExtensionVersion]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 10 (unordered list)
+msgid "Type: string"
+msgstr ""
+
+#: ./en-md/country.md:block 10 (unordered list)
+msgid "Presence: mandatory"
+msgstr ""
+
+#: ./en-md/country.md:block 10 (unordered list)
+msgid "Value: [\"1.0\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 11 (paragraph)
+msgid "This key **MUST** always be set to [1.0]{.title-ref}."
+msgstr ""
+
+#: ./en-md/country.md:block 12 (paragraph)
+msgid "### Key [conforme]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 13 (paragraph)
+msgid ""
+"This section contains the keys for auto-declaring the compliance with the "
+"current legislation, with respect to the following sections. Not including "
+"these keys implies that the compliance is not known or not declared."
+msgstr ""
+
+#: ./en-md/country.md:block 14 (paragraph)
+msgid "#### Key [conforme/lineeGuidaDesign]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 15 (unordered list)
+msgid "Type: boolean"
+msgstr ""
+
+#: ./en-md/country.md:block 15 (unordered list)
+msgid "Presence: optional"
+msgstr ""
+
+#: ./en-md/country.md:block 16 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software is compliant with the"
+" Italian accessibility laws (L. 4/2004), as further explained in the [linee "
+"guida di design](<<https://docs.italia.it/italia/designers-italia/design-"
+"linee-guida-docs>>) (Italian language)."
+msgstr ""
+
+#: ./en-md/country.md:block 17 (paragraph)
+msgid "#### Key [conforme/modelloInteroperatibilita]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 19 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software is compliant with the"
+" [linee guida sull'interoperabilità](<<https://docs.italia.it/italia/piano-"
+"triennale-ict/lg-modellointeroperabilita-docs>>)."
+msgstr ""
+
+#: ./en-md/country.md:block 20 (paragraph)
+msgid ""
+"Regulatory reference: [Art. 73 del "
+"CAD](<<https://docs.italia.it/italia/piano-triennale-ict/codice-"
+"amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>>) "
+"(Italian language)."
+msgstr ""
+
+#: ./en-md/country.md:block 21 (paragraph)
+msgid "#### Key [conforme/misureMinimeSicurezza]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 23 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software is compliant with the"
+" [Misure minime di sicurezza ICT per le Pubbliche "
+"amministrazioni](<<https://www.agid.gov.it/it/sicurezza/misure-minime-"
+"sicurezza-ict>>) (Italian language)."
+msgstr ""
+
+#: ./en-md/country.md:block 24 (paragraph)
+msgid "#### Key [conforme/gdpr]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 26 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software respects the GDPR."
+msgstr ""
+
+#: ./en-md/country.md:block 27 (paragraph)
+msgid "### Section [piattaforme]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 28 (paragraph)
+msgid "#### Key [piattaforme/spid]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 30 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software interfaces with [SPID"
+" - il Sistema Pubblico di Identità "
+"Digitale](<<https://developers.italia.it/it/spid>>)."
+msgstr ""
+
+#: ./en-md/country.md:block 31 (paragraph)
+msgid "#### Key [piattaforme/cie]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 33 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software interfaces with the "
+"Italian electronic ID card ([Carta di Identità Elettronica]{.title-ref})."
+msgstr ""
+
+#: ./en-md/country.md:block 34 (paragraph)
+msgid "#### Key [piattaforme/anpr]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 36 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software interfaces with ANPR."
+msgstr ""
+
+#: ./en-md/country.md:block 37 (paragraph)
+msgid "#### Key [piattafome/pagopa]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 39 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software interfaces with "
+"pagoPA."
+msgstr ""
+
+#: ./en-md/country.md:block 40 (paragraph)
+msgid "#### Key [piattaforme/io]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 42 (paragraph)
+msgid ""
+"If present and set to [true]{.title-ref}, the software interfaces with [IO -"
+" the public services app](<<https://io.italia.it/>>)."
+msgstr ""
+
+#: ./en-md/country.md:block 43 (paragraph)
+msgid "### Section [riuso]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 44 (paragraph)
+msgid ""
+"This section contains a set of keys related to the publication of the "
+"software inside the reuse catalog of [Developers "
+"Italia](<<https://developers.italia.it>>)."
+msgstr ""
+
+#: ./en-md/country.md:block 45 (paragraph)
+msgid "#### Chiave [riuso/codiceIPA]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 46 (unordered list)
+msgid "Type: string (iPA code)"
+msgstr ""
+
+#: ./en-md/country.md:block 46 (unordered list)
+msgid ""
+"Presence: mandatory if [repoOwner]{.title-ref} is a Public Administration"
+msgstr ""
+
+#: ./en-md/country.md:block 46 (unordered list)
+msgid "Example: [c_h501]{.title-ref}"
+msgstr ""
+
+#: ./en-md/country.md:block 47 (paragraph)
+msgid ""
+"This key represents the administration code inside the Public Administration"
+" index (codice IPA)."
+msgstr ""
+
+#: ./en-md/example.md:block 1 (paragraph)
+msgid "# Examples"
+msgstr ""
+
+#: ./en-md/example.md:block 2 (paragraph)
+msgid ""
+"Below there are two examples of [publiccode.yml]{.title-ref} files, the "
+"first one represents the minimum configuration, which contains the mandatory"
+" fields, whilst the second one represents a more extended version."
+msgstr ""
+
+#: ./en-md/example.md:block 3 (paragraph)
+msgid "## Minimum Version"
+msgstr ""
+
+#: ./en-md/example.md:block 4 (paragraph)
+msgid ""
+"::: {.literalinclude language=\"yaml\" linenos=\"\"} "
+"example/publiccode.minimal.yml :"
+msgstr ""
+
+#: ./en-md/example.md:block 5 (paragraph)
+msgid "Extended Version ~~~~~~~~~~~~~~~"
+msgstr ""
+
+#: ./en-md/example.md:block 6 (paragraph)
+msgid "::: {.literalinclude language=\"yaml\" linenos=\"\"} example/publiccode.yml :"
+msgstr ""
+
+#: ./en-md/forks.md:block 1 (paragraph)
+msgid "# Forks and variants"
+msgstr ""
+
+#: ./en-md/forks.md:block 2 (paragraph)
+msgid ""
+"As already cited before, a fork may have two different forms based on the "
+"final aim. As such, in order to make it clear how to handle the "
+"[publiccode.yml]{.title-ref} in both cases, below we define two different "
+"semantics: technical forks and software variants."
+msgstr ""
+
+#: ./en-md/forks.md:block 3 (paragraph)
+msgid "## Technical forks (i.e. to publish patches)"
+msgstr ""
+
+#: ./en-md/forks.md:block 4 (paragraph)
+msgid ""
+"A technical fork is a fork made by a developer for the purpose of working on"
+" the original code base or sending improvements to the original authors, "
+"without any explicit goal of creating and publishing an alternative variant "
+"of the original software."
+msgstr ""
+
+#: ./en-md/forks.md:block 5 (paragraph)
+msgid ""
+"In the context of distributed control systems and collaborative code hosting"
+" platforms like GitHub, forking is almost always used by developers as a "
+"step to work on a contribution on an existing codebase, by sending \"pull "
+"requests\"."
+msgstr ""
+
+#: ./en-md/forks.md:block 6 (paragraph)
+msgid ""
+"Because of the way forking works on GitHub and other platforms, developers "
+"publish their forks as perfect copies of the original software, thus "
+"including also [publiccode.yml]{.title-ref}. However, parsers need to be "
+"able to distinguish such technical forks from the original codebase."
+msgstr ""
+
+#: ./en-md/forks.md:block 7 (paragraph)
+msgid "### Parsers"
+msgstr ""
+
+#: ./en-md/forks.md:block 8 (paragraph)
+msgid ""
+"Parsers **SHOULD** identify a technical fork by noticing that the top-level "
+"[url]{.title-ref} key does not point to the repository in which the "
+"[publiccode.yml]{.title-ref} is found."
+msgstr ""
+
+#: ./en-md/forks.md:block 9 (paragraph)
+msgid ""
+"Parsers **MIGHT** identify a technical fork also through metadata that might"
+" be exposed by the code hosting platform (eg: GitHub marks forks explicitly "
+"as forks)"
+msgstr ""
+
+#: ./en-md/forks.md:block 10 (paragraph)
+msgid "### Authors"
+msgstr ""
+
+#: ./en-md/forks.md:block 11 (paragraph)
+msgid ""
+"Authors of technical forks **SHOULD NOT** modify [publiccode.yml]{.title-"
+"ref} in any way. Specifically, they **MUST NOT** modify the top-level "
+"[url]{.title-ref} key that **MUST** continue pointing to the original "
+"repository."
+msgstr ""
+
+#: ./en-md/forks.md:block 12 (paragraph)
+msgid ""
+"There is no explicit key to mark a fork as a technical fork. This is a "
+"conscious design decision because we do not want authors of technical forks "
+"to be aware of [publiccode.yml]{.title-ref} and necessarily be aware of how "
+"to modify it. The current design does not require authors to do anything."
+msgstr ""
+
+#: ./en-md/forks.md:block 13 (paragraph)
+msgid "## Software variants"
+msgstr ""
+
+#: ./en-md/forks.md:block 14 (paragraph)
+msgid ""
+"A software variant is a fork that is offered as an alternative to the "
+"original upstream software."
+msgstr ""
+
+#: ./en-md/forks.md:block 15 (paragraph)
+msgid ""
+"It contains modifications that are still not part of the upstream version, "
+"like more features, different dependencies, optimizations, etc."
+msgstr ""
+
+#: ./en-md/forks.md:block 16 (paragraph)
+msgid ""
+"By marking a fork as a variant, the author indicates that they believe that "
+"the variant includes a complete and working set of modifications that might "
+"be useful to other people."
+msgstr ""
+
+#: ./en-md/forks.md:block 17 (paragraph)
+msgid ""
+"Marking a fork as a variant does **not** relate to the willingness of "
+"contributing upstream; the author might still plan to contribute the "
+"modifications upstream, or even being in the process of doing so. Thus, even"
+" if the fork will eventually be merged upstream, it might make sense to mark"
+" it as a variant during the process, so that others might discover it and "
+"benefit from it."
+msgstr ""
+
+#: ./en-md/forks.md:block 19 (paragraph)
+msgid ""
+"Parsers **SHOULD** identify a variant by noticing that the top-level "
+"[url]{.title-ref} key matches to the repository in which the "
+"[publiccode.yml]{.title-ref} is found, **AND** a top-level "
+"[isBasedOn]{.title-ref} exists and points to a different repository."
+msgstr ""
+
+#: ./en-md/forks.md:block 20 (paragraph)
+msgid ""
+"Parsers should expect and analyze other differences in "
+"[publiccode.yml]{.title-ref} between variants of the software. Specifically "
+"[description/features]{.title-ref} is designed to be compared across "
+"variants to identify and show user-visible differences."
+msgstr ""
+
+#: ./en-md/forks.md:block 22 (paragraph)
+msgid ""
+"Authors that are willing to publish a fork as a variant **MUST** at least:"
+msgstr ""
+
+#: ./en-md/forks.md:block 23 (unordered list)
+msgid ""
+"add a key [isBasedOn]{.title-ref} pointing to one or more upstream "
+"repositories from which this variant is derived."
+msgstr ""
+
+#: ./en-md/forks.md:block 23 (unordered list)
+msgid ""
+"Change the value for [url]{.title-ref} to point to the repository holding "
+"the variant."
+msgstr ""
+
+#: ./en-md/forks.md:block 23 (unordered list)
+msgid ""
+"Change the value for [legal/repoOwner]{.title-ref} to refer to the "
+"themselves (the authors of the variant)."
+msgstr ""
+
+#: ./en-md/forks.md:block 23 (unordered list)
+msgid ""
+"Revisit the [maintenance]{.title-ref} section to refer to the maintenance "
+"status of the variant."
+msgstr ""
+
+#: ./en-md/forks.md:block 24 (paragraph)
+msgid "Moreover, authors **SHOULD** evaluate the following changes:"
+msgstr ""
+
+#: ./en-md/forks.md:block 25 (unordered list)
+msgid ""
+"add the features that differentiate the variant to the "
+"[description/features]{.title-ref} key. Existing features **SHOULD NOT** be "
+"edited or removed from this list unless they have been removed from the "
+"variant, to allow parsers to easily compare feature lists."
+msgstr ""
+
+#: ./en-md/index.md:block 1 (paragraph)
+msgid "# [publiccode.yml]{.title-ref}"
+msgstr ""
+
+#: ./en-md/index.md:block 2 (paragraph)
+msgid ""
+"[publiccode.yml]{.title-ref} is a metadata standard for repositories "
+"containing software developed or acquired by the Public Administration, "
+"aimed at making them easily discoverable and thus reusable by other "
+"entities."
+msgstr ""
+
+#: ./en-md/index.md:block 3 (paragraph)
+msgid ""
+"By including a [publiccode.yml]{.title-ref} file in the root of a "
+"repository, and populating it with information about the software, "
+"technicians and civil servants can evaluate it. Automatic indexing tools can"
+" also be built, since the format is easily readable by both humans and "
+"machines."
+msgstr ""
+
+#: ./en-md/index.md:block 4 (paragraph)
+msgid ""
+"[publiccode.yml]{.title-ref} is mandatory for all public software developed "
+"in Italy, according to the national "
+"[guidelines](<<https://docs.italia.it/AgID/linee-guida-riuso-software/lg-"
+"acquisizione-e-riuso-software-per-pa-docs/>>): this enables the Developers "
+"Italia crawler to build the national [software "
+"catalog](<<https://developers.italia.it/>>). The standard is designed to be "
+"interoperable internationally, thus the country-specific keys are separated "
+"by the core part and are defined in specific sections that each government "
+"can rule."
+msgstr ""
+
+#: ./en-md/index.md:block 5 (paragraph)
+msgid "Details carried by a [publiccode.yml]{.title-ref} file include:"
+msgstr ""
+
+#: ./en-md/index.md:block 6 (unordered list)
+msgid ""
+"title and description of the project or product (in one or more languages);"
+msgstr ""
+
+#: ./en-md/index.md:block 6 (unordered list)
+msgid ""
+"development state (e.g., [concept]{.title-ref}, [development]{.title-ref}, "
+"[beta]{.title-ref}, [stable]{.title-ref}, [obsolete]{.title-ref};"
+msgstr ""
+
+#: ./en-md/index.md:block 6 (unordered list)
+msgid "contacts of the entity who published the codebase;"
+msgstr ""
+
+#: ./en-md/index.md:block 6 (unordered list)
+msgid ""
+"contacts of the maintainer, if any, including the expire date of the "
+"maintenance contract;"
+msgstr ""
+
+#: ./en-md/index.md:block 6 (unordered list)
+msgid ""
+"information about the legal context for which the project or product was "
+"designed;"
+msgstr ""
+
+#: ./en-md/index.md:block 6 (unordered list)
+msgid "dependencies"
+msgstr ""
+
+#: ./en-md/index.md:block 7 (paragraph)
+msgid "and much more."
+msgstr ""
+
+#: ./en-md/index.md:block 8 (paragraph)
+msgid "## See also"
+msgstr ""
+
+#: ./en-md/index.md:block 9 (unordered list)
+msgid ""
+"[More information about software "
+"reuse](<<https://developers.italia.it/en/reuse>>)"
+msgstr ""
+
+#: ./en-md/index.md:block 9 (unordered list)
+msgid ""
+"[publiccode.yml web editor](<<https://publiccode-"
+"editor.developers.italia.it/>>)"
+msgstr ""
+
+#: ./en-md/index.md:block 10 (paragraph)
+msgid "## Table of contents"
+msgstr ""
+
+#: ./en-md/index.md:block 11 (paragraph)
+msgid ""
+"::: {.toctree maxdepth=\"2\" numbered=\"\"} schema.core.rst country.rst "
+"forks.rst categories-list.rst scope-list.rst example.rst :"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 1 (paragraph)
+msgid "# The Standard (core) {#core}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 2 (paragraph)
+msgid ""
+"This document represents the description of the [publiccode.yml]{.title-ref}"
+" schema."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 3 (paragraph)
+msgid "## Top-Level Keys and Sections"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 4 (paragraph)
+msgid "### Key [publiccodeYmlVersion]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 5 (unordered list)
+msgid "Example: [\"0.1\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 6 (paragraph)
+msgid ""
+"This key specifies the version to which the current [publiccode.yml]{.title-"
+"ref} adheres to, for forward compatibility."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 7 (paragraph)
+msgid "### Key [name]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 8 (unordered list)
+msgid "Example: [\"Medusa\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 9 (paragraph)
+msgid ""
+"This key contains the name of the software. It contains the (short) public "
+"name of the product, which can be localised in the specific "
+"[localisation]{.title-ref} section. It should be the name most people "
+"usually refer to the software. In case the software has both an internal "
+"\"code\" name and a commercial name, use the commercial name."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 10 (paragraph)
+msgid "### Key [applicationSuite]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 11 (unordered list)
+msgid "Example: [\"MegaProductivitySuite\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 12 (paragraph)
+msgid "This key contains the name of the \"suite\" to which the software belongs."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 13 (paragraph)
+msgid "### Key [url]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 14 (unordered list)
+msgid "Type: string (URL)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 14 (unordered list)
+msgid ""
+"Example: "
+"[\"[https://example.com/italia/medusa.git\\](https://example.com/italia/medusa.git)\"]{.title-"
+"ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 15 (paragraph)
+msgid ""
+"A unique identifier for this software. This string must be a URL to the "
+"source code repository (git, svn, ...) in which the software is published. "
+"If the repository is available under multiple protocols, prefer HTTP/HTTPS "
+"URLs which don't require user authentication."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 16 (paragraph)
+msgid ""
+"Forks created for the purpose of contributing upstream should not modify "
+"this file; this helps software parsing [publiccode.yml]{.title-ref} to "
+"immediately skip technical forks. On the contrary, a complete fork that is "
+"meant to be maintained separately from the original software should modify "
+"this line, to give themselves the status of a different project."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 17 (paragraph)
+msgid ""
+"See [forks-and-variants]{.title-ref}{.interpreted-text role=\"ref\"} for a "
+"complete description of what is a software variant and how to handle forked "
+"software as a parser or an author."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 18 (paragraph)
+msgid "### Key [landingURL]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 19 (unordered list)
+msgid ""
+"Example: "
+"[\"[https://example.com/italia/medusa\\](https://example.com/italia/medusa)\"]{.title-"
+"ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 20 (paragraph)
+msgid ""
+"If the [url]{.title-ref} parameter does not serve a human readable or "
+"browsable page, but only serves source code to a source control client, with"
+" this key you have an option to specify a landing page. This page, ideally, "
+"is where your users will land when they will click a button labeled "
+"something like \"Go to the application source code\". In case the product "
+"provides an automated graphical installer, this URL can point to a page "
+"which contains a reference to the source code but also offers the download "
+"of such an installer."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 21 (paragraph)
+msgid "### Key [isBasedOn]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 22 (unordered list)
+msgid "Type: string or array of strings"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 22 (unordered list)
+msgid ""
+"Example: "
+"[\"[https://github.com/italia/otello.git\\](https://github.com/italia/otello.git)\"]{.title-"
+"ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 23 (paragraph)
+msgid ""
+"In case this software is a variant or a fork of another software, which "
+"might or might not contain a [publiccode.yml]{.title-ref} file, this key "
+"will contain the [url]{.title-ref} of the original project(s)."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 24 (paragraph)
+msgid ""
+"The existence of this key identifies the fork as a software variant, "
+"descending from the specified repositories."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 25 (paragraph)
+msgid "### Key [softwareVersion]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 26 (unordered list)
+msgid "Example: [\"1.0\"]{.title-ref}, [\"dev\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 27 (paragraph)
+msgid ""
+"This key contains the latest stable version number of the software. The "
+"version number is a string that is not meant to be interpreted and parsed "
+"but just displayed; parsers should not assume semantic versioning or any "
+"other specific version format."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 28 (paragraph)
+msgid ""
+"The key can be omitted if the software is currently in initial development "
+"and has never been released yet."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 29 (paragraph)
+msgid "### Key [releaseDate]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 30 (unordered list)
+msgid "Type: string (date)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 30 (unordered list)
+msgid "Example: [\"2017-04-15\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 31 (paragraph)
+msgid ""
+"This key contains the date at which the latest version was released. This "
+"date is mandatory if the software has been released at least once and thus "
+"the version number is present."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 32 (paragraph)
+msgid "### Key [logo]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 33 (unordered list)
+msgid "Type: string (relative path to file or absolute URL)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 33 (unordered list)
+msgid "Acceptable formats: SVG, SVGZ, PNG"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 33 (unordered list)
+msgid "Example: [\"img/logo.svg\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 34 (paragraph)
+msgid ""
+"This key contains the path to the logo of the software. Logos should be in "
+"vector format; raster formats are only allowed as a fallback. In this case, "
+"they should be transparent PNGs, minimum 1000px of width. The key value can "
+"be the relative path to the file starting from the root of the repository, "
+"or it can be an absolute URL pointing to the logo in raw version. In both "
+"cases, the file must reside inside the same repository where the "
+"[publiccode.yml]{.title-ref} file is stored."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 35 (paragraph)
+msgid "### Key [monochromeLogo]{.title-ref} (*deprecated*)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 36 (unordered list)
+msgid "Type: string (path to file)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 36 (unordered list)
+msgid "Example: [\"img/logo-mono.svg\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 37 (paragraph)
+msgid ""
+"A monochromatic (black) logo. The logo should be in vector format; raster "
+"formats are only allowed as a fallback. In this case, they should be "
+"transparent PNGs, minimum 1000px of width. The key value can be the relative"
+" path to the file starting from the root of the repository, or it can be an "
+"absolute URL pointing to the logo in raw version. In both cases, the file "
+"must reside inside the same repository where the [publiccode.yml]{.title-"
+"ref} file is stored."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 38 (paragraph)
+msgid "### Key [inputTypes]{.title-ref} (*deprecated*)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 39 (unordered list)
+msgid "Type: array of enumerated strings"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 39 (unordered list)
+msgid "Values: as per RFC 6838"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 39 (unordered list)
+msgid "Example: [\"text/plain\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 40 (paragraph)
+msgid ""
+"A list of Media Types (MIME Types) as mandated in [RFC "
+"6838](<<https://tools.ietf.org/html/rfc6838>>) which the application can "
+"handle as input."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 41 (paragraph)
+msgid ""
+"In case the software does not support any input, you can skip this field or "
+"use [application/x.empty]{.title-ref}."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 42 (paragraph)
+msgid "### Key [outputTypes]{.title-ref} (*deprecated*)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 44 (paragraph)
+msgid ""
+"A list of Media Types (MIME Types) as mandated in [RFC "
+"6838](<<https://tools.ietf.org/html/rfc6838>>) which the application can "
+"handle as output."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 45 (paragraph)
+msgid ""
+"In case the software does not support any output, you can skip this field or"
+" use [application/x.empty]{.title-ref}."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 46 (paragraph)
+msgid "### Key [platforms]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 47 (unordered list)
+msgid "Type: enumerated string or array of strings"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 47 (unordered list)
+msgid ""
+"Values: [web]{.title-ref}, [windows]{.title-ref}, [mac]{.title-ref}, "
+"[linux]{.title-ref}, [ios]{.title-ref}, [android]{.title-ref}. Human "
+"readable values outside this list are allowed."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 47 (unordered list)
+msgid "Example: [web]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 48 (paragraph)
+msgid ""
+"This key specifies which platform the software runs on. It is meant to "
+"describe the platforms that users will use to access and operate the "
+"software, rather than the platform the software itself runs on."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 49 (paragraph)
+msgid ""
+"Use the predefined values if possible. If the software runs on a platform "
+"for which a predefined value is not available, a different value can be "
+"used."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 50 (paragraph)
+msgid "### Key [categories]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 51 (unordered list)
+msgid "Type: array of strings"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 51 (unordered list)
+msgid ""
+"Acceptable values: see [categories-list]{.title-ref}{.interpreted-text "
+"role=\"ref\"}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 52 (paragraph)
+msgid ""
+"A list of words that can be used to describe the software and can help "
+"building catalogs of open software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 53 (paragraph)
+msgid ""
+"The controlled vocabulary [categories-list]{.title-ref}{.interpreted-text "
+"role=\"ref\"} contains the list of allowed values."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 54 (paragraph)
+msgid "### Key [usedBy]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 56 (paragraph)
+msgid ""
+"A list of the names of prominent public administrations (that will serve as "
+"\"testimonials\") that are currently known to the software maintainer to be "
+"using this software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 57 (paragraph)
+msgid ""
+"Parsers are encouraged to enhance this list also with other information that"
+" can obtain independently; for instance, a fork of a software, owned by an "
+"administration, could be used as a signal of usage of the software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 58 (paragraph)
+msgid "### Key [roadmap]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 60 (paragraph)
+msgid "A link to a public roadmap of the software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 61 (paragraph)
+msgid "### Key [developmentStatus]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 62 (unordered list)
+msgid "Type: enumerated string"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 62 (unordered list)
+msgid ""
+"Allowed values: [concept]{.title-ref}, [development]{.title-ref}, "
+"[beta]{.title-ref}, [stable]{.title-ref}, [obsolete]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 63 (paragraph)
+msgid "The keys are:"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 64 (unordered list)
+msgid ""
+"[concept]{.title-ref} - The software is just a \"concept\". No actual code "
+"may have been produced, and the repository could simply be a placeholder."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 64 (unordered list)
+msgid ""
+"[development]{.title-ref} - Some effort has gone into the development of the"
+" software, but the code is not ready for the end user, even in a preliminary"
+" version (beta or alpha) to be tested by end users."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 64 (unordered list)
+msgid ""
+"[beta]{.title-ref} - The software is in the testing phase (alpha or beta). "
+"At this stage, the software might or might not have had a preliminary public"
+" release."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 64 (unordered list)
+msgid ""
+"[stable]{.title-ref} - The software has seen a first public release and is "
+"ready to be used in a production environment."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 64 (unordered list)
+msgid ""
+"[obsolete]{.title-ref} - The software is no longer maintained or kept up to "
+"date. All of the source code is archived and kept for historical reasons."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 65 (paragraph)
+msgid "### Key [softwareType]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 66 (unordered list)
+msgid ""
+"Allowed values: [\"standalone/mobile\"]{.title-ref}, "
+"[\"standalone/iot\"]{.title-ref}, [\"standalone/desktop\"]{.title-ref}, "
+"[\"standalone/web\"]{.title-ref}, [\"standalone/backend\"]{.title-ref}, "
+"[\"standalone/other\"]{.title-ref}, [\"addon\"]{.title-ref}, "
+"[\"library\"]{.title-ref}, [\"configurationFiles\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[standalone/mobile]{.title-ref} - The software is a standalone, self-"
+"contained The software is a native mobile app."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[standalone/iot]{.title-ref} - The software is suitable for an IoT context."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[standalone/desktop]{.title-ref} - The software is typically installed and "
+"run in a a desktop operating system environment."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[standalone/web]{.title-ref} - The software represents a web application "
+"usable by means of a browser."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[standalone/backend]{.title-ref} - The software is a backend application."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[standalone/other]{.title-ref} - The software has a different nature from "
+"the once listed above."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[softwareAddon]{.title-ref} - The software is an addon, such as a plugin or "
+"a theme, for a more complex software (e.g. a CMS or an office suite)."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[library]{.title-ref} - The software contains a library or an SDK to make it"
+" easier to third party developers to create new products."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 68 (unordered list)
+msgid ""
+"[configurationFiles]{.title-ref} - The software does not contain executable "
+"script but a set of configuration files. They may document how to obtain a "
+"certain deployment. They could be in the form of plain configuration files, "
+"bash scripts, ansible playbooks, Dockerfiles, or other instruction sets."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 69 (paragraph)
+msgid "### Section [intendedAudience]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 70 (paragraph)
+msgid "#### Key [intendedAudience/countries]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 72 (paragraph)
+msgid ""
+"This key explicitly includes certain countries in the intended audience, "
+"i.e. the software explicitly claims compliance with specific processes, "
+"technologies or laws. All countries are specified using lowercase ISO 3166-1"
+" alpha-2 two-letter country codes."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 73 (paragraph)
+msgid "#### Key [intendedAudience/unsupportedCountries]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 75 (paragraph)
+msgid ""
+"This key explicitly marks countries as NOT supported. This might be the case"
+" if there is a conflict between how software is working and a specific law, "
+"process or technology. All countries are specified using lowercase ISO "
+"3166-1 alpha-2 two-letter country codes."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 76 (paragraph)
+msgid "#### Key [intendedAudience/scope]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 77 (unordered list)
+msgid ""
+"Acceptable values: see [scope-list]{.title-ref}{.interpreted-text "
+"role=\"ref\"}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 78 (paragraph)
+msgid ""
+"This key contains a list of tags related to the field of application of the "
+"software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 79 (paragraph)
+msgid "### Section [description]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 80 (paragraph)
+msgid ""
+"This section contains a general description of the software. Parsers can use"
+" this section for instance to create a web page describing the software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 81 (paragraph)
+msgid ""
+"**Note:** since all the strings contained in this section are user-visible "
+"and written in a specific language, you **must** specify the language you "
+"are editing the text in (using the IETF [BCP "
+"47](<<https://tools.ietf.org/html/bcp47>>) specifications) by creating a "
+"sub-section with that name. The primary language subtag cannot be omitted, "
+"as mandated by the BCP 47."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 82 (paragraph)
+msgid "An example for English:"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 83 (paragraph)
+msgid ""
+"``` yaml description:   en:     shortDescription: ...     longDescription: "
+"...``\\`"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 84 (paragraph)
+msgid ""
+"In the following part of the document, all keys are assumed to be in a sub-"
+"section with the name of the language (we will note this with "
+"[[lang]]{.title-ref})."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 85 (paragraph)
+msgid ""
+"**Note:** it is mandatory to have *at least* one language in this section. "
+"All other languages are optional."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 86 (paragraph)
+msgid "#### Key [description/[lang]/localisedName]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 88 (paragraph)
+msgid ""
+"This key is an opportunity to localise the name in a specific language. It "
+"contains the (short) public name of the product. It should be the name most "
+"people usually refer to the software. In case the software has both an "
+"internal \"code\" name and a commercial name, use the commercial name."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 89 (paragraph)
+msgid "#### Key [description/[lang]/genericName]{.title-ref} (*deprecated*)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 90 (unordered list)
+msgid "Type: string (max 35 chars)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 90 (unordered list)
+msgid "Example: [\"Text Editor\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 91 (paragraph)
+msgid ""
+"This key is the \"Generic name\", which refers to the specific category to "
+"which the software belongs. You can usually find the generic name in the "
+"presentation of the software, when you write: \"Software xxx is a yyy\". "
+"Notable examples include \"Text Editor\", \"Word Processor\", \"Web "
+"Browser\", \"Chat\" and so on... The generic name can be up to 35 characters"
+" long."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 92 (paragraph)
+msgid "#### Key [description/[lang]/shortDescription]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 93 (unordered list)
+msgid "Type: string (max 150 chars)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 93 (unordered list)
+msgid "Example: [\"Advanced booking system for hospitals\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 94 (paragraph)
+msgid ""
+"This key contains a short description of the software. It should be a single"
+" line containing a single sentence. Maximum 150 characters are allowed."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 95 (paragraph)
+msgid "#### Key [description/[lang]/longDescription]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 96 (unordered list)
+msgid "Type: string (min 150 chars, max 10000 chars)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 96 (unordered list)
+msgid "Presence: mandatory (for at least one language)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 97 (paragraph)
+msgid ""
+"This key contains a longer description of the software, between 150 and "
+"10000 chars. It is meant to provide an overview of the capabilities of the "
+"software for a potential user. The audience for this text should be that of "
+"users of the software, not developers. You can think of this text as the "
+"description of the software that would be in its website (if the software "
+"had one)."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 98 (paragraph)
+msgid ""
+"This description can contain some basic markdown: [\\*italic\\*]{.title-"
+"ref}, [\\*\\*bold\\*\\*]{.title-ref}, bullet points and [[links](#)]{.title-"
+"ref}."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 99 (paragraph)
+msgid "#### Key [description/[lang]/documentation]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 100 (unordered list)
+msgid "Type: URL"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 101 (paragraph)
+msgid ""
+"This key contains a reference to the user-level (not developer-level) "
+"documentation of the software. The value must be a URL to a hosted version "
+"of the documentation."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 102 (paragraph)
+msgid ""
+"It is suggested that the URL points to a hosted version of the documentation"
+" that is immediately readable through a common web browser in both desktop "
+"and mobile format. The documentation should be rendered in HTML and "
+"browsable like a website (with a navigation index, a search bar, etc.)."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 103 (paragraph)
+msgid ""
+"If the documentation is instead available only as a document, put a direct "
+"view/download link as URL in this key. You should commit the document as "
+"part of the source code repository, and then link to it using the code "
+"hosting source browser URL (e.g.: GitHub URL to the file). Prefer using open"
+" formats like PDF or ODT for maximum interoperability."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 104 (paragraph)
+msgid ""
+"Whichever the format for the documentation, remember to make its source "
+"files available under an open license, possibly by committing them as part "
+"of the repository itself."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 105 (paragraph)
+msgid "#### Key [description/[lang]/apiDocumentation]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 107 (paragraph)
+msgid ""
+"This key contains a reference to the API documentation of the software. The "
+"value must be a URL to a hosted version of the documentation."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 108 (paragraph)
+msgid ""
+"It is suggested that the URL points to a hosted version of the documentation"
+" that is immediately readable through a common web browser. The "
+"documentation should be rendered in HTML and browsable like a website (with "
+"a navigation index, a search bar, etc.), and if there is a reference or test"
+" deployment, possibly offer an interactive interface (e.g. Swagger)."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 111 (paragraph)
+msgid "#### Key [description/[lang]/features]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 113 (paragraph)
+msgid ""
+"This key contains a list of software features, describing what capabilities "
+"the software allows to do. The audience for this text should be that of "
+"public decision makers who will be commissioning the software. The features "
+"should thus not target developers; instead of listing technical features "
+"referring to implementation details, prefer listing user-visible "
+"functionalities of the software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 114 (paragraph)
+msgid ""
+"While the key is mandatory, there is no mandatory minimum or maximum number "
+"of features that should be listed in this key."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 115 (paragraph)
+msgid ""
+"The suggested number of features to list is between 5 and 20, depending on "
+"the software size and complexity. There is no need for exhaustiveness, as "
+"users can always read the documentation for additional information."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 116 (paragraph)
+msgid "#### Key [description/[lang]/screenshots]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 117 (unordered list)
+msgid "Type: array of strings (paths)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 117 (unordered list)
+msgid "Formats: PNG, JPG"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 117 (unordered list)
+msgid "Example: [\"data/screenshots/configuration.png\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 118 (paragraph)
+msgid ""
+"This key contains one or multiple paths to files showing screenshots of the "
+"software. They are meant to give a quick idea on how the software looks like"
+" and how it works. The key value can be the relative path to the file "
+"starting from the root of the repository, or it can be an absolute URL "
+"pointing to the screenshot in raw version. In both cases, the file must "
+"reside inside the same repository where the [publiccode.yml]{.title-ref} "
+"file is stored."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 119 (paragraph)
+msgid "Screenshots can be of any shape and size; the suggested formats are:"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 120 (unordered list)
+msgid "Desktop: 1280x800 @1x"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 120 (unordered list)
+msgid "Tablet: 1024x768 @2x"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 120 (unordered list)
+msgid "Mobile: 375x667 @2x"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 121 (paragraph)
+msgid "#### Key [description/[lang]/videos]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 122 (unordered list)
+msgid "Type: array of strings (URLs)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 122 (unordered list)
+msgid ""
+"Example: "
+"[\"[https://youtube.com/xxxxxxxx\\](https://youtube.com/xxxxxxxx)\"]{.title-"
+"ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 123 (paragraph)
+msgid ""
+"This key contains one or multiple URLs of videos showing how the software "
+"works. Like screenshots, videos should be used to give a quick overview on "
+"how the software looks like and how it works. Videos must be hosted on a "
+"video sharing website that supports the [oEmbed](<<https://oembed.com>>) "
+"standard; popular options are YouTube and Vimeo."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 124 (paragraph)
+msgid ""
+"Since videos are an integral part of the documentation, it is recommended to"
+" publish them with an open license."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 125 (paragraph)
+msgid "#### Key [description/[lang]/awards]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 127 (paragraph)
+msgid "A list of awards won by the software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 128 (paragraph)
+msgid "### Section [legal]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 129 (paragraph)
+msgid "#### Key [legal/license]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 130 (unordered list)
+msgid "Example: [\"AGPL-3.0-or-later\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 131 (paragraph)
+msgid ""
+"This string describes the license under which the software is distributed. "
+"The string must contain a valid SPDX expression, referring to one (or "
+"multiple) open-source license. Please refer to the [SPDX "
+"documentation](<<https://spdx.org/licenses/>>) for further information."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 132 (paragraph)
+msgid "#### Key [legal/mainCopyrightOwner]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 133 (unordered list)
+msgid "Example: [\"City of Amsterdam\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 134 (paragraph)
+msgid ""
+"This string describes the entity that owns the copyright on \"most\" of the "
+"code in the repository. Normally, this is the line that is reported with the"
+" copyright symbol at the top of most files in the repo."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 135 (paragraph)
+msgid ""
+"It is possible to list multiple owners if required so, using an English "
+"sentence. It is also possible to informally refer to a community of group of"
+" people like \"Linus Torvalds and all Linux contributors\"."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 136 (paragraph)
+msgid ""
+"In case it is not possible to name a main copyright owner, it is possible to"
+" omit this key; in those cases, if the repo has a authors file, you can "
+"point to it through [legal/authorsFile]{.title-ref}."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 137 (paragraph)
+msgid "#### Key [legal/repoOwner]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 139 (paragraph)
+msgid ""
+"This string describes the entity that owns this repository; this might or "
+"might not be the same entity who owns the copyright on the code itself. For "
+"instance, in case of a fork of the original software, the "
+"[repoOwner]{.title-ref} is probably different from the "
+"[mainCopyrightOwner]{.title-ref}."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 140 (paragraph)
+msgid "#### Key [legal/authorsFile]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 141 (unordered list)
+msgid "Example: [\"doc/AUTHORS.txt\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 142 (paragraph)
+msgid ""
+"Some open-source software adopt a convention of identify the copyright "
+"holders through a file that lists all the entities that own the copyright. "
+"This is common in projects strongly backed by a community where there are "
+"many external contributors and no clear single/main copyright owner. In such"
+" cases, this key can be used to refer to the authors file, using a path "
+"relative to the root of the repository."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 143 (paragraph)
+msgid "### Section [maintenance]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 144 (paragraph)
+msgid ""
+"This section provides information on the maintenance status of the software,"
+" useful to evaluate whether the software is actively developed or not."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 145 (paragraph)
+msgid "#### Key [maintenance/type]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 146 (unordered list)
+msgid "Type: enumerate"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 146 (unordered list)
+msgid ""
+"Values: [\"internal\"]{.title-ref}, [\"contract\"]{.title-ref}, "
+"[\"community\"]{.title-ref}, [\"none\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 147 (paragraph)
+msgid "This key describes how the software is currently maintained."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 148 (unordered list)
+msgid ""
+"[internal]{.title-ref} - means that the software is internally maintained by"
+" the repository owner;"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 148 (unordered list)
+msgid ""
+"[contract]{.title-ref} - means that there is a commercial contract that "
+"binds an entity to the maintenance of the software;"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 148 (unordered list)
+msgid ""
+"[community]{.title-ref} - means that the software is currently maintained by"
+" one or more people that donate their time to the project;"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 148 (unordered list)
+msgid ""
+"[none]{.title-ref} - means that the software is not actively maintained."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 149 (paragraph)
+msgid "#### Key [maintenance/contractors]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 150 (unordered list)
+msgid "Type: array of Contractor (see below)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 150 (unordered list)
+msgid ""
+"Presence: mandatory (if [maintenance/type]{.title-ref} **is** "
+"[contract]{.title-ref})"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 151 (paragraph)
+msgid ""
+"This key describes the entity or entities, if any, that are currently "
+"contracted for maintaining the software. They can be companies, "
+"organizations, or other collective names."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 152 (paragraph)
+msgid "#### Key [maintenance/contacts]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 153 (unordered list)
+msgid "Type: List of Contacts (see below)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 153 (unordered list)
+msgid ""
+"Presence: mandatory (if [maintenance/type]{.title-ref} **is** "
+"[internal]{.title-ref} or [community]{.title-ref})"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 154 (paragraph)
+msgid "One or more contacts maintaining this software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 155 (paragraph)
+msgid ""
+"This key describes the technical people currently responsible for "
+"maintaining the software. All contacts need to be a physical person, not a "
+"company or an organisation. If somebody is acting as a representative of an "
+"institution, it must be listed within the [affiliation]{.title-ref} of the "
+"contact."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 156 (paragraph)
+msgid ""
+"In case of a commercial agreement (or a chain of such agreements), specify "
+"the final entities actually contracted to deliver the maintenance. Do not "
+"specify the software owner unless it is technically involved with the "
+"maintenance of the product as well."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 157 (paragraph)
+msgid "### Section [localisation]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 158 (paragraph)
+msgid ""
+"This section provides an overview of the localization features of the "
+"software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 159 (paragraph)
+msgid "#### Key [localisation/localisationReady]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 161 (paragraph)
+msgid ""
+"If [true]{.title-ref}, the software has infrastructure in place or is "
+"otherwise designed to be multilingual. It does not need to be available in "
+"more than one language."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 162 (paragraph)
+msgid "#### Key [localisation/availableLanguages]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 163 (unordered list)
+msgid "Type: list of IETF BCP 47 language tags"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 163 (unordered list)
+msgid "Example: [\"it\"]{.title-ref}, [\"en\"]{.title-ref}, [\"sl-IT-nedis\"]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 164 (paragraph)
+msgid ""
+"If present, this is the list of languages in which the software is "
+"available. Of course, this list will contain at least one language. The "
+"primary language subtag cannot be omitted, as mandated by the [BCP "
+"47](<<https://tools.ietf.org/html/bcp47>>)."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 165 (paragraph)
+msgid "### Section [dependsOn]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 166 (paragraph)
+msgid ""
+"This section provides an overview on the system-level dependencies required "
+"to install and use this software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 167 (paragraph)
+msgid ""
+"**NOTE:** do not list dependencies at the source code level (e.g.: software "
+"libraries being used), and focus only on runtime and/or system-level "
+"dependencies that must be installed and maintained separately. For instance,"
+" a database is a good example of such dependencies."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 168 (paragraph)
+msgid "#### Key [dependsOn/open]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 169 (unordered list)
+msgid "Type: array of [dependency]{.title-ref} (see below)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 170 (paragraph)
+msgid ""
+"This key contains a list of runtime dependencies that are distributed under "
+"an open-source license."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 171 (paragraph)
+msgid "#### Key [dependsOn/proprietary]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 173 (paragraph)
+msgid ""
+"This key contains a list of runtime dependencies that are distributed under "
+"a proprietary license."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 174 (paragraph)
+msgid "#### Key [dependsOn/hardware]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 176 (paragraph)
+msgid ""
+"This key contains a list of hardware dependencies that must be owned to use "
+"the software."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 177 (paragraph)
+msgid "## Special data formats"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 178 (paragraph)
+msgid "### Dependency"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 179 (paragraph)
+msgid ""
+"A [dependency]{.title-ref} is a complex object. The properties are the "
+"following:"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 180 (unordered list)
+msgid ""
+"[name]{.title-ref} - **mandatory** - The name of the dependency (e.g. MySQL,"
+" NFC Reader)"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 180 (unordered list)
+msgid "[versionMin]{.title-ref} - the first compatible version"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 180 (unordered list)
+msgid "[versionMax]{.title-ref} - the latest compatible version"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 180 (unordered list)
+msgid ""
+"[version]{.title-ref} - the only major version for which the software is "
+"compatible. It assumes compatibility with all patches and bugfixes later "
+"applied to this version."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 180 (unordered list)
+msgid ""
+"[optional]{.title-ref} - whether the dependency is optional or mandatory"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 181 (paragraph)
+msgid "### Complex versioning"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 182 (paragraph)
+msgid ""
+"It is of course possible to use the various keys to specify a complex "
+"compatibility matrix."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 183 (paragraph)
+msgid "*Ex. 1*"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 184 (paragraph)
+msgid "``` yaml - name: PostgreSQL   version: \"3.2\"   optional: true``\\`"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 185 (paragraph)
+msgid ""
+"This snippet marks an optional dependency on PostgreSQL exactly version 3.2."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 186 (paragraph)
+msgid "*Ex. 2*"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 187 (paragraph)
+msgid "``` yaml - name: MySQL   versionMin: \"1.1\"   versionMax: \"1.3\"``\\`"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 188 (paragraph)
+msgid ""
+"This snippet marks a mandatory dependency on MySQL, allowing any version "
+"between 1.1 and 1.3."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 189 (paragraph)
+msgid "### Contact"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 190 (paragraph)
+msgid "A Contact is an object with the following properties:"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 191 (unordered list)
+msgid ""
+"[name]{.title-ref} - **mandatory** - This key contains the full name of one "
+"of the technical contacts. It must be a real person; do NOT populate this "
+"key with generic contact information, company departments, associations, "
+"etc."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 191 (unordered list)
+msgid ""
+"[email]{.title-ref} - This key contains the e-mail address of the technical "
+"contact. It must be an email address of where the technical contact can be "
+"directly reached; do NOT populate this key with mailing-lists or generic "
+"contact points like \"<<[info@acme.inc](mailto:info@acme.inc)>>\". The "
+"e-mail address must not be obfuscated. To improve resistance against e-mail "
+"collection, use [x64]{.title-ref} to replace [@]{.title-ref}, as allowed by "
+"the YAML specification."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 191 (unordered list)
+msgid ""
+"[phone]{.title-ref} - phone number (with international prefix). This has to "
+"be a string."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 191 (unordered list)
+msgid ""
+"[affiliation]{.title-ref} - This key contains an explicit affiliation "
+"information for the technical contact. In case of multiple maintainers, this"
+" can be used to create a relation between each technical contact and each "
+"maintainer entity. It can contain for instance a company name, an "
+"association name, etc."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 192 (paragraph)
+msgid "### Contractor"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 193 (paragraph)
+msgid "A Contractor is an object with the following properties:"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 194 (unordered list)
+msgid ""
+"[name]{.title-ref} - **mandatory** - The name of the contractor, whether "
+"it's a company or a physical person."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 194 (unordered list)
+msgid ""
+"[until]{.title-ref} - **mandatory** - This is a date (YYYY-MM-DD). This key "
+"must contain the date at which the maintenance is going to end. In case of "
+"community maintenance, the value should not be more than 2 years in the "
+"future, and thus will need to be regularly updated as the community "
+"continues working on the project."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 194 (unordered list)
+msgid ""
+"[website]{.title-ref} - This key points to the maintainer website. It can "
+"either point to the main institutional website, or to a more project-"
+"specific page or website."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 195 (paragraph)
+msgid "### Dates"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 196 (paragraph)
+msgid ""
+"All dates in [publiccode.yml]{.title-ref} must follow the format \"YYYY-MM-"
+"DD\", which is one of the ISO8601 allowed formats. This is the only allowed "
+"format though, so not the full ISO8601 is allowed for the date keys."
+msgstr ""
+
+#: ./en-md/schema.core.md:block 197 (paragraph)
+msgid "### Encoding"
+msgstr ""
+
+#: ./en-md/schema.core.md:block 198 (paragraph)
+msgid ""
+"[publiccode.yml]{.title-ref} **MUST** be a UTF-8 encoded and **SHOULD** be a"
+" YAML 1.2 document, using YAML 1.1 is *deprecated*."
+msgstr ""
+
+#: ./en-md/schema.it.md:block 1 (paragraph)
+msgid "# Italy {#italian-sections}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 3 (paragraph)
+msgid "## Key [countryExtensionVersion]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 6 (paragraph)
+msgid "## Key [conforme]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 8 (paragraph)
+msgid "### Key [conforme/lineeGuidaDesign]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 11 (paragraph)
+msgid "### Key [conforme/modelloInteroperatibilita]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 15 (paragraph)
+msgid "### Key [conforme/misureMinimeSicurezza]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 18 (paragraph)
+msgid "### Key [conforme/gdpr]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 21 (paragraph)
+msgid "## Section [piattaforme]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 22 (paragraph)
+msgid "### Key [piattaforme/spid]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 25 (paragraph)
+msgid "### Key [piattaforme/cie]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 28 (paragraph)
+msgid "### Key [piattaforme/anpr]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 31 (paragraph)
+msgid "### Key [piattafome/pagopa]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 34 (paragraph)
+msgid "### Key [piattaforme/io]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 37 (paragraph)
+msgid "## Section [riuso]{.title-ref}"
+msgstr ""
+
+#: ./en-md/schema.it.md:block 39 (paragraph)
+msgid "### Chiave [riuso/codiceIPA]{.title-ref}"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 1 (paragraph)
+msgid "# Scope list"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "agriculture"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "culture"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "defence"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "education"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "emergency-services"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "employment"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "energy"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "environment"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "finance-and-economic-development"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "foreign-affairs"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "government"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "healthcare"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "infrastructures"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "justice"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "local-authorities"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "manufacturing"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "research"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "science-and-technology"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "security"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "society"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "sport"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "tourism"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "transportation"
+msgstr ""
+
+#: ./en-md/scope-list.md:block 4 (unordered list)
+msgid "welfare"
+msgstr ""
