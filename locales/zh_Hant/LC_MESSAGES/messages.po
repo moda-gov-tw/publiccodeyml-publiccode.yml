@@ -3,438 +3,443 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:28+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-12-27 02:50+0000\n"
+"Last-Translator: Tommy Jiang <baptist333@yahoo.com.tw>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
+"pmpc/publiccodeyml-publiccode-yml/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.7.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.15\n"
 
 #
-
 #: ./en-md/categories-list.md:block 1 (paragraph)
 msgid "# List of software categories {#categories-list}"
-msgstr ""
+msgstr "# 軟體類別清單{#categories-list}"
 
 #: ./en-md/categories-list.md:block 2 (paragraph)
 msgid ""
 "Here follows a controlled vocabulary of useful tags for categorizing the "
 "software."
-msgstr ""
+msgstr "依照受控的實用標籤，將軟體分類。"
 
 #: ./en-md/categories-list.md:block 3 (paragraph)
 msgid "## Valid Tags"
-msgstr ""
+msgstr "## 有效標籤"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "accounting"
-msgstr ""
+msgstr "會計"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "agile-project-management"
-msgstr ""
+msgstr "敏捷-專案-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "applicant-tracking"
-msgstr ""
+msgstr "求職者-追蹤"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "application-development"
-msgstr ""
+msgstr "應用程式-開發"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "appointment-scheduling"
-msgstr ""
+msgstr "預約-日程安排"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "backup"
-msgstr ""
+msgstr "備份"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "billing-and-invoicing"
-msgstr ""
+msgstr "計費-與-開立發票"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "blog"
-msgstr ""
+msgstr "部落格"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "budgeting"
-msgstr ""
+msgstr "預算編列"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "business-intelligence"
-msgstr ""
+msgstr "商業-智慧"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "business-process-management"
-msgstr ""
+msgstr "業務-流程-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "cad"
-msgstr ""
+msgstr "cad"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "call-center-management"
-msgstr ""
+msgstr "電話-服務中心-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "cloud-management"
-msgstr ""
+msgstr "雲端-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "collaboration"
-msgstr ""
+msgstr "協作"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "communications"
-msgstr ""
+msgstr "溝通"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "compliance-management"
-msgstr ""
+msgstr "合規-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "contact-management"
-msgstr ""
+msgstr "接觸-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "content-management"
-msgstr ""
+msgstr "內容-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
+#, fuzzy
 msgid "crm"
-msgstr ""
+msgstr "crm"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "customer-service-and-support"
-msgstr ""
+msgstr "客戶-服務-與-支援"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "data-analytics"
-msgstr ""
+msgstr "資料-分析"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "data-collection"
-msgstr ""
+msgstr "資料-收集"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "data-visualization"
-msgstr ""
+msgstr "資料-視覺化"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "digital-asset-management"
-msgstr ""
+msgstr "數位-資產-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "digital-citizenship"
-msgstr ""
+msgstr "數位-公民"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "document-management"
-msgstr ""
+msgstr "文件-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "donor-management"
-msgstr ""
+msgstr "捐款人-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "e-commerce"
-msgstr ""
+msgstr "電子商務"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "e-signature"
-msgstr ""
+msgstr "電子-簽名"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "educational-content"
-msgstr ""
+msgstr "教育-內容"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "email-management"
-msgstr ""
+msgstr "電子郵件-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "email-marketing"
-msgstr ""
+msgstr "電子郵件-行銷"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "employee-management"
-msgstr ""
+msgstr "員工-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "enterprise-project-management"
-msgstr ""
+msgstr "企業-專案-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "enterprise-social-networking"
-msgstr ""
+msgstr "企業-社群-人脈拓展"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
+#, fuzzy
 msgid "erp"
-msgstr ""
+msgstr "erp"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "event-management"
-msgstr ""
+msgstr "事件-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "facility-management"
-msgstr ""
+msgstr "設施-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "feedback-and-reviews-management"
-msgstr ""
+msgstr "意見回饋-與-評論-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "financial-reporting"
-msgstr ""
+msgstr "財務-報告"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "fleet-management"
-msgstr ""
+msgstr "車隊-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "fundraising"
-msgstr ""
+msgstr "募資"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "gamification"
-msgstr ""
+msgstr "遊戲化"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "geographic-information-systems"
-msgstr ""
+msgstr "地理-資訊-系統"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "grant-management"
-msgstr ""
+msgstr "撥款-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "graphic-design"
-msgstr ""
+msgstr "平面-設計"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "help-desk"
-msgstr ""
+msgstr "服務-台"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
+#, fuzzy
 msgid "hr"
-msgstr ""
+msgstr "hr"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
+#, fuzzy
 msgid "ide"
-msgstr ""
+msgstr "ide"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "identity-management"
-msgstr ""
+msgstr "身份-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "instant-messaging"
-msgstr ""
+msgstr "即時-通訊"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "inventory-management"
-msgstr ""
+msgstr "存貨-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "it-asset-management"
-msgstr ""
+msgstr "it-資產-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "it-development"
-msgstr ""
+msgstr "it-開發"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "it-management"
-msgstr ""
+msgstr "it-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "it-security"
-msgstr ""
+msgstr "it-安全"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "it-service-management"
-msgstr ""
+msgstr "it-服務-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "knowledge-management"
-msgstr ""
+msgstr "知識-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "learning-management-system"
-msgstr ""
+msgstr "學習-管理-系統"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "marketing"
-msgstr ""
+msgstr "行銷"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "mind-mapping"
-msgstr ""
+msgstr "心智-圖法"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "mobile-marketing"
-msgstr ""
+msgstr "行動-行銷"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "mobile-payment"
-msgstr ""
+msgstr "行動-支付"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "network-management"
-msgstr ""
+msgstr "網路-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "office"
-msgstr ""
+msgstr "辦公室"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "online-booking"
-msgstr ""
+msgstr "線上-預約"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "online-community"
-msgstr ""
+msgstr "網路-社群"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "payment-gateway"
-msgstr ""
+msgstr "支付-網關"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "payroll"
-msgstr ""
+msgstr "工資單"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "predictive-analysis"
-msgstr ""
+msgstr "預測性-分析"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "procurement"
-msgstr ""
+msgstr "採購"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "productivity-suite"
-msgstr ""
+msgstr "生產力-套裝軟體"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "project-collaboration"
-msgstr ""
+msgstr "專案-協作"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "project-management"
-msgstr ""
+msgstr "專案-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "property-management"
-msgstr ""
+msgstr "財產-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "real-estate-management"
-msgstr ""
+msgstr "不動產-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "remote-support"
-msgstr ""
+msgstr "遠端-支援"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "resource-management"
-msgstr ""
+msgstr "資源-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "sales-management"
-msgstr ""
+msgstr "銷售-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "seo"
-msgstr ""
+msgstr "搜尋引擎最佳化"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "service-desk"
-msgstr ""
+msgstr "服務-台"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "social-media-management"
-msgstr ""
+msgstr "社群-媒體-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "survey"
-msgstr ""
+msgstr "調查"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "talent-management"
-msgstr ""
+msgstr "人才-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "task-management"
-msgstr ""
+msgstr "任務-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "taxes-management"
-msgstr ""
+msgstr "稅金-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "test-management"
-msgstr ""
+msgstr "測試-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "time-management"
-msgstr ""
+msgstr "時間-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "time-tracking"
-msgstr ""
+msgstr "工時-追蹤"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "translation"
-msgstr ""
+msgstr "翻譯"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "video-conferencing"
-msgstr ""
+msgstr "視訊-會議"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "video-editing"
-msgstr ""
+msgstr "影片-編輯"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "visitor-management"
-msgstr ""
+msgstr "訪客-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "voip"
-msgstr ""
+msgstr "網路電話"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "warehouse-management"
-msgstr ""
+msgstr "倉庫-管理"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "web-collaboration"
-msgstr ""
+msgstr "網路-協作"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "web-conferencing"
-msgstr ""
+msgstr "線上-會議"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "website-builder"
-msgstr ""
+msgstr "網站-建置工具"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "whistleblowing"
-msgstr ""
+msgstr "舉報"
 
 #: ./en-md/categories-list.md:block 4 (unordered list)
 msgid "workflow-management"
-msgstr ""
+msgstr "工作流程-管理"
 
 #: ./en-md/country.md:block 1 (paragraph)
 msgid "# Country-Specific Sections {#country-section}"
-msgstr ""
+msgstr "# 特定國家段落 {#country-section}"
 
 #: ./en-md/country.md:block 2 (paragraph)
 msgid ""
@@ -443,7 +448,8 @@ msgid ""
 "specific countries, such as declaring compliance with local laws or "
 "regulations. The provided extension mechanism is the usage of country-"
 "specific sections."
-msgstr ""
+msgstr "雖然分類標準應該是要國際通用，有些額外資訊卻僅適用於特定國家，像是聲明符合當"
+"地法規等。因此這裡使用的擴充欄位就是特定國家的段落。"
 
 #: ./en-md/country.md:block 3 (paragraph)
 msgid ""
@@ -453,27 +459,35 @@ msgid ""
 "[spid]{.title-ref} is a property for Italian software declaring whether the "
 "software is integrated with the Italian Public Identification System."
 msgstr ""
+"特定國家的段落，都標示在以兩個小寫英文字母命名的鍵之下 [ISO 3166-1 alpha-2 "
+"國家代碼](<<https://it.wikipedia.org/wiki/"
+"ISO_3166-1_alpha-2>>)。舉例來說，[spid]{.title-"
+"ref}就是義大利文軟體的屬性，顯示該軟體是否納入義大利公共身份識別系統中。"
 
 #: ./en-md/country.md:block 4 (paragraph)
 msgid "If a software is compliant I will find:"
-msgstr ""
+msgstr "若軟體符合規定，就會有："
 
 #: ./en-md/country.md:block 5 (paragraph)
+#, fuzzy
 msgid ""
 "``` yaml it:   countryExtensionVersion: \"1.0\"   piattaforme:    - spid: "
 "true``\\`"
 msgstr ""
+"``` yaml it:   countryExtensionVersion: \"1.0\"   piattaforme:    - spid: "
+"true``\\`"
 
 #: ./en-md/country.md:block 6 (paragraph)
 msgid ""
 "Notice that country-specific keys within international sections are not "
 "allowed. Countries that want to extend the format should add a country-"
 "specific section instead."
-msgstr ""
+msgstr "請注意：國際通用的程式碼段落中，不允許使用特定國家的鍵。想要擴充資訊的國家，"
+"可以加入國家專屬段落。"
 
 #: ./en-md/country.md:block 7 (paragraph)
 msgid "## Italy {#italian-sections}"
-msgstr ""
+msgstr "## 義大利 {#italian-sections}"
 
 #: ./en-md/country.md:block 8 (paragraph)
 msgid ""
@@ -482,49 +496,53 @@ msgid ""
 " specified using a two letters *country code* following the ISO 3166-1 "
 "alpha-2 standard."
 msgstr ""
+"以下列出的鍵僅適用於義大利，因此只能插入在具有[it]{.title-"
+"ref}的程式碼。每個國家的代碼都是兩個英文字母，並遵守ISO "
+"3166-1二位字母代碼標準。"
 
 #: ./en-md/country.md:block 9 (paragraph)
 msgid "### Key [countryExtensionVersion]{.title-ref}"
-msgstr ""
+msgstr "### 鍵 [countryExtensionVersion]{.title-ref}"
 
 #: ./en-md/country.md:block 10 (unordered list)
 msgid "Type: string"
-msgstr ""
+msgstr "類型：string"
 
 #: ./en-md/country.md:block 10 (unordered list)
 msgid "Presence: mandatory"
-msgstr ""
+msgstr "是否必要：必要"
 
 #: ./en-md/country.md:block 10 (unordered list)
 msgid "Value: [\"1.0\"]{.title-ref}"
-msgstr ""
+msgstr "值：[\"1.0\"]{.title-ref}"
 
 #: ./en-md/country.md:block 11 (paragraph)
 msgid "This key **MUST** always be set to [1.0]{.title-ref}."
-msgstr ""
+msgstr "此鍵**必須**隨時保持在[1.0]{.title-ref}。"
 
 #: ./en-md/country.md:block 12 (paragraph)
 msgid "### Key [conforme]{.title-ref}"
-msgstr ""
+msgstr "### 鍵 [conforme]{.title-ref}"
 
 #: ./en-md/country.md:block 13 (paragraph)
 msgid ""
 "This section contains the keys for auto-declaring the compliance with the "
 "current legislation, with respect to the following sections. Not including "
 "these keys implies that the compliance is not known or not declared."
-msgstr ""
+msgstr "本章節包含用於宣告符合目前法規的鍵，這些鍵也同樣適用於之後的段落。沒有這些鍵"
+"，代表沒有符合法規或是沒有宣告合規。"
 
 #: ./en-md/country.md:block 14 (paragraph)
 msgid "#### Key [conforme/lineeGuidaDesign]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [conforme/lineeGuidaDesign]{.title-ref}"
 
 #: ./en-md/country.md:block 15 (unordered list)
 msgid "Type: boolean"
-msgstr ""
+msgstr "類型：布林"
 
 #: ./en-md/country.md:block 15 (unordered list)
 msgid "Presence: optional"
-msgstr ""
+msgstr "是否必要：非必要"
 
 #: ./en-md/country.md:block 16 (paragraph)
 msgid ""
@@ -533,10 +551,13 @@ msgid ""
 "guida di design](<<https://docs.italia.it/italia/designers-italia/design-"
 "linee-guida-docs>>) (Italian language)."
 msgstr ""
+"如果程式碼包含此鍵並且為[true]{.title-ref}，代表該軟體符合義大利無障礙法規("
+"L. 4/2004)，詳細資訊請參閱[linee guida di design](<<https://docs.italia.it/"
+"italia/designers-italia/design-linee-guida-docs>>) (義大利文)。"
 
 #: ./en-md/country.md:block 17 (paragraph)
 msgid "#### Key [conforme/modelloInteroperatibilita]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [conforme/modelloInteroperatibilita]{.title-ref}"
 
 #: ./en-md/country.md:block 19 (paragraph)
 msgid ""
@@ -544,6 +565,9 @@ msgid ""
 " [linee guida sull'interoperabilità](<<https://docs.italia.it/italia/piano-"
 "triennale-ict/lg-modellointeroperabilita-docs>>)."
 msgstr ""
+"如果程式碼包含此鍵並且為[true]{.title-ref}，代表該軟體符合[linee guida "
+"sull'interoperabilità](<<https://docs.italia.it/italia/piano-triennale-ict/"
+"lg-modellointeroperabilita-docs>>)。"
 
 #: ./en-md/country.md:block 20 (paragraph)
 msgid ""
@@ -552,10 +576,13 @@ msgid ""
 "amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>>) "
 "(Italian language)."
 msgstr ""
+"法規參考資料：[Art. 73 del CAD](<<https://docs.italia.it/italia/"
+"piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/"
+"capo8_art73.html>>) (義大利文)。"
 
 #: ./en-md/country.md:block 21 (paragraph)
 msgid "#### Key [conforme/misureMinimeSicurezza]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [conforme/misureMinimeSicurezza]{.title-ref}"
 
 #: ./en-md/country.md:block 23 (paragraph)
 msgid ""
@@ -564,23 +591,27 @@ msgid ""
 "amministrazioni](<<https://www.agid.gov.it/it/sicurezza/misure-minime-"
 "sicurezza-ict>>) (Italian language)."
 msgstr ""
+"如果程式碼包含此鍵並且為[true]{.title-ref}，代表該軟體符合[Misure minime di "
+"sicurezza ICT per le Pubbliche amministrazioni](<<https://www.agid.gov.it/it/"
+"sicurezza/misure-minime-sicurezza-ict>>) (義大利文)。"
 
 #: ./en-md/country.md:block 24 (paragraph)
 msgid "#### Key [conforme/gdpr]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [conforme/gdpr]{.title-ref}"
 
 #: ./en-md/country.md:block 26 (paragraph)
 msgid ""
 "If present and set to [true]{.title-ref}, the software respects the GDPR."
-msgstr ""
+msgstr "如果程式碼包含此鍵並且為[true]{.title-"
+"ref}，代表該軟體符合歐盟一般資料保護規範。"
 
 #: ./en-md/country.md:block 27 (paragraph)
 msgid "### Section [piattaforme]{.title-ref}"
-msgstr ""
+msgstr "### 段落 [piattaforme]{.title-ref}"
 
 #: ./en-md/country.md:block 28 (paragraph)
 msgid "#### Key [piattaforme/spid]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [piattaforme/spid]{.title-ref}"
 
 #: ./en-md/country.md:block 30 (paragraph)
 msgid ""
@@ -588,49 +619,56 @@ msgid ""
 " - il Sistema Pubblico di Identità "
 "Digitale](<<https://developers.italia.it/it/spid>>)."
 msgstr ""
+"如果程式碼包含此鍵並且為[true]{.title-ref}，代表該軟體配合[SPID - il Sistema "
+"Pubblico di Identità Digitale](<<https://developers.italia.it/it/spid>>)。"
 
 #: ./en-md/country.md:block 31 (paragraph)
 msgid "#### Key [piattaforme/cie]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [piattaforme/cie]{.title-ref}"
 
 #: ./en-md/country.md:block 33 (paragraph)
 msgid ""
 "If present and set to [true]{.title-ref}, the software interfaces with the "
 "Italian electronic ID card ([Carta di Identità Elettronica]{.title-ref})."
 msgstr ""
+"如果程式碼包含此鍵並且為[true]{.title-"
+"ref}，代表該軟體配合義大利電子身分證使用([Carta di Identità Elettronica"
+"]{.title-ref})。"
 
 #: ./en-md/country.md:block 34 (paragraph)
 msgid "#### Key [piattaforme/anpr]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [piattaforme/anpr]{.title-ref}"
 
 #: ./en-md/country.md:block 36 (paragraph)
 msgid ""
 "If present and set to [true]{.title-ref}, the software interfaces with ANPR."
-msgstr ""
+msgstr "如果程式碼包含此鍵並且為[true]{.title-ref}，代表該軟體配合ANPR。"
 
 #: ./en-md/country.md:block 37 (paragraph)
 msgid "#### Key [piattafome/pagopa]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [piattafome/pagopa]{.title-ref}"
 
 #: ./en-md/country.md:block 39 (paragraph)
 msgid ""
 "If present and set to [true]{.title-ref}, the software interfaces with "
 "pagoPA."
-msgstr ""
+msgstr "如果程式碼包含此鍵並且為[true]{.title-ref}，代表該軟體配合pagoPA。"
 
 #: ./en-md/country.md:block 40 (paragraph)
 msgid "#### Key [piattaforme/io]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [piattaforme/io]{.title-ref}"
 
 #: ./en-md/country.md:block 42 (paragraph)
 msgid ""
 "If present and set to [true]{.title-ref}, the software interfaces with [IO -"
 " the public services app](<<https://io.italia.it/>>)."
 msgstr ""
+"如果程式碼包含此鍵並且為[true]{.title-ref}，代表該軟體配合[IO - "
+"義大利公共服務應用程式](<<https://io.italia.it/>>)。"
 
 #: ./en-md/country.md:block 43 (paragraph)
 msgid "### Section [riuso]{.title-ref}"
-msgstr ""
+msgstr "### 段落 [riuso]{.title-ref}"
 
 #: ./en-md/country.md:block 44 (paragraph)
 msgid ""
@@ -638,62 +676,70 @@ msgid ""
 "software inside the reuse catalog of [Developers "
 "Italia](<<https://developers.italia.it>>)."
 msgstr ""
+"本段落包含與[Developers Italia](<<https://developers.italia."
+"it>>)重複利用目錄當中，軟體發行相關的多個鍵。"
 
 #: ./en-md/country.md:block 45 (paragraph)
 msgid "#### Chiave [riuso/codiceIPA]{.title-ref}"
-msgstr ""
+msgstr "#### 鍵 [riuso/codiceIPA]{.title-ref}"
 
 #: ./en-md/country.md:block 46 (unordered list)
 msgid "Type: string (iPA code)"
-msgstr ""
+msgstr "類型：string (iPA代碼)"
 
 #: ./en-md/country.md:block 46 (unordered list)
 msgid ""
 "Presence: mandatory if [repoOwner]{.title-ref} is a Public Administration"
-msgstr ""
+msgstr "是否必要：若[repoOwner]{.title-ref}為公共行政機關，則有必要"
 
 #: ./en-md/country.md:block 46 (unordered list)
 msgid "Example: [c_h501]{.title-ref}"
-msgstr ""
+msgstr "範例：[c_h501]{.title-ref}"
 
 #: ./en-md/country.md:block 47 (paragraph)
 msgid ""
 "This key represents the administration code inside the Public Administration"
 " index (codice IPA)."
-msgstr ""
+msgstr "此鍵代表公共行政索引(codice IPA)當中的行政機關代碼。"
 
 #: ./en-md/example.md:block 1 (paragraph)
 msgid "# Examples"
-msgstr ""
+msgstr "# 範例"
 
 #: ./en-md/example.md:block 2 (paragraph)
 msgid ""
 "Below there are two examples of [publiccode.yml]{.title-ref} files, the "
 "first one represents the minimum configuration, which contains the mandatory"
 " fields, whilst the second one represents a more extended version."
-msgstr ""
+msgstr "下面為兩個[publiccode.yml]{.title-"
+"ref}檔案的範例，第一個是只有必要欄位的精簡配置，第二個內容則較為豐富。"
 
 #: ./en-md/example.md:block 3 (paragraph)
 msgid "## Minimum Version"
-msgstr ""
+msgstr "## 精簡版本"
 
 #: ./en-md/example.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
 "::: {.literalinclude language=\"yaml\" linenos=\"\"} "
 "example/publiccode.minimal.yml :"
 msgstr ""
+"::: {.literalinclude language=\"yaml\" linenos=\"\"} example/"
+"publiccode.minimal.yml :"
 
 #: ./en-md/example.md:block 5 (paragraph)
 msgid "Extended Version ~~~~~~~~~~~~~~~"
-msgstr ""
+msgstr "詳盡版本 ~~~~~~~~~~~~~~~"
 
 #: ./en-md/example.md:block 6 (paragraph)
+#, fuzzy
 msgid "::: {.literalinclude language=\"yaml\" linenos=\"\"} example/publiccode.yml :"
 msgstr ""
+"::: {.literalinclude language=\"yaml\" linenos=\"\"} example/publiccode.yml :"
 
 #: ./en-md/forks.md:block 1 (paragraph)
 msgid "# Forks and variants"
-msgstr ""
+msgstr "# 分支與變種"
 
 #: ./en-md/forks.md:block 2 (paragraph)
 msgid ""
@@ -702,10 +748,13 @@ msgid ""
 "[publiccode.yml]{.title-ref} in both cases, below we define two different "
 "semantics: technical forks and software variants."
 msgstr ""
+"如前所述，分支會因為最終目標不同而有兩種不同形式。為了清楚解釋如何在兩種形式"
+"的分支下處理[publiccode.yml]{.title-"
+"ref}，我們在下面定義兩個不同的語義：技術分支與軟體變種。"
 
 #: ./en-md/forks.md:block 3 (paragraph)
 msgid "## Technical forks (i.e. to publish patches)"
-msgstr ""
+msgstr "## 技術分支 (也就是發布補丁)"
 
 #: ./en-md/forks.md:block 4 (paragraph)
 msgid ""
@@ -714,6 +763,8 @@ msgid ""
 "without any explicit goal of creating and publishing an alternative variant "
 "of the original software."
 msgstr ""
+"開發人員為了改善原始代碼庫或是將改善的程式碼內容寄給原始作者，同時沒有開發與"
+"發佈原始軟體的替代變種的意圖時，此時開發人員製作的分支就是技術分支。"
 
 #: ./en-md/forks.md:block 5 (paragraph)
 msgid ""
@@ -721,7 +772,8 @@ msgid ""
 " platforms like GitHub, forking is almost always used by developers as a "
 "step to work on a contribution on an existing codebase, by sending \"pull "
 "requests\"."
-msgstr ""
+msgstr "在GitHub這些分散式控制系統與程式碼託管與協作平台上，開發人員都利用分支以及傳"
+"送合併請求，將他們的程式碼貢獻給現有代碼庫。"
 
 #: ./en-md/forks.md:block 6 (paragraph)
 msgid ""
@@ -730,10 +782,13 @@ msgid ""
 "including also [publiccode.yml]{.title-ref}. However, parsers need to be "
 "able to distinguish such technical forks from the original codebase."
 msgstr ""
+"有鑒於GitHub與其他平台上處理分支的方式，開發人員發佈其分支時，都標示為原始軟"
+"體的完整複製版，因此程式碼中也會包含 [publiccode.yml]{.title-"
+"ref}。然而，語法分析器需要能夠分辨技術分支與原始代碼庫。"
 
 #: ./en-md/forks.md:block 7 (paragraph)
 msgid "### Parsers"
-msgstr ""
+msgstr "### 語法分析器"
 
 #: ./en-md/forks.md:block 8 (paragraph)
 msgid ""
@@ -741,17 +796,21 @@ msgid ""
 "[url]{.title-ref} key does not point to the repository in which the "
 "[publiccode.yml]{.title-ref} is found."
 msgstr ""
+"語法分析器 **應該**能夠注意到top-level[url]{.title-"
+"ref}鍵沒有指向包含[publiccode.yml]{.title-"
+"ref}的儲存庫，藉此看出這是一個技術分支。"
 
 #: ./en-md/forks.md:block 9 (paragraph)
 msgid ""
 "Parsers **MIGHT** identify a technical fork also through metadata that might"
 " be exposed by the code hosting platform (eg: GitHub marks forks explicitly "
 "as forks)"
-msgstr ""
+msgstr "語法分析器 **可能**也可以透過代碼託管平台的元資料(像是GitHub就會清楚標示分支)"
+"，分辨技術分支"
 
 #: ./en-md/forks.md:block 10 (paragraph)
 msgid "### Authors"
-msgstr ""
+msgstr "### 作者"
 
 #: ./en-md/forks.md:block 11 (paragraph)
 msgid ""
@@ -760,6 +819,9 @@ msgid ""
 "[url]{.title-ref} key that **MUST** continue pointing to the original "
 "repository."
 msgstr ""
+"技術分支作者**不應**修改[publiccode.yml]{.title-"
+"ref}。明確來說，他們**絕對不可**修改 **必須**持續指向原始儲存庫的top-level "
+"[url]{.title-ref}鍵。"
 
 #: ./en-md/forks.md:block 12 (paragraph)
 msgid ""
@@ -768,29 +830,33 @@ msgid ""
 "to be aware of [publiccode.yml]{.title-ref} and necessarily be aware of how "
 "to modify it. The current design does not require authors to do anything."
 msgstr ""
+"我們目前沒有設定特定鍵來將分支標示為技術分支。這是刻意的設計決策，因為我們不"
+"要技術分支的作者知道[publiccode.yml]{.title-"
+"ref}的存在以及如何進行修改。目前的設計不需要作者採取任何行動。"
 
 #: ./en-md/forks.md:block 13 (paragraph)
 msgid "## Software variants"
-msgstr ""
+msgstr "## 軟體變種"
 
 #: ./en-md/forks.md:block 14 (paragraph)
 msgid ""
 "A software variant is a fork that is offered as an alternative to the "
 "original upstream software."
-msgstr ""
+msgstr "軟體變種是一個分支，是原本上游軟體的替代版本。"
 
 #: ./en-md/forks.md:block 15 (paragraph)
 msgid ""
 "It contains modifications that are still not part of the upstream version, "
 "like more features, different dependencies, optimizations, etc."
-msgstr ""
+msgstr "當中的修改內容尚未收錄在上游版本當中，像是更多功能、不同的相依性與優化等。"
 
 #: ./en-md/forks.md:block 16 (paragraph)
 msgid ""
 "By marking a fork as a variant, the author indicates that they believe that "
 "the variant includes a complete and working set of modifications that might "
 "be useful to other people."
-msgstr ""
+msgstr "作者一旦將分支標示為變種，代表他們相信變種包含完善的修改內容，對他人可能有用"
+"。"
 
 #: ./en-md/forks.md:block 17 (paragraph)
 msgid ""
@@ -801,6 +867,9 @@ msgid ""
 " it as a variant during the process, so that others might discover it and "
 "benefit from it."
 msgstr ""
+"將分支標示為變種，**不**關作者是否有意願將程式碼貢獻給上游軟體，但作者可能有"
+"此計畫，甚至已經在進行中。因此，雖然分支最終會與整併至上游軟體中，最好還是先"
+"將分支標示為變種，方便他人搜尋並且從中受益。"
 
 #: ./en-md/forks.md:block 19 (paragraph)
 msgid ""
@@ -809,6 +878,9 @@ msgid ""
 "[publiccode.yml]{.title-ref} is found, **AND** a top-level "
 "[isBasedOn]{.title-ref} exists and points to a different repository."
 msgstr ""
+"語法分析器**應該**能注意到top-level[url]{.title-ref}鍵與對應具有[publiccode."
+"yml]{.title-ref}的儲存庫，**而且**具有指向不同儲存庫的top-level [isBasedOn"
+"]{.title-ref}鍵，藉此分辨變種。"
 
 #: ./en-md/forks.md:block 20 (paragraph)
 msgid ""
@@ -817,39 +889,42 @@ msgid ""
 "[description/features]{.title-ref} is designed to be compared across "
 "variants to identify and show user-visible differences."
 msgstr ""
+"語法分析器應該能分析軟體不同變種間，在[publiccode.yml]{.title-"
+"ref}的差異。明確來說，[description/features]{.title-"
+"ref}是用來在不同變種間作比較，藉此找出並且標示出使用者能看出的差異。"
 
 #: ./en-md/forks.md:block 22 (paragraph)
 msgid ""
 "Authors that are willing to publish a fork as a variant **MUST** at least:"
-msgstr ""
+msgstr "願意將分支標示為變種並且發佈的作者至少**必須**："
 
 #: ./en-md/forks.md:block 23 (unordered list)
 msgid ""
 "add a key [isBasedOn]{.title-ref} pointing to one or more upstream "
 "repositories from which this variant is derived."
-msgstr ""
+msgstr "新增[isBasedOn]{.title-ref}鍵，並且指向本變種源自的一或多個上游軟體。"
 
 #: ./en-md/forks.md:block 23 (unordered list)
 msgid ""
 "Change the value for [url]{.title-ref} to point to the repository holding "
 "the variant."
-msgstr ""
+msgstr "變更[url]{.title-ref}的值，將其指向存放該變種的儲存庫。"
 
 #: ./en-md/forks.md:block 23 (unordered list)
 msgid ""
 "Change the value for [legal/repoOwner]{.title-ref} to refer to the "
 "themselves (the authors of the variant)."
-msgstr ""
+msgstr "變更[legal/repoOwner]{.title-ref}的值，加入對自己(變種作者本身)的參照。"
 
 #: ./en-md/forks.md:block 23 (unordered list)
 msgid ""
 "Revisit the [maintenance]{.title-ref} section to refer to the maintenance "
 "status of the variant."
-msgstr ""
+msgstr "修改[maintenance]{.title-ref}段落，加入對變種維護狀態的參照。"
 
 #: ./en-md/forks.md:block 24 (paragraph)
 msgid "Moreover, authors **SHOULD** evaluate the following changes:"
-msgstr ""
+msgstr "另外，作者**應該**評估以下變動："
 
 #: ./en-md/forks.md:block 25 (unordered list)
 msgid ""
@@ -858,10 +933,14 @@ msgid ""
 "edited or removed from this list unless they have been removed from the "
 "variant, to allow parsers to easily compare feature lists."
 msgstr ""
+"加入讓人能分辨變種與[description/features]{.title-ref}鍵的功能。現有功能**不"
+"應該**被編輯或移除，除非原本就從變種當中移除，這是要方便語法分析器比較功能列"
+"表。"
 
 #: ./en-md/index.md:block 1 (paragraph)
+#, fuzzy
 msgid "# [publiccode.yml]{.title-ref}"
-msgstr ""
+msgstr "# [publiccode.yml]{.title-ref}"
 
 #: ./en-md/index.md:block 2 (paragraph)
 msgid ""
@@ -870,6 +949,8 @@ msgid ""
 "aimed at making them easily discoverable and thus reusable by other "
 "entities."
 msgstr ""
+"[publiccode.yml]{.title-ref}是一個元資料標準，適用於包含由公共行政學院開發或"
+"購買的軟體的儲存庫，目標是要方便其他實體找到並且重複利用這些儲存庫。"
 
 #: ./en-md/index.md:block 3 (paragraph)
 msgid ""
@@ -879,6 +960,9 @@ msgid ""
 " also be built, since the format is easily readable by both humans and "
 "machines."
 msgstr ""
+"將[publiccode.yml]{.title-ref}檔案加入儲存庫根目錄，並且在當中加入軟體相關資"
+"訊，技術人員與公務人員就能評估。由於人機都可輕鬆判讀此格式，因此也可建立自動"
+"索引工具。"
 
 #: ./en-md/index.md:block 4 (paragraph)
 msgid ""
@@ -892,107 +976,121 @@ msgid ""
 "by the core part and are defined in specific sections that each government "
 "can rule."
 msgstr ""
+"根據義大利國家[指引](<<https://docs.italia.it/AgID/"
+"linee-guida-riuso-software/lg-acquisizione-e-riuso-software-per-pa-docs/"
+">>)，在義大利開發的所有公共軟體都必須包含[publiccode.yml]{.title-ref}。"
+"這讓Developers Italia 能夠利用爬蟲程式建立國家[軟體目錄](<<https://developers"
+".italia.it/>>)。此標準全球通用，因此特定國家的鍵不會放在標準的核心中，而是放"
+"在各國專屬的段落，並由各國政府決定。"
 
 #: ./en-md/index.md:block 5 (paragraph)
 msgid "Details carried by a [publiccode.yml]{.title-ref} file include:"
-msgstr ""
+msgstr "[publiccode.yml]{.title-ref}檔案當中的詳細資訊包括："
 
 #: ./en-md/index.md:block 6 (unordered list)
 msgid ""
 "title and description of the project or product (in one or more languages);"
-msgstr ""
+msgstr "專案或產品的名稱與說明(一或多語言版本);"
 
 #: ./en-md/index.md:block 6 (unordered list)
 msgid ""
 "development state (e.g., [concept]{.title-ref}, [development]{.title-ref}, "
 "[beta]{.title-ref}, [stable]{.title-ref}, [obsolete]{.title-ref};"
 msgstr ""
+"開發狀態(例如[concept]{.title-ref}、[development]{.title-ref}、[beta]{.title-"
+"ref}、[stable]{.title-ref}、[obsolete]{.title-ref};"
 
 #: ./en-md/index.md:block 6 (unordered list)
 msgid "contacts of the entity who published the codebase;"
-msgstr ""
+msgstr "發佈代碼庫的實體的聯絡人;"
 
 #: ./en-md/index.md:block 6 (unordered list)
 msgid ""
 "contacts of the maintainer, if any, including the expire date of the "
 "maintenance contract;"
-msgstr ""
+msgstr "維護人員(若有)的聯絡資訊，包括維護合約到期日;"
 
 #: ./en-md/index.md:block 6 (unordered list)
 msgid ""
 "information about the legal context for which the project or product was "
 "designed;"
-msgstr ""
+msgstr "專案或產品設計時的法律背景資訊;"
 
 #: ./en-md/index.md:block 6 (unordered list)
 msgid "dependencies"
-msgstr ""
+msgstr "相依性"
 
 #: ./en-md/index.md:block 7 (paragraph)
 msgid "and much more."
-msgstr ""
+msgstr "與其他。"
 
 #: ./en-md/index.md:block 8 (paragraph)
 msgid "## See also"
-msgstr ""
+msgstr "## 請參閱"
 
 #: ./en-md/index.md:block 9 (unordered list)
 msgid ""
 "[More information about software "
 "reuse](<<https://developers.italia.it/en/reuse>>)"
-msgstr ""
+msgstr "[更多有關重複利用軟體的資訊](<<https://developers.italia.it/en/reuse>>)"
 
 #: ./en-md/index.md:block 9 (unordered list)
 msgid ""
 "[publiccode.yml web editor](<<https://publiccode-"
 "editor.developers.italia.it/>>)"
 msgstr ""
+"[publiccode.yml 網路編輯器](<<https://publiccode-editor.developers.italia.it/"
+">>)"
 
 #: ./en-md/index.md:block 10 (paragraph)
 msgid "## Table of contents"
-msgstr ""
+msgstr "## 目錄"
 
 #: ./en-md/index.md:block 11 (paragraph)
+#, fuzzy
 msgid ""
 "::: {.toctree maxdepth=\"2\" numbered=\"\"} schema.core.rst country.rst "
 "forks.rst categories-list.rst scope-list.rst example.rst :"
 msgstr ""
+"::: {.toctree maxdepth=\"2\" numbered=\"\"} schema.core.rst country.rst "
+"forks.rst categories-list.rst scope-list.rst example.rst :"
 
 #: ./en-md/schema.core.md:block 1 (paragraph)
 msgid "# The Standard (core) {#core}"
-msgstr ""
+msgstr "# 標準(核心) {#core}"
 
 #: ./en-md/schema.core.md:block 2 (paragraph)
 msgid ""
 "This document represents the description of the [publiccode.yml]{.title-ref}"
 " schema."
-msgstr ""
+msgstr "本文件說明[publiccode.yml]{.title-ref}的規範。"
 
 #: ./en-md/schema.core.md:block 3 (paragraph)
 msgid "## Top-Level Keys and Sections"
-msgstr ""
+msgstr "## Top-Level鍵與段落"
 
 #: ./en-md/schema.core.md:block 4 (paragraph)
 msgid "### Key [publiccodeYmlVersion]{.title-ref}"
-msgstr ""
+msgstr "### 鍵 [publiccodeYmlVersion]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 5 (unordered list)
 msgid "Example: [\"0.1\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"0.1\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 6 (paragraph)
 msgid ""
 "This key specifies the version to which the current [publiccode.yml]{.title-"
 "ref} adheres to, for forward compatibility."
-msgstr ""
+msgstr "此鍵代表目前[publiccode.yml]{.title-"
+"ref}採用的軟體版本，方便判斷與舊系統的相容性。"
 
 #: ./en-md/schema.core.md:block 7 (paragraph)
 msgid "### Key [name]{.title-ref}"
-msgstr ""
+msgstr "### 鍵 [name]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 8 (unordered list)
 msgid "Example: [\"Medusa\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"Medusa\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 9 (paragraph)
 msgid ""
@@ -1002,26 +1100,29 @@ msgid ""
 "usually refer to the software. In case the software has both an internal "
 "\"code\" name and a commercial name, use the commercial name."
 msgstr ""
+"此鍵包含軟體名稱，以及產品的公開名稱(短名)，該名稱可在特定國家[localisation"
+"]{.title-ref}程式碼段落中本地化，並以最多人熟知的名稱為主。若軟體有公司內部用"
+"的代號跟對外販售的名稱，則以對外販售的名稱為主。"
 
 #: ./en-md/schema.core.md:block 10 (paragraph)
 msgid "### Key [applicationSuite]{.title-ref}"
-msgstr ""
+msgstr "### 鍵 [applicationSuite]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 11 (unordered list)
 msgid "Example: [\"MegaProductivitySuite\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"MegaProductivitySuite\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 12 (paragraph)
 msgid "This key contains the name of the \"suite\" to which the software belongs."
-msgstr ""
+msgstr "此鍵包含收錄軟體的軟體套裝名稱。"
 
 #: ./en-md/schema.core.md:block 13 (paragraph)
 msgid "### Key [url]{.title-ref}"
-msgstr ""
+msgstr "### 鍵 [url]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 14 (unordered list)
 msgid "Type: string (URL)"
-msgstr ""
+msgstr "類型：string (URL)"
 
 #: ./en-md/schema.core.md:block 14 (unordered list)
 msgid ""
@@ -1029,6 +1130,8 @@ msgid ""
 "[\"[https://example.com/italia/medusa.git\\](https://example.com/italia/medusa.git)\"]{.title-"
 "ref}"
 msgstr ""
+"範例：[\"[https://example.com/italia/medusa.git\\](https://example.com/"
+"italia/medusa.git)\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 15 (paragraph)
 msgid ""
@@ -1037,6 +1140,9 @@ msgid ""
 "If the repository is available under multiple protocols, prefer HTTP/HTTPS "
 "URLs which don't require user authentication."
 msgstr ""
+"該軟體特有的識別符號。此字串必須是當初軟體發佈時，所在的原始碼儲存庫(git, "
+"svn, ...)連結。如果儲存庫採用多種協定，請以不需要使用者認證的HTTP/"
+"HTTPS連結為主。"
 
 #: ./en-md/schema.core.md:block 16 (paragraph)
 msgid ""
@@ -1046,6 +1152,9 @@ msgid ""
 "meant to be maintained separately from the original software should modify "
 "this line, to give themselves the status of a different project."
 msgstr ""
+"為了貢獻給上流軟體所建立的分支，不應該修改此檔案。這將有助於軟體分析[publicco"
+"de.yml]{.title-ref}，立即跳過技術分支。反過來說，完整且應該與原始軟體獨立分開"
+"的分支，則應修改此段程式碼，才能取得不同專案的狀態。"
 
 #: ./en-md/schema.core.md:block 17 (paragraph)
 msgid ""
@@ -1053,10 +1162,12 @@ msgid ""
 "complete description of what is a software variant and how to handle forked "
 "software as a parser or an author."
 msgstr ""
+"請參閱[分支與變種]{.title-ref}{.interpreted-text role=\"ref\""
+"}，當中完整定義軟體變種，以及如何以分析人員或作者身份來處理分支軟體。"
 
 #: ./en-md/schema.core.md:block 18 (paragraph)
 msgid "### Key [landingURL]{.title-ref}"
-msgstr ""
+msgstr "### [landingURL]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 19 (unordered list)
 msgid ""
@@ -1064,6 +1175,8 @@ msgid ""
 "[\"[https://example.com/italia/medusa\\](https://example.com/italia/medusa)\"]{.title-"
 "ref}"
 msgstr ""
+"範例：[\"[https://example.com/italia/medusa\\](https://example.com/italia/"
+"medusa)\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 20 (paragraph)
 msgid ""
@@ -1076,14 +1189,19 @@ msgid ""
 "which contains a reference to the source code but also offers the download "
 "of such an installer."
 msgstr ""
+"若[url]{.title-ref}參數無法產生人類可讀或瀏覽的頁面，"
+"而只能提供原始碼給原始碼控制客戶端 。只要有鍵，您就能夠指定到達網頁。在理想狀"
+"況下，您的用戶在按下網站上類似「查看應用程式原始碼」的按鈕時，就會前往該網頁"
+"。如果產品提供自動化圖形介面安裝程式，此連結能夠連結一個提到原始碼但同時允許"
+"使用者下載安裝程式的網頁。"
 
 #: ./en-md/schema.core.md:block 21 (paragraph)
 msgid "### Key [isBasedOn]{.title-ref}"
-msgstr ""
+msgstr "### [isBasedOn]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 22 (unordered list)
 msgid "Type: string or array of strings"
-msgstr ""
+msgstr "類型：string或多組string"
 
 #: ./en-md/schema.core.md:block 22 (unordered list)
 msgid ""
@@ -1091,6 +1209,8 @@ msgid ""
 "[\"[https://github.com/italia/otello.git\\](https://github.com/italia/otello.git)\"]{.title-"
 "ref}"
 msgstr ""
+"範例：[\"[https://github.com/italia/otello.git\\](https://github.com/italia/"
+"otello.git)\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 23 (paragraph)
 msgid ""
@@ -1098,20 +1218,22 @@ msgid ""
 "might or might not contain a [publiccode.yml]{.title-ref} file, this key "
 "will contain the [url]{.title-ref} of the original project(s)."
 msgstr ""
+"若本軟體為可能包含 [publiccode.yml]{.title-ref} "
+"檔案的軟體)的分支或變種，本鍵將包含原始專案的[url]{.title-ref}。"
 
 #: ./en-md/schema.core.md:block 24 (paragraph)
 msgid ""
 "The existence of this key identifies the fork as a software variant, "
 "descending from the specified repositories."
-msgstr ""
+msgstr "本鍵能判斷分支為來自特定儲存庫的軟體變種。"
 
 #: ./en-md/schema.core.md:block 25 (paragraph)
 msgid "### Key [softwareVersion]{.title-ref}"
-msgstr ""
+msgstr "### [softwareVersion]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 26 (unordered list)
 msgid "Example: [\"1.0\"]{.title-ref}, [\"dev\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"1.0\"]{.title-ref}, [\"dev\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 27 (paragraph)
 msgid ""
@@ -1120,47 +1242,51 @@ msgid ""
 "but just displayed; parsers should not assume semantic versioning or any "
 "other specific version format."
 msgstr ""
+"本鍵包含軟體的最新且穩定的版本編號。版本編號是一個字串，不應該被解讀或分析，"
+"只應該被顯示出來。分析人員不應該認定版本編號有任何語意化命名方式或其他特定版"
+"本格式。"
 
 #: ./en-md/schema.core.md:block 28 (paragraph)
 msgid ""
 "The key can be omitted if the software is currently in initial development "
 "and has never been released yet."
-msgstr ""
+msgstr "若軟體尚在初始開發階段，且還沒有發佈，則可忽略此鍵。"
 
 #: ./en-md/schema.core.md:block 29 (paragraph)
 msgid "### Key [releaseDate]{.title-ref}"
-msgstr ""
+msgstr "### [releaseDate]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 30 (unordered list)
 msgid "Type: string (date)"
-msgstr ""
+msgstr "類型：string(日期)"
 
 #: ./en-md/schema.core.md:block 30 (unordered list)
 msgid "Example: [\"2017-04-15\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"2017-04-15\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 31 (paragraph)
 msgid ""
 "This key contains the date at which the latest version was released. This "
 "date is mandatory if the software has been released at least once and thus "
 "the version number is present."
-msgstr ""
+msgstr "本鍵包含最新軟體版本發佈時的日期。如果軟體已經被發佈過至少一次，因此有版本編"
+"號時，則必須要用此鍵標示該日期。"
 
 #: ./en-md/schema.core.md:block 32 (paragraph)
 msgid "### Key [logo]{.title-ref}"
-msgstr ""
+msgstr "### [logo]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 33 (unordered list)
 msgid "Type: string (relative path to file or absolute URL)"
-msgstr ""
+msgstr "類型：string(檔案相對路徑或連結)"
 
 #: ./en-md/schema.core.md:block 33 (unordered list)
 msgid "Acceptable formats: SVG, SVGZ, PNG"
-msgstr ""
+msgstr "可接受格式：SVG, SVGZ, PNG"
 
 #: ./en-md/schema.core.md:block 33 (unordered list)
 msgid "Example: [\"img/logo.svg\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"img/logo.svg\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 34 (paragraph)
 msgid ""
@@ -1172,18 +1298,22 @@ msgid ""
 "cases, the file must reside inside the same repository where the "
 "[publiccode.yml]{.title-ref} file is stored."
 msgstr ""
+"本鍵包含連結至軟體標誌的路徑。軟體標誌應該採用向量圖形格式，點陣圖版本只能當"
+"作備份。在此情況下，軟體標誌應該採用透明PNG圖，最低寬度為1000px。鍵值可以是從"
+"儲存庫根目錄前往該檔案的相對路徑，也可以是連結至標誌原始檔的連結。無論如何，"
+"標誌的檔案都必須存放在[publiccode.yml]{.title-ref}檔案所在的同一個儲存庫。"
 
 #: ./en-md/schema.core.md:block 35 (paragraph)
 msgid "### Key [monochromeLogo]{.title-ref} (*deprecated*)"
-msgstr ""
+msgstr "### [monochromeLogo]{.title-ref}鍵 (*已棄用*)"
 
 #: ./en-md/schema.core.md:block 36 (unordered list)
 msgid "Type: string (path to file)"
-msgstr ""
+msgstr "類型：string(檔案路徑)"
 
 #: ./en-md/schema.core.md:block 36 (unordered list)
 msgid "Example: [\"img/logo-mono.svg\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"img/logo-mono.svg\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 37 (paragraph)
 msgid ""
@@ -1195,22 +1325,26 @@ msgid ""
 "must reside inside the same repository where the [publiccode.yml]{.title-"
 "ref} file is stored."
 msgstr ""
+"單色(黑色)標誌。標誌應該採用向量圖形格式，點陣圖版本只能當作備份。在此情況下"
+"，軟體標誌應該採用透明PNG圖，最低寬度為1000px。鍵值可以是從儲存庫根目錄前往該"
+"檔案的相對路徑，也可以是連結至標誌原始檔的連結。無論如何，標誌的檔案都必須存"
+"放在[publiccode.yml]{.title-ref}檔案所在的同一個儲存庫。"
 
 #: ./en-md/schema.core.md:block 38 (paragraph)
 msgid "### Key [inputTypes]{.title-ref} (*deprecated*)"
-msgstr ""
+msgstr "### [inputTypes]{.title-ref}鍵(*已棄用*)"
 
 #: ./en-md/schema.core.md:block 39 (unordered list)
 msgid "Type: array of enumerated strings"
-msgstr ""
+msgstr "類型：各種列舉的string"
 
 #: ./en-md/schema.core.md:block 39 (unordered list)
 msgid "Values: as per RFC 6838"
-msgstr ""
+msgstr "值：遵循RFC 6838"
 
 #: ./en-md/schema.core.md:block 39 (unordered list)
 msgid "Example: [\"text/plain\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"text/plain\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 40 (paragraph)
 msgid ""
@@ -1218,16 +1352,19 @@ msgid ""
 "6838](<<https://tools.ietf.org/html/rfc6838>>) which the application can "
 "handle as input."
 msgstr ""
+"[RFC 6838](<<https://tools.ietf.org/html/"
+"rfc6838>>)規定的媒體類型(MIME類型)，可被應用程式視為輸入來源。"
 
 #: ./en-md/schema.core.md:block 41 (paragraph)
 msgid ""
 "In case the software does not support any input, you can skip this field or "
 "use [application/x.empty]{.title-ref}."
-msgstr ""
+msgstr "若軟體不支援任何輸入功能，您可以跳過此欄位或使用[application/x.empty]{.title-"
+"ref}。"
 
 #: ./en-md/schema.core.md:block 42 (paragraph)
 msgid "### Key [outputTypes]{.title-ref} (*deprecated*)"
-msgstr ""
+msgstr "### [outputTypes]{.title-ref}鍵 (*已棄用*)"
 
 #: ./en-md/schema.core.md:block 44 (paragraph)
 msgid ""
@@ -1235,20 +1372,23 @@ msgid ""
 "6838](<<https://tools.ietf.org/html/rfc6838>>) which the application can "
 "handle as output."
 msgstr ""
+"[RFC 6838](<<https://tools.ietf.org/html/"
+"rfc6838>>)規定的媒體類型(MIME類型)，可被應用程式視為輸出來源。"
 
 #: ./en-md/schema.core.md:block 45 (paragraph)
 msgid ""
 "In case the software does not support any output, you can skip this field or"
 " use [application/x.empty]{.title-ref}."
-msgstr ""
+msgstr "若軟體不支援任何輸出功能，您可以跳過此欄位或使用[application/x.empty]{.title-"
+"ref}。"
 
 #: ./en-md/schema.core.md:block 46 (paragraph)
 msgid "### Key [platforms]{.title-ref}"
-msgstr ""
+msgstr "### [platforms]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 47 (unordered list)
 msgid "Type: enumerated string or array of strings"
-msgstr ""
+msgstr "類型：列舉的string或各種string"
 
 #: ./en-md/schema.core.md:block 47 (unordered list)
 msgid ""
@@ -1256,100 +1396,109 @@ msgid ""
 "[linux]{.title-ref}, [ios]{.title-ref}, [android]{.title-ref}. Human "
 "readable values outside this list are allowed."
 msgstr ""
+"值：[web]{.title-ref}、[windows]{.title-ref}、[mac]{.title-ref}、[linux"
+"]{.title-ref}、[ios]{.title-ref}、[android]{.title-"
+"ref}。可使用不在本列表上但人類可讀的值。"
 
 #: ./en-md/schema.core.md:block 47 (unordered list)
 msgid "Example: [web]{.title-ref}"
-msgstr ""
+msgstr "範例：[web]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 48 (paragraph)
 msgid ""
 "This key specifies which platform the software runs on. It is meant to "
 "describe the platforms that users will use to access and operate the "
 "software, rather than the platform the software itself runs on."
-msgstr ""
+msgstr "本鍵指明軟體運行的平台。本鍵是描述使用者為了使用該軟體而必須使用的平台，而非"
+"軟體本身運作時所在的平台。"
 
 #: ./en-md/schema.core.md:block 49 (paragraph)
 msgid ""
 "Use the predefined values if possible. If the software runs on a platform "
 "for which a predefined value is not available, a different value can be "
 "used."
-msgstr ""
+msgstr "若可以，請以預定義值優先。如果軟體執行的平台沒有預定義值，則可使用不同的值。"
 
 #: ./en-md/schema.core.md:block 50 (paragraph)
 msgid "### Key [categories]{.title-ref}"
-msgstr ""
+msgstr "### [categories]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 51 (unordered list)
 msgid "Type: array of strings"
-msgstr ""
+msgstr "類型：各種string"
 
 #: ./en-md/schema.core.md:block 51 (unordered list)
 msgid ""
 "Acceptable values: see [categories-list]{.title-ref}{.interpreted-text "
 "role=\"ref\"}"
-msgstr ""
+msgstr "可接受值：請參閱[種類列表]{.title-ref}{.interpreted-text role=\"ref\"}"
 
 #: ./en-md/schema.core.md:block 52 (paragraph)
 msgid ""
 "A list of words that can be used to describe the software and can help "
 "building catalogs of open software."
-msgstr ""
+msgstr "能用於描述軟體並協助建立開源軟體目錄的字表。"
 
 #: ./en-md/schema.core.md:block 53 (paragraph)
 msgid ""
 "The controlled vocabulary [categories-list]{.title-ref}{.interpreted-text "
 "role=\"ref\"} contains the list of allowed values."
-msgstr ""
+msgstr "受控字彙[種類列表]{.title-ref}{.interpreted-text role=\"ref\""
+"}包含允許值列表。"
 
 #: ./en-md/schema.core.md:block 54 (paragraph)
 msgid "### Key [usedBy]{.title-ref}"
-msgstr ""
+msgstr "### [usedBy]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 56 (paragraph)
 msgid ""
 "A list of the names of prominent public administrations (that will serve as "
 "\"testimonials\") that are currently known to the software maintainer to be "
 "using this software."
-msgstr ""
+msgstr "軟體維護人員知道有在使用軟體的主要公共行政機關名單(可視為推薦軟體的使用者)。"
 
 #: ./en-md/schema.core.md:block 57 (paragraph)
 msgid ""
 "Parsers are encouraged to enhance this list also with other information that"
 " can obtain independently; for instance, a fork of a software, owned by an "
 "administration, could be used as a signal of usage of the software."
-msgstr ""
+msgstr "語法分析器也可將獨立取得的其他資訊加入該列表中。舉例來說，有行政管理機關擁有"
+"該軟體的分支，也可視為該軟體的用戶。"
 
 #: ./en-md/schema.core.md:block 58 (paragraph)
 msgid "### Key [roadmap]{.title-ref}"
-msgstr ""
+msgstr "### [roadmap]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 60 (paragraph)
 msgid "A link to a public roadmap of the software."
-msgstr ""
+msgstr "軟體公共路徑圖連結。"
 
 #: ./en-md/schema.core.md:block 61 (paragraph)
 msgid "### Key [developmentStatus]{.title-ref}"
-msgstr ""
+msgstr "### [developmentStatus]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 62 (unordered list)
 msgid "Type: enumerated string"
-msgstr ""
+msgstr "類型：列舉string"
 
 #: ./en-md/schema.core.md:block 62 (unordered list)
 msgid ""
 "Allowed values: [concept]{.title-ref}, [development]{.title-ref}, "
 "[beta]{.title-ref}, [stable]{.title-ref}, [obsolete]{.title-ref}"
 msgstr ""
+"允許值：[concept]{.title-ref}、[development]{.title-ref}、[beta]{.title-"
+"ref}、[stable]{.title-ref}、[obsolete]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 63 (paragraph)
 msgid "The keys are:"
-msgstr ""
+msgstr "這些鍵包括："
 
 #: ./en-md/schema.core.md:block 64 (unordered list)
 msgid ""
 "[concept]{.title-ref} - The software is just a \"concept\". No actual code "
 "may have been produced, and the repository could simply be a placeholder."
-msgstr ""
+msgstr "[concept]{.title-ref} - "
+"軟體只是一個「概念」，目前沒有編寫任何程式碼，儲存庫也只是預留位置。"
 
 #: ./en-md/schema.core.md:block 64 (unordered list)
 msgid ""
@@ -1357,29 +1506,33 @@ msgid ""
 " software, but the code is not ready for the end user, even in a preliminary"
 " version (beta or alpha) to be tested by end users."
 msgstr ""
+"[development]{.title-ref} - 已經為開發該軟體投注了心力，但是程式碼還不到能讓"
+"終端使用者使用的階段，甚至無法推出預覽或測試版本供終端使用者測試。"
 
 #: ./en-md/schema.core.md:block 64 (unordered list)
 msgid ""
 "[beta]{.title-ref} - The software is in the testing phase (alpha or beta). "
 "At this stage, the software might or might not have had a preliminary public"
 " release."
-msgstr ""
+msgstr "[beta]{.title-ref} - 軟體正在進行測試的階段(預覽或測試版)。在這個階段，軟體可"
+"能已經也可能尚未有公開發行。"
 
 #: ./en-md/schema.core.md:block 64 (unordered list)
 msgid ""
 "[stable]{.title-ref} - The software has seen a first public release and is "
 "ready to be used in a production environment."
-msgstr ""
+msgstr "[stable]{.title-ref} - 軟體已經公開發佈，並且準備好用於生產環境中。"
 
 #: ./en-md/schema.core.md:block 64 (unordered list)
 msgid ""
 "[obsolete]{.title-ref} - The software is no longer maintained or kept up to "
 "date. All of the source code is archived and kept for historical reasons."
-msgstr ""
+msgstr "[obsolete]{.title-ref} - "
+"軟體已經停止維護或更新。所有原始碼都已經封存為歷史紀錄檔案。"
 
 #: ./en-md/schema.core.md:block 65 (paragraph)
 msgid "### Key [softwareType]{.title-ref}"
-msgstr ""
+msgstr "### [softwareType]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 66 (unordered list)
 msgid ""
@@ -1389,52 +1542,61 @@ msgid ""
 "[\"standalone/other\"]{.title-ref}, [\"addon\"]{.title-ref}, "
 "[\"library\"]{.title-ref}, [\"configurationFiles\"]{.title-ref}"
 msgstr ""
+"允許值：[\"standalone/mobile\"]{.title-ref}、[\"standalone/iot\"]{.title-"
+"ref}、[\"standalone/desktop\"]{.title-ref}、[\"standalone/web\"]{.title-"
+"ref}、[\"standalone/backend\"]{.title-ref}、[\"standalone/other\"]{.title-"
+"ref}、[\"addon\"]{.title-ref}、[\"library\"]{.title-ref}、["
+"\"configurationFiles\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[standalone/mobile]{.title-ref} - The software is a standalone, self-"
 "contained The software is a native mobile app."
-msgstr ""
+msgstr "[standalone/mobile]{.title-ref} - "
+"軟體為單機獨立軟體。軟體為原生行動應用程式。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[standalone/iot]{.title-ref} - The software is suitable for an IoT context."
-msgstr ""
+msgstr "[standalone/iot]{.title-ref} - 軟體適合物聯網情境。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[standalone/desktop]{.title-ref} - The software is typically installed and "
 "run in a a desktop operating system environment."
-msgstr ""
+msgstr "[standalone/desktop]{.title-ref} - "
+"軟體通常安裝在桌上型電腦作業系統環境中執行。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[standalone/web]{.title-ref} - The software represents a web application "
 "usable by means of a browser."
-msgstr ""
+msgstr "[standalone/web]{.title-ref} - 軟體代表可透過瀏覽器使用的網路應用程式。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[standalone/backend]{.title-ref} - The software is a backend application."
-msgstr ""
+msgstr "[standalone/backend]{.title-ref} - 軟體為後端應用程式。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[standalone/other]{.title-ref} - The software has a different nature from "
 "the once listed above."
-msgstr ""
+msgstr "[standalone/other]{.title-ref} - 軟體性質與前一個不同。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[softwareAddon]{.title-ref} - The software is an addon, such as a plugin or "
 "a theme, for a more complex software (e.g. a CMS or an office suite)."
-msgstr ""
+msgstr "[softwareAddon]{.title-ref} - "
+"軟體屬於更複雜的軟體(例如CMW或辦公室套裝軟體)的附加軟體，像是插件或主題。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
 "[library]{.title-ref} - The software contains a library or an SDK to make it"
 " easier to third party developers to create new products."
-msgstr ""
+msgstr "[library]{.title-ref} - "
+"軟體包含函式庫或是SDK，讓第三方開發人員更容易設計新產品。"
 
 #: ./en-md/schema.core.md:block 68 (unordered list)
 msgid ""
@@ -1443,14 +1605,17 @@ msgid ""
 "certain deployment. They could be in the form of plain configuration files, "
 "bash scripts, ansible playbooks, Dockerfiles, or other instruction sets."
 msgstr ""
+"[configurationFiles]{.title-ref} - 軟體沒有可執行的文本，只有一組配置檔案。這"
+"些檔案可能紀錄特定部署方式。這樣檔案可能是簡單的配置檔案、bash scripts、"
+"sensible playbooks、Dockerfiles或其他指令集。"
 
 #: ./en-md/schema.core.md:block 69 (paragraph)
 msgid "### Section [intendedAudience]{.title-ref}"
-msgstr ""
+msgstr "### [intendedAudience]{.title-ref}段落"
 
 #: ./en-md/schema.core.md:block 70 (paragraph)
 msgid "#### Key [intendedAudience/countries]{.title-ref}"
-msgstr ""
+msgstr "#### [intendedAudience/countries]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 72 (paragraph)
 msgid ""
@@ -1458,11 +1623,12 @@ msgid ""
 "i.e. the software explicitly claims compliance with specific processes, "
 "technologies or laws. All countries are specified using lowercase ISO 3166-1"
 " alpha-2 two-letter country codes."
-msgstr ""
+msgstr "本鍵明確地將某些國家列入其目標受眾。換句話說，該軟體明確表示遵守特定流程、科"
+"技或法律。所有國家都以ISO3166-1二位字母代碼表示。"
 
 #: ./en-md/schema.core.md:block 73 (paragraph)
 msgid "#### Key [intendedAudience/unsupportedCountries]{.title-ref}"
-msgstr ""
+msgstr "#### [intendedAudience/unsupportedCountries]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 75 (paragraph)
 msgid ""
@@ -1470,33 +1636,34 @@ msgid ""
 " if there is a conflict between how software is working and a specific law, "
 "process or technology. All countries are specified using lowercase ISO "
 "3166-1 alpha-2 two-letter country codes."
-msgstr ""
+msgstr "本鍵明確標示不支援的國家。原因可能是因為該軟體運作方式，與該國特定法規、流程"
+"或科技有所衝突。所有國家都以ISO3166-1二位字母代碼表示。"
 
 #: ./en-md/schema.core.md:block 76 (paragraph)
 msgid "#### Key [intendedAudience/scope]{.title-ref}"
-msgstr ""
+msgstr "#### [intendedAudience/scope]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 77 (unordered list)
 msgid ""
 "Acceptable values: see [scope-list]{.title-ref}{.interpreted-text "
 "role=\"ref\"}"
-msgstr ""
+msgstr "接受值：請參閱[scope-list]{.title-ref}{.interpreted-text role=\"ref\"}"
 
 #: ./en-md/schema.core.md:block 78 (paragraph)
 msgid ""
 "This key contains a list of tags related to the field of application of the "
 "software."
-msgstr ""
+msgstr "本鍵包含與軟體應用領域相關的標籤列表。"
 
 #: ./en-md/schema.core.md:block 79 (paragraph)
 msgid "### Section [description]{.title-ref}"
-msgstr ""
+msgstr "### [description]{.title-ref}段落"
 
 #: ./en-md/schema.core.md:block 80 (paragraph)
 msgid ""
 "This section contains a general description of the software. Parsers can use"
 " this section for instance to create a web page describing the software."
-msgstr ""
+msgstr "本段落包含對軟體的一般描述。語法分析器可使用本段落來製作描述該軟體的網頁。"
 
 #: ./en-md/schema.core.md:block 81 (paragraph)
 msgid ""
@@ -1507,33 +1674,42 @@ msgid ""
 "sub-section with that name. The primary language subtag cannot be omitted, "
 "as mandated by the BCP 47."
 msgstr ""
+"**請注意：**由於本段落包含的所有string，都是使用者可見且採用特定語言，您**必"
+"須**新增一個小節並在當中指明您編輯文字所採取的語言(使用IETF [BCP "
+"47](<<https://tools.ietf.org/html/bcp47>>) "
+"specifications)，該小節的名稱就是您所用的語言。依據BCP "
+"47的規定，主要語言子標籤不可以刪除。"
 
 #: ./en-md/schema.core.md:block 82 (paragraph)
 msgid "An example for English:"
-msgstr ""
+msgstr "以英文為例："
 
 #: ./en-md/schema.core.md:block 83 (paragraph)
+#, fuzzy
 msgid ""
 "``` yaml description:   en:     shortDescription: ...     longDescription: "
 "...``\\`"
 msgstr ""
+"``` yaml description:   en:     shortDescription: ...     longDescription: "
+"...``\\`"
 
 #: ./en-md/schema.core.md:block 84 (paragraph)
 msgid ""
 "In the following part of the document, all keys are assumed to be in a sub-"
 "section with the name of the language (we will note this with "
 "[[lang]]{.title-ref})."
-msgstr ""
+msgstr "在之後的章節，所有鍵都假定位於以語言為名的小節中(以[[lang]]{.title-"
+"ref}表示)。"
 
 #: ./en-md/schema.core.md:block 85 (paragraph)
 msgid ""
 "**Note:** it is mandatory to have *at least* one language in this section. "
 "All other languages are optional."
-msgstr ""
+msgstr "**請注意：**本段落中*至少*要有一個語言，其他語言為選擇性。"
 
 #: ./en-md/schema.core.md:block 86 (paragraph)
 msgid "#### Key [description/[lang]/localisedName]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/localisedName]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 88 (paragraph)
 msgid ""
@@ -1542,18 +1718,21 @@ msgid ""
 "people usually refer to the software. In case the software has both an "
 "internal \"code\" name and a commercial name, use the commercial name."
 msgstr ""
+"本鍵代表將名稱翻譯成特定語言的機會。當中包含產品的公開名稱與短名，這名稱也應"
+"該是多數消費者稱呼該軟體的名字。若該軟體有公司內部的代號以及上市的名稱，請以"
+"上市名稱為主。"
 
 #: ./en-md/schema.core.md:block 89 (paragraph)
 msgid "#### Key [description/[lang]/genericName]{.title-ref} (*deprecated*)"
-msgstr ""
+msgstr "#### [description/[lang]/genericName]{.title-ref}鍵 (*已棄用*)"
 
 #: ./en-md/schema.core.md:block 90 (unordered list)
 msgid "Type: string (max 35 chars)"
-msgstr ""
+msgstr "類型：string (最多35個字符)"
 
 #: ./en-md/schema.core.md:block 90 (unordered list)
 msgid "Example: [\"Text Editor\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"Text Editor\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 91 (paragraph)
 msgid ""
@@ -1564,36 +1743,40 @@ msgid ""
 "Browser\", \"Chat\" and so on... The generic name can be up to 35 characters"
 " long."
 msgstr ""
+"本鍵為「通用名稱」，也就是軟體所屬的特定類別。您通常可在軟體的簡報發表會上看"
+"到軟體的通用名稱，通常都會看到「xxx軟體是yyy」。"
+"比較常見的範例包括\"文字編輯器\"、\"文書處理器\"、\"網路瀏覽器\"與\"聊天室"
+"\"等。通用名稱最多可有35個字符。"
 
 #: ./en-md/schema.core.md:block 92 (paragraph)
 msgid "#### Key [description/[lang]/shortDescription]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/shortDescription]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 93 (unordered list)
 msgid "Type: string (max 150 chars)"
-msgstr ""
+msgstr "類型：string(最多150個字符)"
 
 #: ./en-md/schema.core.md:block 93 (unordered list)
 msgid "Example: [\"Advanced booking system for hospitals\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"Advanced booking system for hospitals\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 94 (paragraph)
 msgid ""
 "This key contains a short description of the software. It should be a single"
 " line containing a single sentence. Maximum 150 characters are allowed."
-msgstr ""
+msgstr "本鍵包含對軟體的簡短描述，內容應該是包含一句話的一行程式碼，上限為150個字符。"
 
 #: ./en-md/schema.core.md:block 95 (paragraph)
 msgid "#### Key [description/[lang]/longDescription]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/longDescription]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 96 (unordered list)
 msgid "Type: string (min 150 chars, max 10000 chars)"
-msgstr ""
+msgstr "類型：string(最少150個字符，最多10000個字符)"
 
 #: ./en-md/schema.core.md:block 96 (unordered list)
 msgid "Presence: mandatory (for at least one language)"
-msgstr ""
+msgstr "是否必要：必要(至少對一個語言來說)"
 
 #: ./en-md/schema.core.md:block 97 (paragraph)
 msgid ""
@@ -1604,6 +1787,9 @@ msgid ""
 "description of the software that would be in its website (if the software "
 "had one)."
 msgstr ""
+"本鍵包含對軟體較長的描述，長度介於150與10,000個字符之間。本鍵旨在為潛在用戶提"
+"供軟體功能的概覽。本段文字的受眾應該是軟體用戶，而非開發人員。您可將本段文字"
+"視為應該放在軟體官網上(若有)用來描述軟體的文字。"
 
 #: ./en-md/schema.core.md:block 98 (paragraph)
 msgid ""
@@ -1611,21 +1797,24 @@ msgid ""
 "ref}, [\\*\\*bold\\*\\*]{.title-ref}, bullet points and [[links](#)]{.title-"
 "ref}."
 msgstr ""
+"本敘述可包含一些基本的markdown：[\\*italic\\*]{.title-ref}、[\\*\\*bold\\"
+"*\\*]{.title-ref}、項目符號與[[links](#)]{.title-ref}。"
 
 #: ./en-md/schema.core.md:block 99 (paragraph)
 msgid "#### Key [description/[lang]/documentation]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/documentation]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 100 (unordered list)
 msgid "Type: URL"
-msgstr ""
+msgstr "類型：URL"
 
 #: ./en-md/schema.core.md:block 101 (paragraph)
 msgid ""
 "This key contains a reference to the user-level (not developer-level) "
 "documentation of the software. The value must be a URL to a hosted version "
 "of the documentation."
-msgstr ""
+msgstr "本鍵提到軟體使用者階層(非開發人員階層)註解。本鍵的值必須是該註解託管版本的連"
+"結。"
 
 #: ./en-md/schema.core.md:block 102 (paragraph)
 msgid ""
@@ -1634,6 +1823,9 @@ msgid ""
 "and mobile format. The documentation should be rendered in HTML and "
 "browsable like a website (with a navigation index, a search bar, etc.)."
 msgstr ""
+"建議該連結是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使用網"
+"路瀏覽器立即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含頁面"
+"導覽、搜尋欄等)。"
 
 #: ./en-md/schema.core.md:block 103 (paragraph)
 msgid ""
@@ -1643,6 +1835,9 @@ msgid ""
 "hosting source browser URL (e.g.: GitHub URL to the file). Prefer using open"
 " formats like PDF or ODT for maximum interoperability."
 msgstr ""
+"如果該註解只有文件版，請將文件直接瀏覽/下載連結放在此鍵中。您應該將該文件上傳"
+"至原始碼儲存庫中，然後加上該文件的程式碼託管平台連結(像是GitHub連結)。該文件"
+"格式請以PDF或ODT等開放格式為主，方便在各種平台上閱讀。"
 
 #: ./en-md/schema.core.md:block 104 (paragraph)
 msgid ""
@@ -1650,16 +1845,20 @@ msgid ""
 "files available under an open license, possibly by committing them as part "
 "of the repository itself."
 msgstr ""
+"不論註解採取什麼格式，請記得開放其原始檔案的授權，將原始檔案視為儲存庫的一部"
+"份。 the format for the documentation, remember to make its source files "
+"available under an open license, possibly by committing them as part of the "
+"repository itself."
 
 #: ./en-md/schema.core.md:block 105 (paragraph)
 msgid "#### Key [description/[lang]/apiDocumentation]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/apiDocumentation]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 107 (paragraph)
 msgid ""
 "This key contains a reference to the API documentation of the software. The "
 "value must be a URL to a hosted version of the documentation."
-msgstr ""
+msgstr "本鍵包含對軟體API註解的參照。本鍵的值必須是對託管版本的註解的連結。"
 
 #: ./en-md/schema.core.md:block 108 (paragraph)
 msgid ""
@@ -1669,10 +1868,14 @@ msgid ""
 "a navigation index, a search bar, etc.), and if there is a reference or test"
 " deployment, possibly offer an interactive interface (e.g. Swagger)."
 msgstr ""
+"建議該連結是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使用網"
+"路瀏覽器立即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含頁面"
+"導覽、搜尋欄等)。如果有參照或是測試部署，可以的話請提供互動式介面(像是Swagger"
+")。"
 
 #: ./en-md/schema.core.md:block 111 (paragraph)
 msgid "#### Key [description/[lang]/features]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/features]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 113 (paragraph)
 msgid ""
@@ -1683,35 +1886,39 @@ msgid ""
 "referring to implementation details, prefer listing user-visible "
 "functionalities of the software."
 msgstr ""
+"本鍵包含軟體功能列表，描述該軟體能提供的功能。本段文字的受眾應該是委託製作軟"
+"體的公共決策者，因此列出來的功能不應該以開發人員為目標，而是應該列出技術功能"
+"，像是執行詳細資訊等。請以使用者能看出的軟體功能為主。"
 
 #: ./en-md/schema.core.md:block 114 (paragraph)
 msgid ""
 "While the key is mandatory, there is no mandatory minimum or maximum number "
 "of features that should be listed in this key."
-msgstr ""
+msgstr "雖然本鍵是必要的，但沒有規定本鍵當中應該列出的功能數量上限與下限。"
 
 #: ./en-md/schema.core.md:block 115 (paragraph)
 msgid ""
 "The suggested number of features to list is between 5 and 20, depending on "
 "the software size and complexity. There is no need for exhaustiveness, as "
 "users can always read the documentation for additional information."
-msgstr ""
+msgstr "建議您根據軟體大小與複雜程度，列出5至20個功能。沒有必要列出所有功能，因為需要"
+"額外資訊的使用者可以自己看註解。"
 
 #: ./en-md/schema.core.md:block 116 (paragraph)
 msgid "#### Key [description/[lang]/screenshots]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/screenshots]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 117 (unordered list)
 msgid "Type: array of strings (paths)"
-msgstr ""
+msgstr "類型：各種strings(路徑)"
 
 #: ./en-md/schema.core.md:block 117 (unordered list)
 msgid "Formats: PNG, JPG"
-msgstr ""
+msgstr "格式：PNG、JPG"
 
 #: ./en-md/schema.core.md:block 117 (unordered list)
 msgid "Example: [\"data/screenshots/configuration.png\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"data/screenshots/configuration.png\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 118 (paragraph)
 msgid ""
@@ -1723,30 +1930,34 @@ msgid ""
 "reside inside the same repository where the [publiccode.yml]{.title-ref} "
 "file is stored."
 msgstr ""
+"本鍵包含軟體螢幕截圖檔案的一或多個路徑，這些截圖幫助使用者能迅速瞭解軟體的外"
+"觀與功能。鍵值可以是從儲存庫根目錄連結到檔案的相對路徑，也可以是截圖原始版本"
+"的絕對URL。不論如何，檔案必須存放在[publiccode.yml]{.title-"
+"ref}檔案所在的同一個儲存庫。"
 
 #: ./en-md/schema.core.md:block 119 (paragraph)
 msgid "Screenshots can be of any shape and size; the suggested formats are:"
-msgstr ""
+msgstr "螢幕截圖形狀與尺寸不限，但建議格式為："
 
 #: ./en-md/schema.core.md:block 120 (unordered list)
 msgid "Desktop: 1280x800 @1x"
-msgstr ""
+msgstr "桌上型電腦：1280x800 @1x"
 
 #: ./en-md/schema.core.md:block 120 (unordered list)
 msgid "Tablet: 1024x768 @2x"
-msgstr ""
+msgstr "平板：1024x768 @2x"
 
 #: ./en-md/schema.core.md:block 120 (unordered list)
 msgid "Mobile: 375x667 @2x"
-msgstr ""
+msgstr "手機：375x667 @2x"
 
 #: ./en-md/schema.core.md:block 121 (paragraph)
 msgid "#### Key [description/[lang]/videos]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/videos]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 122 (unordered list)
 msgid "Type: array of strings (URLs)"
-msgstr ""
+msgstr "類型：各種string(URL)"
 
 #: ./en-md/schema.core.md:block 122 (unordered list)
 msgid ""
@@ -1754,6 +1965,8 @@ msgid ""
 "[\"[https://youtube.com/xxxxxxxx\\](https://youtube.com/xxxxxxxx)\"]{.title-"
 "ref}"
 msgstr ""
+"範例：[\"[https://youtube.com/xxxxxxxx\\](https://youtube.com/xxxxxxxx"
+")\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 123 (paragraph)
 msgid ""
@@ -1763,32 +1976,35 @@ msgid ""
 "video sharing website that supports the [oEmbed](<<https://oembed.com>>) "
 "standard; popular options are YouTube and Vimeo."
 msgstr ""
+"本鍵包含解釋軟體運作方式的影片的一或多個URL。影片跟螢幕截圖一樣，應該能迅速讓"
+"使用者瞭解軟體的外觀與功能。影片必須託管在支援[oEmbed](<<https://oembed."
+"com>>)標準的影音分享網站，最常見的選項是YouTube與Vimeo。"
 
 #: ./en-md/schema.core.md:block 124 (paragraph)
 msgid ""
 "Since videos are an integral part of the documentation, it is recommended to"
 " publish them with an open license."
-msgstr ""
+msgstr "既然影片是註解不可或缺的內容，建議開放影片的授權。"
 
 #: ./en-md/schema.core.md:block 125 (paragraph)
 msgid "#### Key [description/[lang]/awards]{.title-ref}"
-msgstr ""
+msgstr "#### [description/[lang]/awards]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 127 (paragraph)
 msgid "A list of awards won by the software."
-msgstr ""
+msgstr "軟體獲獎清單。"
 
 #: ./en-md/schema.core.md:block 128 (paragraph)
 msgid "### Section [legal]{.title-ref}"
-msgstr ""
+msgstr "### [legal]{.title-ref}段落"
 
 #: ./en-md/schema.core.md:block 129 (paragraph)
 msgid "#### Key [legal/license]{.title-ref}"
-msgstr ""
+msgstr "#### [legal/license]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 130 (unordered list)
 msgid "Example: [\"AGPL-3.0-or-later\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"AGPL-3.0-or-later\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 131 (paragraph)
 msgid ""
@@ -1797,28 +2013,33 @@ msgid ""
 "multiple) open-source license. Please refer to the [SPDX "
 "documentation](<<https://spdx.org/licenses/>>) for further information."
 msgstr ""
+"本字串描述軟體散佈的授權。該字串必須包含有效的SPDX "
+"expression，參照一或多個開源授權。詳細資訊請參閱[SPDX文件](<<https://spdx."
+"org/licenses/>>)。"
 
 #: ./en-md/schema.core.md:block 132 (paragraph)
 msgid "#### Key [legal/mainCopyrightOwner]{.title-ref}"
-msgstr ""
+msgstr "#### [legal/mainCopyrightOwner]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 133 (unordered list)
 msgid "Example: [\"City of Amsterdam\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"City of Amsterdam\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 134 (paragraph)
 msgid ""
 "This string describes the entity that owns the copyright on \"most\" of the "
 "code in the repository. Normally, this is the line that is reported with the"
 " copyright symbol at the top of most files in the repo."
-msgstr ""
+msgstr "本鍵描述擁有儲存庫當中，「多數」程式碼著作權的實體。通常來說，本鍵是一行具有"
+"著作權標誌的文字，且會出現在儲存庫多數檔案的頁首。"
 
 #: ./en-md/schema.core.md:block 135 (paragraph)
 msgid ""
 "It is possible to list multiple owners if required so, using an English "
 "sentence. It is also possible to informally refer to a community of group of"
 " people like \"Linus Torvalds and all Linux contributors\"."
-msgstr ""
+msgstr "您可以在一句英文中列出多個著作權所有人，也可以列出一個社群，像是「Linus "
+"Torvalds以及所有Linux貢獻者」。"
 
 #: ./en-md/schema.core.md:block 136 (paragraph)
 msgid ""
@@ -1826,10 +2047,12 @@ msgid ""
 " omit this key; in those cases, if the repo has a authors file, you can "
 "point to it through [legal/authorsFile]{.title-ref}."
 msgstr ""
+"若無法列出主要的著作權所有人，則可刪除本鍵。在此情況下，若儲存庫有作者檔案，"
+"您可以透過[legal/authorsFile]{.title-ref}指向該檔案。"
 
 #: ./en-md/schema.core.md:block 137 (paragraph)
 msgid "#### Key [legal/repoOwner]{.title-ref}"
-msgstr ""
+msgstr "#### [legal/repoOwner]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 139 (paragraph)
 msgid ""
@@ -1839,14 +2062,17 @@ msgid ""
 "[repoOwner]{.title-ref} is probably different from the "
 "[mainCopyrightOwner]{.title-ref}."
 msgstr ""
+"本字串描述擁有本儲存庫的實體，可能是也可能不是程式碼本身的著作權所有人。舉例"
+"來說，在原始軟體的分支，[repoOwner]{.title-ref}跟[mainCopyrightOwner]{.title-"
+"ref}可能是不同實體。"
 
 #: ./en-md/schema.core.md:block 140 (paragraph)
 msgid "#### Key [legal/authorsFile]{.title-ref}"
-msgstr ""
+msgstr "#### [legal/authorsFile]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 141 (unordered list)
 msgid "Example: [\"doc/AUTHORS.txt\"]{.title-ref}"
-msgstr ""
+msgstr "範例：[\"doc/AUTHORS.txt\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 142 (paragraph)
 msgid ""
@@ -1857,96 +2083,105 @@ msgid ""
 " cases, this key can be used to refer to the authors file, using a path "
 "relative to the root of the repository."
 msgstr ""
+"有些開源軟體的做法，是將擁有其著作權的所有實體列在檔案中。這在由社群所支持的"
+"專案中相當常見，這些專案有許多外部貢獻者且沒有明確/主要著作權所有人。在此情況"
+"下，本鍵可透過儲存庫根目錄的相對路徑，參照作者檔案。"
 
 #: ./en-md/schema.core.md:block 143 (paragraph)
 msgid "### Section [maintenance]{.title-ref}"
-msgstr ""
+msgstr "### [maintenance]{.title-ref}段落"
 
 #: ./en-md/schema.core.md:block 144 (paragraph)
 msgid ""
 "This section provides information on the maintenance status of the software,"
 " useful to evaluate whether the software is actively developed or not."
-msgstr ""
+msgstr "本段落提供軟體維護狀態資訊，可用來判斷該軟體是否依舊定期維護。"
 
 #: ./en-md/schema.core.md:block 145 (paragraph)
 msgid "#### Key [maintenance/type]{.title-ref}"
-msgstr ""
+msgstr "#### [maintenance/type]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 146 (unordered list)
 msgid "Type: enumerate"
-msgstr ""
+msgstr "類型：列舉"
 
 #: ./en-md/schema.core.md:block 146 (unordered list)
 msgid ""
 "Values: [\"internal\"]{.title-ref}, [\"contract\"]{.title-ref}, "
 "[\"community\"]{.title-ref}, [\"none\"]{.title-ref}"
 msgstr ""
+"值：[\"internal\"]{.title-ref}, [\"contract\"]{.title-ref}, [\"community\""
+"]{.title-ref}, [\"none\"]{.title-ref}"
 
 #: ./en-md/schema.core.md:block 147 (paragraph)
 msgid "This key describes how the software is currently maintained."
-msgstr ""
+msgstr "本鍵描述軟體目前維護方式。"
 
 #: ./en-md/schema.core.md:block 148 (unordered list)
 msgid ""
 "[internal]{.title-ref} - means that the software is internally maintained by"
 " the repository owner;"
-msgstr ""
+msgstr "[internal]{.title-ref} - 軟體由儲存庫所有人從內部進行維護;"
 
 #: ./en-md/schema.core.md:block 148 (unordered list)
 msgid ""
 "[contract]{.title-ref} - means that there is a commercial contract that "
 "binds an entity to the maintenance of the software;"
-msgstr ""
+msgstr "[contract]{.title-ref} - 有與實體簽約，由該實體負責維護軟體;"
 
 #: ./en-md/schema.core.md:block 148 (unordered list)
 msgid ""
 "[community]{.title-ref} - means that the software is currently maintained by"
 " one or more people that donate their time to the project;"
-msgstr ""
+msgstr "[community]{.title-ref} - 軟體由一或多位專案志願者來維護;"
 
 #: ./en-md/schema.core.md:block 148 (unordered list)
 msgid ""
 "[none]{.title-ref} - means that the software is not actively maintained."
-msgstr ""
+msgstr "[none]{.title-ref} - 軟體沒有積極維護。"
 
 #: ./en-md/schema.core.md:block 149 (paragraph)
 msgid "#### Key [maintenance/contractors]{.title-ref}"
-msgstr ""
+msgstr "#### [maintenance/contractors]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 150 (unordered list)
 msgid "Type: array of Contractor (see below)"
-msgstr ""
+msgstr "類型：各種承包商(見下文)"
 
 #: ./en-md/schema.core.md:block 150 (unordered list)
 msgid ""
 "Presence: mandatory (if [maintenance/type]{.title-ref} **is** "
 "[contract]{.title-ref})"
-msgstr ""
+msgstr "是否必要：必要(如果[maintenance/type]{.title-ref}**就是**[contract]{.title-"
+"ref})"
 
 #: ./en-md/schema.core.md:block 151 (paragraph)
 msgid ""
 "This key describes the entity or entities, if any, that are currently "
 "contracted for maintaining the software. They can be companies, "
 "organizations, or other collective names."
-msgstr ""
+msgstr "本鍵描述目前簽約來維護軟體的實體(若有)，這些實體可以是公司、組織或是其他群體"
+"。"
 
 #: ./en-md/schema.core.md:block 152 (paragraph)
 msgid "#### Key [maintenance/contacts]{.title-ref}"
-msgstr ""
+msgstr "#### [maintenance/contacts]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 153 (unordered list)
 msgid "Type: List of Contacts (see below)"
-msgstr ""
+msgstr "類型：聯絡人列表(見下文)"
 
 #: ./en-md/schema.core.md:block 153 (unordered list)
 msgid ""
 "Presence: mandatory (if [maintenance/type]{.title-ref} **is** "
 "[internal]{.title-ref} or [community]{.title-ref})"
 msgstr ""
+"是否必要：必要(若[maintenance/type]{.title-ref} **就是** [internal]{.title-"
+"ref 或[community]{.title-ref})"
 
 #: ./en-md/schema.core.md:block 154 (paragraph)
 msgid "One or more contacts maintaining this software."
-msgstr ""
+msgstr "一或多位聯絡人負責維護本軟體。"
 
 #: ./en-md/schema.core.md:block 155 (paragraph)
 msgid ""
@@ -1956,6 +2191,8 @@ msgid ""
 "institution, it must be listed within the [affiliation]{.title-ref} of the "
 "contact."
 msgstr ""
+"本鍵描述目前負責維護軟體的技術人員。所有聯絡人都必須是真人，而非公司或組織。"
+"若有人代表一個機構，則必須在聯絡人[affiliation]{.title-ref}註明。"
 
 #: ./en-md/schema.core.md:block 156 (paragraph)
 msgid ""
@@ -1963,40 +2200,44 @@ msgid ""
 "the final entities actually contracted to deliver the maintenance. Do not "
 "specify the software owner unless it is technically involved with the "
 "maintenance of the product as well."
-msgstr ""
+msgstr "如果是簽署商業協議(或是多份商業協議)，請指明實際簽約來負責維護軟體的實體。除"
+"非有參與產品維護，否則請勿指明軟體所有人。"
 
 #: ./en-md/schema.core.md:block 157 (paragraph)
 msgid "### Section [localisation]{.title-ref}"
-msgstr ""
+msgstr "### [localisation]{.title-ref}段落"
 
 #: ./en-md/schema.core.md:block 158 (paragraph)
 msgid ""
 "This section provides an overview of the localization features of the "
 "software."
-msgstr ""
+msgstr "本段落提供軟體本地化功能概覽。"
 
 #: ./en-md/schema.core.md:block 159 (paragraph)
 msgid "#### Key [localisation/localisationReady]{.title-ref}"
-msgstr ""
+msgstr "#### [localisation/localisationReady]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 161 (paragraph)
 msgid ""
 "If [true]{.title-ref}, the software has infrastructure in place or is "
 "otherwise designed to be multilingual. It does not need to be available in "
 "more than one language."
-msgstr ""
+msgstr "如果本鍵為[true]{.title-"
+"ref}，代表軟體有多語言的架構或設計，因此不需要提供多語言版本。"
 
 #: ./en-md/schema.core.md:block 162 (paragraph)
 msgid "#### Key [localisation/availableLanguages]{.title-ref}"
-msgstr ""
+msgstr "#### [localisation/availableLanguages]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 163 (unordered list)
 msgid "Type: list of IETF BCP 47 language tags"
-msgstr ""
+msgstr "類型：IETF BCP 47語言標籤列表"
 
 #: ./en-md/schema.core.md:block 163 (unordered list)
 msgid "Example: [\"it\"]{.title-ref}, [\"en\"]{.title-ref}, [\"sl-IT-nedis\"]{.title-ref}"
 msgstr ""
+"範例：[\"it\"]{.title-ref}、[\"en\"]{.title-ref}、[\"sl-IT-nedis\"]{.title-"
+"ref}"
 
 #: ./en-md/schema.core.md:block 164 (paragraph)
 msgid ""
@@ -2005,16 +2246,18 @@ msgid ""
 "primary language subtag cannot be omitted, as mandated by the [BCP "
 "47](<<https://tools.ietf.org/html/bcp47>>)."
 msgstr ""
+"若有此鍵，代表該軟體的各語言版本列表。該列表至少會有一個語言。根據[BCP "
+"47](<<https://tools.ietf.org/html/bcp47>>)規定，不能刪除主要語言子標籤。"
 
 #: ./en-md/schema.core.md:block 165 (paragraph)
 msgid "### Section [dependsOn]{.title-ref}"
-msgstr ""
+msgstr "### [dependsOn]{.title-ref}段落"
 
 #: ./en-md/schema.core.md:block 166 (paragraph)
 msgid ""
 "This section provides an overview on the system-level dependencies required "
 "to install and use this software."
-msgstr ""
+msgstr "本段落提供安裝與使用本軟體時，所需的系統階層相依性概覽。"
 
 #: ./en-md/schema.core.md:block 167 (paragraph)
 msgid ""
@@ -2023,125 +2266,130 @@ msgid ""
 "dependencies that must be installed and maintained separately. For instance,"
 " a database is a good example of such dependencies."
 msgstr ""
+"**請注意：** 請勿列出原始碼的相依性(例如使用的軟體函式庫)，以安裝與維護軟體所"
+"需的執行時期和/或系統階層相依性為主。舉例來說，資料庫就是很好的相依性範例。"
 
 #: ./en-md/schema.core.md:block 168 (paragraph)
 msgid "#### Key [dependsOn/open]{.title-ref}"
-msgstr ""
+msgstr "#### [dependsOn/open]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 169 (unordered list)
 msgid "Type: array of [dependency]{.title-ref} (see below)"
-msgstr ""
+msgstr "類型：各種[dependency]{.title-ref}(見下文)"
 
 #: ./en-md/schema.core.md:block 170 (paragraph)
 msgid ""
 "This key contains a list of runtime dependencies that are distributed under "
 "an open-source license."
-msgstr ""
+msgstr "本鍵包含使用開源軟體授權發佈的執行時期相依性列表。"
 
 #: ./en-md/schema.core.md:block 171 (paragraph)
 msgid "#### Key [dependsOn/proprietary]{.title-ref}"
-msgstr ""
+msgstr "#### [dependsOn/proprietary]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 173 (paragraph)
 msgid ""
 "This key contains a list of runtime dependencies that are distributed under "
 "a proprietary license."
-msgstr ""
+msgstr "本鍵包含使用私有軟體授權發佈的執行時期相依性列表。"
 
 #: ./en-md/schema.core.md:block 174 (paragraph)
 msgid "#### Key [dependsOn/hardware]{.title-ref}"
-msgstr ""
+msgstr "#### [dependsOn/hardware]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 176 (paragraph)
 msgid ""
 "This key contains a list of hardware dependencies that must be owned to use "
 "the software."
-msgstr ""
+msgstr "本鍵包含使用軟體所需要的硬體相依性列表。"
 
 #: ./en-md/schema.core.md:block 177 (paragraph)
 msgid "## Special data formats"
-msgstr ""
+msgstr "## 特別資料格式"
 
 #: ./en-md/schema.core.md:block 178 (paragraph)
 msgid "### Dependency"
-msgstr ""
+msgstr "### 相依性"
 
 #: ./en-md/schema.core.md:block 179 (paragraph)
 msgid ""
 "A [dependency]{.title-ref} is a complex object. The properties are the "
 "following:"
-msgstr ""
+msgstr "[dependency]{.title-ref}是複雜的主題，並且具有以下屬性："
 
 #: ./en-md/schema.core.md:block 180 (unordered list)
 msgid ""
 "[name]{.title-ref} - **mandatory** - The name of the dependency (e.g. MySQL,"
 " NFC Reader)"
-msgstr ""
+msgstr "[name]{.title-ref} - **必要** - 相依性名稱(例如MySQL、NFC Reader)"
 
 #: ./en-md/schema.core.md:block 180 (unordered list)
 msgid "[versionMin]{.title-ref} - the first compatible version"
-msgstr ""
+msgstr "[versionMin]{.title-ref} - 第一個相容版本"
 
 #: ./en-md/schema.core.md:block 180 (unordered list)
 msgid "[versionMax]{.title-ref} - the latest compatible version"
-msgstr ""
+msgstr "[versionMax]{.title-ref} - 最新相容版本"
 
 #: ./en-md/schema.core.md:block 180 (unordered list)
 msgid ""
 "[version]{.title-ref} - the only major version for which the software is "
 "compatible. It assumes compatibility with all patches and bugfixes later "
 "applied to this version."
-msgstr ""
+msgstr "[version]{.title-ref} - "
+"軟體相容的唯一主要版本，並且能相容之後推出的所有修復與除錯更新。"
 
 #: ./en-md/schema.core.md:block 180 (unordered list)
 msgid ""
 "[optional]{.title-ref} - whether the dependency is optional or mandatory"
-msgstr ""
+msgstr "[optional]{.title-ref} - 相依性是否必要"
 
 #: ./en-md/schema.core.md:block 181 (paragraph)
 msgid "### Complex versioning"
-msgstr ""
+msgstr "### 複雜的版本控制"
 
 #: ./en-md/schema.core.md:block 182 (paragraph)
 msgid ""
 "It is of course possible to use the various keys to specify a complex "
 "compatibility matrix."
-msgstr ""
+msgstr "也可以使用其他鍵來指明複雜的相容性矩陣。"
 
 #: ./en-md/schema.core.md:block 183 (paragraph)
 msgid "*Ex. 1*"
-msgstr ""
+msgstr "*範例1*"
 
 #: ./en-md/schema.core.md:block 184 (paragraph)
+#, fuzzy
 msgid "``` yaml - name: PostgreSQL   version: \"3.2\"   optional: true``\\`"
-msgstr ""
+msgstr "``` yaml - name: PostgreSQL   version: \"3.2\"   optional: true``\\`"
 
 #: ./en-md/schema.core.md:block 185 (paragraph)
 msgid ""
 "This snippet marks an optional dependency on PostgreSQL exactly version 3.2."
-msgstr ""
+msgstr "這一段程式碼標示PostgreSQL 3.2版的選擇性相依性。"
 
 #: ./en-md/schema.core.md:block 186 (paragraph)
 msgid "*Ex. 2*"
-msgstr ""
+msgstr "*範例2*"
 
 #: ./en-md/schema.core.md:block 187 (paragraph)
+#, fuzzy
 msgid "``` yaml - name: MySQL   versionMin: \"1.1\"   versionMax: \"1.3\"``\\`"
-msgstr ""
+msgstr "``` yaml - name: MySQL   versionMin: \"1.1\"   versionMax: \"1.3\"``\\`"
 
 #: ./en-md/schema.core.md:block 188 (paragraph)
 msgid ""
 "This snippet marks a mandatory dependency on MySQL, allowing any version "
 "between 1.1 and 1.3."
-msgstr ""
+msgstr "這一段程式碼標示MySQL的必要相依性，可使用1.1至1.3之間的版本。"
 
 #: ./en-md/schema.core.md:block 189 (paragraph)
 msgid "### Contact"
-msgstr ""
+msgstr "### 聯絡人"
 
 #: ./en-md/schema.core.md:block 190 (paragraph)
 msgid "A Contact is an object with the following properties:"
-msgstr ""
+msgstr "聯絡人具有以下屬性："
 
 #: ./en-md/schema.core.md:block 191 (unordered list)
 msgid ""
@@ -2150,6 +2398,8 @@ msgid ""
 "key with generic contact information, company departments, associations, "
 "etc."
 msgstr ""
+"[name]{.title-ref} - **必要** - 本鍵包含技術聯絡人之一的全名。技術連絡人必須"
+"是真人，所以請勿將一般聯絡人資訊、公司部門或協會等資訊填入此鍵中。"
 
 #: ./en-md/schema.core.md:block 191 (unordered list)
 msgid ""
@@ -2161,12 +2411,16 @@ msgid ""
 "collection, use [x64]{.title-ref} to replace [@]{.title-ref}, as allowed by "
 "the YAML specification."
 msgstr ""
+"[email]{.title-ref} - 本鍵包含技術連絡人的電子郵件信箱，必須是能直接聯繫上該"
+"技術聯絡人的電子郵件信箱。請勿輸入<<[info@acme.inc](mailto:info@acme.inc)>>這"
+"樣的一般郵寄名單。電子郵件信箱必須清楚無誤。為了進一步預防電子郵件資料收集，"
+"請依照YAML規範，以[x64]{.title-ref}取代[@]{.title-ref}。"
 
 #: ./en-md/schema.core.md:block 191 (unordered list)
 msgid ""
 "[phone]{.title-ref} - phone number (with international prefix). This has to "
 "be a string."
-msgstr ""
+msgstr "[phone]{.title-ref} - 電話號碼(包含國際冠碼)。必須採用string 格式。"
 
 #: ./en-md/schema.core.md:block 191 (unordered list)
 msgid ""
@@ -2176,20 +2430,23 @@ msgid ""
 "maintainer entity. It can contain for instance a company name, an "
 "association name, etc."
 msgstr ""
+"[affiliation]{.title-ref} - 本鍵包含技術聯絡人的聯絡資訊。有多位維護人員時，"
+"可使用本鍵在每位技術聯絡人與維護人員之間建立關聯性。本鍵能包含公司名與機構名"
+"稱等。"
 
 #: ./en-md/schema.core.md:block 192 (paragraph)
 msgid "### Contractor"
-msgstr ""
+msgstr "### 承包商"
 
 #: ./en-md/schema.core.md:block 193 (paragraph)
 msgid "A Contractor is an object with the following properties:"
-msgstr ""
+msgstr "承包商具有以下屬性："
 
 #: ./en-md/schema.core.md:block 194 (unordered list)
 msgid ""
 "[name]{.title-ref} - **mandatory** - The name of the contractor, whether "
 "it's a company or a physical person."
-msgstr ""
+msgstr "[name]{.title-ref} - **必要** - 承包商姓名，可以是公司或是本人。"
 
 #: ./en-md/schema.core.md:block 194 (unordered list)
 msgid ""
@@ -2199,17 +2456,21 @@ msgid ""
 "future, and thus will need to be regularly updated as the community "
 "continues working on the project."
 msgstr ""
+"[until]{.title-ref} - **必要** - 這是日期(YYYY-MM-DD)。本鍵必須包含維護結束的"
+"日期。如果是由社群進行維護，本鍵的值不應該超過未來2年。因此隨著社群持續改善專"
+"案，也必須定期更新本鍵的值。"
 
 #: ./en-md/schema.core.md:block 194 (unordered list)
 msgid ""
 "[website]{.title-ref} - This key points to the maintainer website. It can "
 "either point to the main institutional website, or to a more project-"
 "specific page or website."
-msgstr ""
+msgstr "[website]{.title-ref} - "
+"本鍵指向維護人員網站，可以是該公司官網，或是與專案相關的網頁或網站。"
 
 #: ./en-md/schema.core.md:block 195 (paragraph)
 msgid "### Dates"
-msgstr ""
+msgstr "### 日期"
 
 #: ./en-md/schema.core.md:block 196 (paragraph)
 msgid ""
@@ -2217,173 +2478,178 @@ msgid ""
 "DD\", which is one of the ISO8601 allowed formats. This is the only allowed "
 "format though, so not the full ISO8601 is allowed for the date keys."
 msgstr ""
+"[publiccode.yml]{.title-ref}當中所有日期都必須採用\"YYYY-MM-DD\"格式，這也是I"
+"SO8601允許的格式之一。該格式是唯一允許的格式，所以並非所有ISO8601允許的格式都"
+"適用於日期鍵。"
 
 #: ./en-md/schema.core.md:block 197 (paragraph)
 msgid "### Encoding"
-msgstr ""
+msgstr "### 編碼"
 
 #: ./en-md/schema.core.md:block 198 (paragraph)
 msgid ""
 "[publiccode.yml]{.title-ref} **MUST** be a UTF-8 encoded and **SHOULD** be a"
 " YAML 1.2 document, using YAML 1.1 is *deprecated*."
 msgstr ""
+"[publiccode.yml]{.title-ref} **必須**採用UTF-8編碼，且**應該**採用YAML 1."
+"2文件格式，因為YAML 1.1格式*已棄用*。"
 
 #: ./en-md/schema.it.md:block 1 (paragraph)
 msgid "# Italy {#italian-sections}"
-msgstr ""
+msgstr "# 義大利 {#italian-sections}"
 
 #: ./en-md/schema.it.md:block 3 (paragraph)
 msgid "## Key [countryExtensionVersion]{.title-ref}"
-msgstr ""
+msgstr "## [countryExtensionVersion]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 6 (paragraph)
 msgid "## Key [conforme]{.title-ref}"
-msgstr ""
+msgstr "## [conforme]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 8 (paragraph)
 msgid "### Key [conforme/lineeGuidaDesign]{.title-ref}"
-msgstr ""
+msgstr "### [conforme/lineeGuidaDesign]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 11 (paragraph)
 msgid "### Key [conforme/modelloInteroperatibilita]{.title-ref}"
-msgstr ""
+msgstr "### [conforme/modelloInteroperatibilita]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 15 (paragraph)
 msgid "### Key [conforme/misureMinimeSicurezza]{.title-ref}"
-msgstr ""
+msgstr "### [conforme/misureMinimeSicurezza]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 18 (paragraph)
 msgid "### Key [conforme/gdpr]{.title-ref}"
-msgstr ""
+msgstr "### [conforme/gdpr]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 21 (paragraph)
 msgid "## Section [piattaforme]{.title-ref}"
-msgstr ""
+msgstr "## [piattaforme]{.title-ref}段落"
 
 #: ./en-md/schema.it.md:block 22 (paragraph)
 msgid "### Key [piattaforme/spid]{.title-ref}"
-msgstr ""
+msgstr "### [piattaforme/spid]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 25 (paragraph)
 msgid "### Key [piattaforme/cie]{.title-ref}"
-msgstr ""
+msgstr "### [piattaforme/cie]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 28 (paragraph)
 msgid "### Key [piattaforme/anpr]{.title-ref}"
-msgstr ""
+msgstr "### [piattaforme/anpr]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 31 (paragraph)
 msgid "### Key [piattafome/pagopa]{.title-ref}"
-msgstr ""
+msgstr "### [piattafome/pagopa]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 34 (paragraph)
 msgid "### Key [piattaforme/io]{.title-ref}"
-msgstr ""
+msgstr "### [piattaforme/io]{.title-ref}鍵"
 
 #: ./en-md/schema.it.md:block 37 (paragraph)
 msgid "## Section [riuso]{.title-ref}"
-msgstr ""
+msgstr "## [riuso]{.title-ref}段落"
 
 #: ./en-md/schema.it.md:block 39 (paragraph)
 msgid "### Chiave [riuso/codiceIPA]{.title-ref}"
-msgstr ""
+msgstr "### [riuso/codiceIPA]{.title-ref}註冊碼"
 
 #: ./en-md/scope-list.md:block 1 (paragraph)
 msgid "# Scope list"
-msgstr ""
+msgstr "# 範圍列表"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "agriculture"
-msgstr ""
+msgstr "農業"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "culture"
-msgstr ""
+msgstr "文化"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "defence"
-msgstr ""
+msgstr "國防"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "education"
-msgstr ""
+msgstr "教育"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "emergency-services"
-msgstr ""
+msgstr "緊急服務"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "employment"
-msgstr ""
+msgstr "就業"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "energy"
-msgstr ""
+msgstr "能源"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "environment"
-msgstr ""
+msgstr "環境"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "finance-and-economic-development"
-msgstr ""
+msgstr "金融與經濟發展"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "foreign-affairs"
-msgstr ""
+msgstr "外交事務"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "government"
-msgstr ""
+msgstr "政府"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "healthcare"
-msgstr ""
+msgstr "醫療保健"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "infrastructures"
-msgstr ""
+msgstr "基礎建設"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "justice"
-msgstr ""
+msgstr "法務"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "local-authorities"
-msgstr ""
+msgstr "地方當局"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "manufacturing"
-msgstr ""
+msgstr "製造"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "research"
-msgstr ""
+msgstr "研究"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "science-and-technology"
-msgstr ""
+msgstr "科技"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "security"
-msgstr ""
+msgstr "保全"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "society"
-msgstr ""
+msgstr "社會"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "sport"
-msgstr ""
+msgstr "運動"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "tourism"
-msgstr ""
+msgstr "旅遊"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "transportation"
-msgstr ""
+msgstr "交通"
 
 #: ./en-md/scope-list.md:block 4 (unordered list)
 msgid "welfare"
-msgstr ""
+msgstr "福利"
