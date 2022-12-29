@@ -26,7 +26,7 @@
 - 類型：布林
 - 是否必要：非必要
 
-如果程式碼包含此鍵並且為 ``true``，代表該軟體符合義大利無障礙法規(L. 4/2004)，詳細資訊請參閱 `linee guida di design <https://docs.italia.it/italia/designers-italia/design-linee-guida-docs>`__ (義大利文)。
+如果程式碼包含此鍵並且為 ``true``，代表該軟體符合義大利無障礙法規(L. 4/2004)，詳細資訊請參閱 `linee guida di design <https://docs.italia.it/italia/designers-italia/design-linee-guida-docs>`_ (義大利文)。
 
 鍵 ``conforme/modelloInteroperatibilita``
 ''''''''''''''''''''''''''''''''''''''''''
@@ -36,14 +36,14 @@
 
 If present and set to ``true``, the software is compliant with the `linee
 guida
-sull’interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`__.
+sull’interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`_.
 
-如果程式碼包含此鍵並且為 ``true``，代表該軟體符合 `linee guida sull'interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`__。
+如果程式碼包含此鍵並且為 ``true``，代表該軟體符合 `linee guida sull'interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`_。
 
 Regulatory reference: `Art. 73 del
-CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`__ (Italian language).
+CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`_ (Italian language).
 
-法規參考資料：`Art. 73 del CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`__ (義大利文)。
+法規參考資料：`Art. 73 del CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`_ (義大利文)。
 
 
 鍵 ``conforme/misureMinimeSicurezza``
@@ -52,7 +52,7 @@ CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-di
 - 類型：布林
 - 是否必要：非必要
 
-如果程式碼包含此鍵並且為 ``true``，代表該軟體符合 `Misure minime di sicurezza ICT per le Pubbliche amministrazioni <https://www.agid.gov.it/it/sicurezza/misure-minime-sicurezza-ict>`__ (義大利文)。
+如果程式碼包含此鍵並且為 ``true``，代表該軟體符合 `Misure minime di sicurezza ICT per le Pubbliche amministrazioni <https://www.agid.gov.it/it/sicurezza/misure-minime-sicurezza-ict>`_ (義大利文)。
 
 
 鍵 ``conforme/gdpr``
@@ -76,9 +76,9 @@ CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-di
 
 If present and set to ``true``, the software interfaces with `SPID
 - il Sistema Pubblico di Identità
-Digitale <https://developers.italia.it/it/spid>`__.
+Digitale <https://developers.italia.it/it/spid>`_.
 
-如果程式碼包含此鍵並且為 ``true``，代表該軟體配合 `SPID - il Sistema Pubblico di Identità Digitale <https://developers.italia.it/it/spid>`__。
+如果程式碼包含此鍵並且為 ``true``，代表該軟體配合 `SPID - il Sistema Pubblico di Identità Digitale <https://developers.italia.it/it/spid>`_。
 
 鍵 ``piattaforme/cie``
 '''''''''''''''''''''''
@@ -113,13 +113,13 @@ electronic ID card (``Carta di Identità Elettronica``).
 - 類型：布林
 - 是否必要：非必要
 
-如果程式碼包含此鍵並且為 ``true``，代表該軟體配合 `IO - 義大利公共服務應用程式 <https://io.italia.it/>`__。
+如果程式碼包含此鍵並且為 ``true``，代表該軟體配合 `IO - 義大利公共服務應用程式 <https://io.italia.it/>`_。
 
 
 段落 ``riuso``
 ~~~~~~~~~~~~~~~~~
 
-本段落包含與 `Developers Italia <https://developers.italia.it>`__ 重複利用目錄當中，軟體發行相關的多個鍵。
+本段落包含與 `Developers Italia <https://developers.italia.it>`_ 重複利用目錄當中，軟體發行相關的多個鍵。
 
 鍵 ``riuso/codiceIPA``
 ''''''''''''''''''''''''''

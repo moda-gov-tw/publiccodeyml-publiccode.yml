@@ -120,7 +120,7 @@ an author.
 -  值：遵循RFC 6838
 -  範例： ``"text/plain"``
 
-`RFC 6838 <https://tools.ietf.org/html/rfc6838>`__ 規定的媒體類型(MIME類型)，可被應用程式視為輸入來源。
+`RFC 6838 <https://tools.ietf.org/html/rfc6838>`_ 規定的媒體類型(MIME類型)，可被應用程式視為輸入來源。
 
 若軟體不支援任何輸入功能，您可以跳過此欄位或使用 ``application/x.empty``。
 
@@ -132,7 +132,7 @@ an author.
 -  值：遵循RFC 6838
 -  範例： ``"text/plain"``
 
-`RFC 6838 <https://tools.ietf.org/html/rfc6838>`__ 規定的媒體類型(MIME類型)，可被應用程式視為輸出來源。
+`RFC 6838 <https://tools.ietf.org/html/rfc6838>`_ 規定的媒體類型(MIME類型)，可被應用程式視為輸出來源。
 
 若軟體不支援任何輸出功能，您可以跳過此欄位或使用 ``application/x.empty``。
 
@@ -248,7 +248,7 @@ an author.
 
 本段落包含對軟體的一般描述。語法分析器可使用本段落來製作描述該軟體的網頁。
 
-**請注意：**由於本段落包含的所有string，都是使用者可見且採用特定語言，您**必須**新增一個小節並在當中指明您編輯文字所採取的語言(使用IETF `BCP 47 <https://tools.ietf.org/html/bcp47>`__ specifications)，該小節的名稱就是您所用的語言。依據BCP 47的規定，主要語言子標籤不可以刪除。
+**請注意：**由於本段落包含的所有string，都是使用者可見且採用特定語言，您**必須**新增一個小節並在當中指明您編輯文字所採取的語言(使用IETF `BCP 47 <https://tools.ietf.org/html/bcp47>`_ specifications)，該小節的名稱就是您所用的語言。依據BCP 47的規定，主要語言子標籤不可以刪除。
 
 以英文為例：
 
@@ -363,7 +363,7 @@ an author.
 -  是否必要：非必要
 -  範例： ``"https://youtube.com/xxxxxxxx"``
 
-本鍵包含解釋軟體運作方式的影片的一或多個URL。影片跟螢幕截圖一樣，應該能迅速讓使用者瞭解軟體的外觀與功能。影片必須託管在支援 `oEmbed <https://oembed.com>`__ 標準的影音分享網站，最常見的選項是YouTube與Vimeo。
+本鍵包含解釋軟體運作方式的影片的一或多個URL。影片跟螢幕截圖一樣，應該能迅速讓使用者瞭解軟體的外觀與功能。影片必須託管在支援 `oEmbed <https://oembed.com>`_ 標準的影音分享網站，最常見的選項是YouTube與Vimeo。
 
 既然影片是註解不可或缺的內容，建議開放影片的授權。
 
@@ -385,7 +385,7 @@ Section ``legal``
 -  是否必要：必要
 -  範例： ``"AGPL-3.0-or-later"``
 
-本字串描述軟體散佈的授權。該字串必須包含有效的SPDX expression，參照一或多個開源授權。詳細資訊請參閱 `SPDX documentation <https://spdx.org/licenses/>`__。
+本字串描述軟體散佈的授權。該字串必須包含有效的SPDX expression，參照一或多個開源授權。詳細資訊請參閱 `SPDX documentation <https://spdx.org/licenses/>`_。
 
 鍵 ``legal/mainCopyrightOwner``
 ''''''''''''''''''''''''''''''''
@@ -477,7 +477,7 @@ Section ``maintenance``
 -  是否必要：必要
 -  範例： ``"it"``, ``"en"``, ``"sl-IT-nedis"``
 
-若有此鍵，代表該軟體的各語言版本列表。該列表至少會有一個語言。根據 `BCP 47 <https://tools.ietf.org/html/bcp47>`__ 規定，不能刪除主要語言子標籤。
+若有此鍵，代表該軟體的各語言版本列表。該列表至少會有一個語言。根據 `BCP 47 <https://tools.ietf.org/html/bcp47>`_ 規定，不能刪除主要語言子標籤。
 
 ``dependsOn`` 段落
 ~~~~~~~~~~~~~~~~~~~~~

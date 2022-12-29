@@ -7,11 +7,11 @@
 
 All country-specific sections live under a key named after two-letter
 lowercase `ISO 3166-1 alpha-2 country
-codes <https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2>`__. For instance
+codes <https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_. For instance
 ``spid`` is a property for Italian software declaring whether the
 software is integrated with the Italian Public Identification System.
 
-特定國家的段落，都標示在以兩個小寫英文字母命名的鍵之下 `ISO 3166-1 alpha-2 國家代碼 <https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2>`__。舉例來說，``spid`` 就是義大利文軟體的屬性，顯示該軟體是否納入義大利公共身份識別系統中。
+特定國家的段落，都標示在以兩個小寫英文字母命名的鍵之下 `ISO 3166-1 alpha-2 國家代碼 <https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_。舉例來說，``spid`` 就是義大利文軟體的屬性，顯示該軟體是否納入義大利公共身份識別系統中。
 
 若軟體符合規定，就會有：
 
