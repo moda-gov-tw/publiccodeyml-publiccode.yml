@@ -1,111 +1,65 @@
 .. _forks-and-variants:
 
-Forks and variants
+分支與變種
 ==================
 
-As already cited before, a fork may have two different forms based on the final
-aim. As such, in order to make it clear how to handle the
-`publiccode.yml` in both cases, below we define two different
-semantics: technical forks and software variants.
+如前所述，分支會因為最終目標不同而有兩種不同形式。為了清楚解釋如何在兩種形式的分支下處理 ``publiccode.yml``，我們在下面定義兩個不同的語義：技術分支與軟體變種。
 
-Technical forks (i.e. to publish patches)
+技術分支 (也就是發布補丁)
 -----------------------------------------
 
-A technical fork is a fork made by a developer for the purpose of
-working on the original code base or sending improvements to the
-original authors, without any explicit goal of creating and publishing
-an alternative variant of the original software.
+開發人員為了改善原始代碼庫或是將改善的程式碼內容寄給原始作者，同時沒有開發與發佈原始軟體的替代變種的意圖時，此時開發人員製作的分支就是技術分支。
 
-In the context of distributed control systems and collaborative code
-hosting platforms like GitHub, forking is almost always used by
-developers as a step to work on a contribution on an existing codebase,
-by sending “pull requests”.
+在GitHub這些分散式控制系統與程式碼託管與協作平台上，開發人員都利用分支以及傳送合併請求，將他們的程式碼貢獻給現有代碼庫。
 
-Because of the way forking works on GitHub and other platforms,
-developers publish their forks as perfect copies of the original
-software, thus including also ``publiccode.yml``. However, parsers need
-to be able to distinguish such technical forks from the original
-codebase.
+有鑒於GitHub與其他平台上處理分支的方式，開發人員發佈其分支時，都標示為原始軟體的完整複製版，因此程式碼中也會包含 ``publiccode.yml``。然而，語法分析器需要能夠分辨技術分支與原始代碼庫。
 
-Parsers
+語法分析器
+~~~~~~~~~~~
+
+語法分析器 **應該**能夠注意到 ``url`` 鍵沒有指向包含 ``publiccode.yml`` 的儲存庫，藉此看出這是一個技術分支。
+
+語法分析器 **可能**也可以透過代碼託管平台的元資料(像是GitHub就會清楚標示分支)，分辨技術分支
+
+作者
 ~~~~~~~
 
-Parsers **SHOULD** identify a technical fork by noticing that the
-top-level ``url`` key does not point to the repository in which the
-``publiccode.yml`` is found.
+技術分支作者**不應**修改 ``publiccode.yml``。明確來說，他們**絕對不可**修改 **必須**持續指向原始儲存庫的 ``url`` 鍵。
 
-Parsers **MIGHT** identify a technical fork also through metadata that
-might be exposed by the code hosting platform (eg: GitHub marks forks
-explicitly as forks)
+我們目前沒有設定特定鍵來將分支標示為技術分支。這是刻意的設計決策，因為我們不要技術分支的作者知道 ``publiccode.yml`` 的存在以及如何進行修改。目前的設計不需要作者採取任何行動。
 
-Authors
-~~~~~~~
-
-Authors of technical forks **SHOULD NOT** modify ``publiccode.yml`` in
-any way. Specifically, they **MUST NOT** modify the top-level ``url``
-key that **MUST** continue pointing to the original repository.
-
-There is no explicit key to mark a fork as a technical fork. This is a
-conscious design decision because we do not want authors of technical
-forks to be aware of ``publiccode.yml`` and necessarily be aware of how
-to modify it. The current design does not require authors to do
-anything.
-
-Software variants
+軟體變種
 -----------------
 
-A software variant is a fork that is offered as an alternative to the
-original upstream software.
+軟體變種是一個分支，是原本上游軟體的替代版本。
 
-It contains modifications that are still not part of the upstream
-version, like more features, different dependencies, optimizations, etc.
+當中的修改內容尚未收錄在上游版本當中，像是更多功能、不同的相依性與優化等。
 
-By marking a fork as a variant, the author indicates that they believe
-that the variant includes a complete and working set of modifications
-that might be useful to other people.
+作者一旦將分支標示為變種，代表他們相信變種包含完善的修改內容，對他人可能有用。
 
-Marking a fork as a variant does **not** relate to the willingness of
-contributing upstream; the author might still plan to contribute the
-modifications upstream, or even being in the process of doing so. Thus,
-even if the fork will eventually be merged upstream, it might make sense
-to mark it as a variant during the process, so that others might
-discover it and benefit from it.
+將分支標示為變種，**不**關作者是否有意願將程式碼貢獻給上游軟體，但作者可能有此計畫，甚至已經在進行中。因此，雖然分支最終會與整併至上游軟體中，最好還是先將分支標示為變種，方便他人搜尋並且從中受益。
 
 .. _parsers-1:
 
-Parsers
-~~~~~~~
+語法分析器
+~~~~~~~~~~~
 
-Parsers **SHOULD** identify a variant by noticing that the top-level
-``url`` key matches to the repository in which the ``publiccode.yml`` is
-found, **AND** a top-level ``isBasedOn`` exists and points to a
-different repository.
+語法分析器**應該**能注意到 ``url`` 鍵與對應具有 ``publiccode.yml`` 的儲存庫，**而且**具有指向不同儲存庫的 ``isBasedOn`` 鍵，藉此分辨變種。
 
-Parsers should expect and analyze other differences in
-``publiccode.yml`` between variants of the software. Specifically
-``description/features`` is designed to be compared across variants to
-identify and show user-visible differences.
+語法分析器應該能分析軟體不同變種間，在 ``publiccode.yml`` 的差異。明確來說，``description/features`` 是用來在不同變種間作比較，藉此找出並且標示出使用者能看出的差異。
 
 .. _authors-1:
 
-Authors
+作者
 ~~~~~~~
 
-Authors that are willing to publish a fork as a variant **MUST** at
-least:
+願意將分支標示為變種並且發佈的作者至少**必須**：
 
--  add a key ``isBasedOn`` pointing to one or more upstream repositories
-   from which this variant is derived.
--  Change the value for ``url`` to point to the repository holding the
-   variant.
--  Change the value for ``legal/repoOwner`` to refer to the themselves
-   (the authors of the variant).
--  Revisit the ``maintenance`` section to refer to the maintenance
-   status of the variant.
+-  新增 ``isBasedOn`` 鍵，並且指向本變種源自的一或多個上游軟體。
+-  變更 ``url`` 的值，將其指向存放該變種的儲存庫。
+-  變更 ``legal/repoOwner`` 的值，加入對自己(變種作者本身)的參照。
+-  修改 ``maintenance`` 段落，加入對變種維護狀態的參照。
 
-Moreover, authors **SHOULD** evaluate the following changes:
+另外，作者**應該**評估以下變動：
 
--  add the features that differentiate the variant to the
-   ``description/features`` key. Existing features **SHOULD NOT** be
-   edited or removed from this list unless they have been removed from
-   the variant, to allow parsers to easily compare feature lists.
+-  加入讓人能分辨變種與 ``description/features`` 鍵的功能。現有功能**不應該**被編輯或移除，除非原本就從變種當中移除，這是要方便語法分析器比較功能列表。

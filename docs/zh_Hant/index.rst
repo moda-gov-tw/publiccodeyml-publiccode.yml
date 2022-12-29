@@ -1,43 +1,33 @@
 ``publiccode.yml``
 ==================
 
-``publiccode.yml`` is a metadata standard for repositories containing software
-developed or acquired by the Public Administration, aimed at making them easily
-discoverable and thus reusable by other entities.
+``publiccode.yml`` 是一個元資料標準，適用於包含由公共行政學院開發或購買的軟體的儲存庫，目標是要方便其他實體找到並且重複利用這些儲存庫。
 
-By including a ``publiccode.yml`` file in the root of a repository, and
-populating it with information about the software, technicians and civil
-servants can evaluate it. Automatic indexing tools can also be built, since the
-format is easily readable by both humans and machines.
+將 ``publiccode.yml`` 檔案加入儲存庫根目錄，並且在當中加入軟體相關資訊，技術人員與公務人員就能評估。由於人機都可輕鬆判讀此格式，因此也可建立自動索引工具。
 
-``publiccode.yml`` is mandatory for all public software developed in Italy,
-according to the national `guidelines
-<https://docs.italia.it/AgID/linee-guida-riuso-software/lg-acquisizione-e-riuso-software-per-pa-docs/>`__:
-this enables the Developers Italia crawler to build the national `software
-catalog <https://developers.italia.it/>`__. The standard is designed to be
-interoperable internationally, thus the country-specific keys are separated by
-the core part and are defined in specific sections that each government can
-rule.
+根據義大利國家`指引 <https://docs.italia.it/AgID/linee-guida-riuso-software/lg-acquisizione-e-riuso-software-per-pa-docs/>`__，在義大利開發的所有公共軟體都必須包含 publiccode.yml。這讓 Developers
+Italia 能夠利用爬蟲程式建立國家`軟體目錄 <https://developers.italia.it/>`__。此標準全球通用，因此特定國家的鍵不會放在標準的核心中，而是放在各國專屬的段落，並由各國政府決定。
 
-Details carried by a ``publiccode.yml`` file include: 
 
-- title and description of the project or product (in one or more languages); 
-- development state (e.g., ``concept``, ``development``, ``beta``, ``stable``, ``obsolete``; 
-- contacts of the entity who published the codebase; 
-- contacts of the maintainer, if any, including the expire date of the maintenance contract; 
-- information about the legal context for which the project or product was designed; 
-- dependencies
-  
-and much more.
+``publiccode.yml`` 檔案當中的詳細資訊包括：
 
-See also
+- 專案或產品的名稱與說明(一或多語言版本);
+- 開發狀態(例如 ``concept``、``development``、``beta``、``stable``、``obsolete``;
+- 發佈代碼庫的實體的聯絡人;
+- 維護人員(若有)的聯絡資訊，包括維護合約到期日;
+- 專案或產品設計時的法律背景資訊;
+- 相依性
+
+與其他。
+
+請參閱
 ----------
 
-- `More information about software reuse <https://developers.italia.it/en/reuse>`__
-- `publiccode.yml web editor
+- `更多有關重複利用軟體的資訊 <https://developers.italia.it/en/reuse>`__
+- `publiccode.yml 網路編輯器
   <https://publiccode-editor.developers.italia.it/>`__
 
-Table of contents
+目錄
 -----------------
 
 .. toctree:: 

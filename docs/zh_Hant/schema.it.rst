@@ -1,136 +1,131 @@
 .. _italian-sections:
 
-Italy
------
+義大利
+-------
 
-All the keys listed below are specific for Italy and, as such, they must
-be inserted in a section named with the ``it`` code. Every Country is specified
-using a two letters *country code* following the ISO 3166-1 alpha-2 standard.
+以下列出的鍵僅適用於義大利，因此只能插入在具有 ``it`` 的程式碼。每個*國家的代碼*都是兩個英文字母，並遵守ISO 3166-1二位字母代碼標準。
 
 
-Key ``countryExtensionVersion``
+鍵 ``countryExtensionVersion``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Type: string
-- Presence: mandatory
-- Value: ``"1.0"``
+- 類型：string
+- 是否必要：必要
+- 值：``"1.0"``
 
+此鍵**必須**隨時保持在 ``1.0``。
 
-This key **MUST** always be set to ``1.0``.
-
-Key ``conforme``
+``conforme``
 ~~~~~~~~~~~~~~~~
 
-This section contains the keys for auto-declaring the compliance with the
-current legislation, with respect to the following sections.
-Not including these keys implies that the compliance is not known or not
-declared.
+本章節包含用於宣告符合目前法規的鍵，這些鍵也同樣適用於之後的段落。沒有這些鍵，代表沒有符合法規或是沒有宣告合規。
 
-Key ``conforme/lineeGuidaDesign``
+鍵 ``conforme/lineeGuidaDesign``
 '''''''''''''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
-If present and set to ``true``, the software is compliant with the Italian accessibility
-laws (L. 4/2004), as further explained in the 
-`linee guida di
-design <https://docs.italia.it/italia/designers-italia/design-linee-guida-docs>`__ (Italian language).
+如果程式碼包含此鍵並且為 ``true``，代表該軟體符合義大利無障礙法規(L. 4/2004)，詳細資訊請參閱 `linee guida di design <https://docs.italia.it/italia/designers-italia/design-linee-guida-docs>`__ (義大利文)。
 
-Key ``conforme/modelloInteroperatibilita``
+鍵 ``conforme/modelloInteroperatibilita``
 ''''''''''''''''''''''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
 If present and set to ``true``, the software is compliant with the `linee
 guida
 sull’interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`__.
 
+如果程式碼包含此鍵並且為 ``true``，代表該軟體符合 `linee guida sull'interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`__。
+
 Regulatory reference: `Art. 73 del
 CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`__ (Italian language).
 
+法規參考資料：`Art. 73 del CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`__ (義大利文)。
 
-Key ``conforme/misureMinimeSicurezza``
+
+鍵 ``conforme/misureMinimeSicurezza``
 ''''''''''''''''''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
-If present and set to ``true``, the software is compliant with the `Misure
-minime di sicurezza ICT per le Pubbliche
-amministrazioni <https://www.agid.gov.it/it/sicurezza/misure-minime-sicurezza-ict>`__ (Italian language).
+如果程式碼包含此鍵並且為 ``true``，代表該軟體符合 `Misure minime di sicurezza ICT per le Pubbliche amministrazioni <https://www.agid.gov.it/it/sicurezza/misure-minime-sicurezza-ict>`__ (義大利文)。
 
 
-Key ``conforme/gdpr``
+鍵 ``conforme/gdpr``
 '''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
-If present and set to ``true``, the software respects the GDPR.
+如果程式碼包含此鍵並且為 ``true``，代表該軟體符合歐盟一般資料保護規範。
 
 
-Section ``piattaforme``
+段落 ``piattaforme``
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Key ``piattaforme/spid``
+鍵 ``piattaforme/spid``
 ''''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
 
 If present and set to ``true``, the software interfaces with `SPID
 - il Sistema Pubblico di Identità
 Digitale <https://developers.italia.it/it/spid>`__.
 
-Key ``piattaforme/cie``
+如果程式碼包含此鍵並且為 ``true``，代表該軟體配合 `SPID - il Sistema Pubblico di Identità Digitale <https://developers.italia.it/it/spid>`__。
+
+鍵 ``piattaforme/cie``
 '''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
 If present and set to ``true``, the software interfaces with the Italian
 electronic ID card (``Carta di Identità Elettronica``).
 
-Key ``piattaforme/anpr``
+如果程式碼包含此鍵並且為 ``true``，代表該軟體配合義大利電子身分證使用 (``Carta di Identità Elettronica``)。
+
+鍵 ``piattaforme/anpr``
 ''''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
-If present and set to ``true``, the software interfaces with ANPR.
+如果程式碼包含此鍵並且為 ``true``，代表該軟體配合ANPR。
 
-Key ``piattafome/pagopa``
+鍵 ``piattafome/pagopa``
 '''''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
-If present and set to ``true``, the software interfaces with pagoPA.
+如果程式碼包含此鍵並且為 ``true``，代表該軟體配合pagoPA。
 
-Key ``piattaforme/io``
+鍵 ``piattaforme/io``
 '''''''''''''''''''''''''
 
-- Type: boolean
-- Presence: optional
+- 類型：布林
+- 是否必要：非必要
 
-If present and set to ``true``, the software interfaces with `IO - the public services app <https://io.italia.it/>`__.
+如果程式碼包含此鍵並且為 ``true``，代表該軟體配合 `IO - 義大利公共服務應用程式 <https://io.italia.it/>`__。
 
 
-Section ``riuso``
+段落 ``riuso``
 ~~~~~~~~~~~~~~~~~
 
-This section contains a set of keys related to the publication of the software
-inside the reuse catalog of `Developers Italia <https://developers.italia.it>`__.
+本段落包含與 `Developers Italia <https://developers.italia.it>`__ 重複利用目錄當中，軟體發行相關的多個鍵。
 
-Chiave ``riuso/codiceIPA``
+鍵 ``riuso/codiceIPA``
 ''''''''''''''''''''''''''
 
--  Type: string (iPA code) 
--  Presence: mandatory if ``repoOwner`` is a Public Administration 
--  Example: ``c_h501``
+-  類型：string (iPA代碼)
+-  是否必要：若 ``repoOwner`` 為公共行政機關，則有必要
+-  範例：``c_h501``
 
-This key represents the administration code inside the Public Administration
-index (codice IPA).
+此鍵代表公共行政索引(codice IPA)當中的行政機關代碼。

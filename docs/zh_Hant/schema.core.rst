@@ -1,345 +1,256 @@
 .. _core:
 
-The Standard (core)
+標準(核心)
 ===================
 
-This document represents the description of the ``publiccode.yml``
-schema.
+本文件說明 ``publiccode.yml`` 的規範。
 
-Top-Level Keys and Sections
+Top-Level 鍵與段落
 ---------------------------
 
-Key ``publiccodeYmlVersion``
+鍵 ``publiccodeYmlVersion``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Type: string
--  Presence: mandatory
--  Example: ``"0.1"``
+-  類型： string
+-  是否必要：必要
+-  範例： ``"0.1"``
 
-This key specifies the version to which the current ``publiccode.yml``
-adheres to, for forward compatibility.
+此鍵代表目前 ``publiccode.yml`` 採用的軟體版本，方便判斷與舊系統的相容性。
 
-Key ``name``
+鍵 ``name``
 ~~~~~~~~~~~~
 
--  Type: string
--  Presence: mandatory
--  Example: ``"Medusa"``
+-  類型： string
+-  是否必要：必要
+-  範例： ``"Medusa"``
 
-This key contains the name of the software. It contains the (short)
-public name of the product, which can be localised in the specific
-``localisation`` section. It should be the name most people usually
-refer to the software. In case the software has both an internal “code”
-name and a commercial name, use the commercial name.
+此鍵包含軟體名稱，以及產品的公開名稱(短名)，該名稱可在特定國家 localisation 程式碼段落中本地化，並以最多人熟知的名稱為主。若軟體有公司內部用的代號跟對外販售的名稱，則以對外販售的名稱為主。
 
-Key ``applicationSuite``
+鍵 ``applicationSuite``
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Type: string
--  Presence: optional
--  Example: ``"MegaProductivitySuite"``
+-  類型： string
+-  是否必要：非必要
+-  範例： ``"MegaProductivitySuite"``
 
-This key contains the name of the “suite” to which the software belongs.
+此鍵包含收錄軟體的軟體套裝名稱。
 
-Key ``url``
+鍵 ``url``
 ~~~~~~~~~~~
 
--  Type: string (URL)
--  Presence: mandatory
--  Example: ``"https://example.com/italia/medusa.git"``
+-  類型： string (URL)
+-  是否必要：必要
+-  範例： ``"https://example.com/italia/medusa.git"``
 
-A unique identifier for this software. This string must be a URL to the
-source code repository (git, svn, …) in which the software is published.
-If the repository is available under multiple protocols, prefer
-HTTP/HTTPS URLs which don’t require user authentication.
+該軟體特有的識別符號。此字串必須是當初軟體發佈時，所在的原始碼儲存庫(git, svn, ...)連結。如果儲存庫採用多種協定，請以不需要使用者認證的HTTP/HTTPS連結為主。
 
-Forks created for the purpose of contributing upstream should not
-modify this file; this helps software parsing ``publiccode.yml`` to
-immediately skip technical forks. On the contrary, a
-complete fork that is meant to be maintained separately from the
-original software should modify this line, to give themselves the status
-of a different project.
+為了貢獻給上流軟體所建立的分支，不應該修改此檔案。這將有助於軟體分析 ``publiccode.yml``，立即跳過技術分支。反過來說，完整且應該與原始軟體獨立分開的分支，則應修改此段程式碼，才能取得不同專案的狀態。
 
 See :ref:`forks-and-variants` for a complete description of what
 is a software variant and how to handle forked software as a parser or
 an author.
 
-Key ``landingURL``
+請參閱 :ref:`forks-and-variants`，當中完整定義軟體變種，以及如何以分析人員或作者身份來處理分支軟體。
+
+鍵 ``landingURL``
 ~~~~~~~~~~~~~~~~~~
 
--  Type: string (URL)
--  Presence: optional
--  Example: ``"https://example.com/italia/medusa"``
+-  類型： string (URL)
+-  是否必要：非必要
+-  範例： ``"https://example.com/italia/medusa"``
 
-If the ``url`` parameter does not serve a human readable or browsable
-page, but only serves source code to a source control client, with this
-key you have an option to specify a landing page. This page, ideally, is
-where your users will land when they will click a button labeled
-something like “Go to the application source code”. In case the product
-provides an automated graphical installer, this URL can point to a page
-which contains a reference to the source code but also offers the
-download of such an installer.
+若 ``url`` 參數無法產生人類可讀或瀏覽的頁面，而只能提供原始碼給原始碼控制客戶端 。只要有鍵，您就能夠指定到達網頁。在理想狀況下，您的用戶在按下網站上類似「查看應用程式原始碼」的按鈕時，就會前往該網頁。如果產品提供自動化圖形介面安裝程式，此連結能夠連結一個提到原始碼但同時允許使用者下載安裝程式的網頁。
 
-Key ``isBasedOn``
+鍵 ``isBasedOn``
 ~~~~~~~~~~~~~~~~~
 
--  Type: string or array of strings
--  Presence: optional
--  Example: ``"https://github.com/italia/otello.git"``
+-  類型： string or各種string
+-  是否必要：非必要
+-  範例： ``"https://github.com/italia/otello.git"``
 
-In case this software is a variant or a fork of another software, which
-might or might not contain a ``publiccode.yml`` file, this key will
-contain the ``url`` of the original project(s).
+若本軟體為可能包含 ``publiccode.yml`` 檔案的軟體)的分支或變種，本鍵將包含原始專案的 ``url``。
 
-The existence of this key identifies the fork as a software
-variant, descending from the specified repositories.
+本鍵能判斷分支為來自特定儲存庫的軟體變種。
 
-Key ``softwareVersion``
+鍵 ``softwareVersion``
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  Type: string
--  Presence: optional
--  Example: ``"1.0"``, ``"dev"``
+-  類型： string
+-  是否必要：非必要
+-  範例： ``"1.0"``, ``"dev"``
 
-This key contains the latest stable version number of the software. The
-version number is a string that is not meant to be interpreted and
-parsed but just displayed; parsers should not assume semantic versioning
-or any other specific version format.
+本鍵包含軟體的最新且穩定的版本編號。版本編號是一個字串，不應該被解讀或分析，只應該被顯示出來。分析人員不應該認定版本編號有任何語意化命名方式或其他特定版本格式。
 
-The key can be omitted if the software is currently in initial
-development and has never been released yet.
+若軟體尚在初始開發階段，且還沒有發佈，則可忽略此鍵。
 
-Key ``releaseDate``
+鍵 ``releaseDate``
 ~~~~~~~~~~~~~~~~~~~
 
--  Type: string (date)
--  Presence: mandatory
--  Example: ``"2017-04-15"``
+-  類型： string (date)
+-  是否必要：必要
+-  範例： ``"2017-04-15"``
 
-This key contains the date at which the latest version was released.
-This date is mandatory if the software has been released at least once
-and thus the version number is present.
+本鍵包含最新軟體版本發佈時的日期。如果軟體已經被發佈過至少一次，因此有版本編號時，則必須要用此鍵標示該日期。
 
-Key ``logo``
+鍵 ``logo``
 ~~~~~~~~~~~~
 
--  Type: string (relative path to file or absolute URL)
--  Presence: optional
--  Acceptable formats: SVG, SVGZ, PNG
--  Example: ``"img/logo.svg"``
+-  類型： string (relative path to file or absolute URL)
+-  是否必要：非必要
+-  可接受格式： SVG, SVGZ, PNG
+-  範例： ``"img/logo.svg"``
 
-This key contains the path to the logo of the software. Logos should be
-in vector format; raster formats are only allowed as a fallback. In this
-case, they should be transparent PNGs, minimum 1000px of width.
-The key value can be the relative path to the file starting from the root of
-the repository, or it can be an absolute URL pointing to the logo in raw
-version. In both cases, the file must reside inside the same repository where
-the ``publiccode.yml`` file is stored.
+本鍵包含連結至軟體標誌的路徑。軟體標誌應該採用向量圖形格式，點陣圖版本只能當作備份。在此情況下，軟體標誌應該採用透明PNG圖，最低寬度為1000px。鍵值可以是從儲存庫根目錄前往該檔案的相對路徑，也可以是連結至標誌原始檔的連結。無論如何，標誌的檔案都必須存放在 ``publiccode.yml`` 檔案所在的同一個儲存庫。
 
-Key ``monochromeLogo`` (*deprecated*)
+鍵 ``monochromeLogo`` (*deprecated*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Type: string (path to file)
--  Presence: optional
--  Acceptable formats: SVG, SVGZ, PNG
--  Example: ``"img/logo-mono.svg"``
+-  類型： string (path to file)
+-  是否必要：非必要
+-  可接受格式： SVG, SVGZ, PNG
+-  範例： ``"img/logo-mono.svg"``
 
-A monochromatic (black) logo. The logo should be in vector format;
-raster formats are only allowed as a fallback. In this case, they should
-be transparent PNGs, minimum 1000px of width.
-The key value can be the relative path to the file starting from the root of
-the repository, or it can be an absolute URL pointing to the logo in raw
-version. In both cases, the file must reside inside the same repository where
-the ``publiccode.yml`` file is stored.
+單色(黑色)標誌。標誌應該採用向量圖形格式，點陣圖版本只能當作備份。在此情況下，軟體標誌應該採用透明PNG圖，最低寬度為1000px。鍵值可以是從儲存庫根目錄前往該檔案的相對路徑，也可以是連結至標誌原始檔的連結。無論如何，標誌的檔案都必須存放在 ``publiccode.yml`` 檔案所在的同一個儲存庫。
 
-Key ``inputTypes`` (*deprecated*)
+鍵 ``inputTypes`` (*deprecated*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Type: array of enumerated strings
--  Presence: optional
--  Values: as per RFC 6838
--  Example: ``"text/plain"``
+-  類型： 各種列舉的string
+-  是否必要：非必要
+-  值：遵循RFC 6838
+-  範例： ``"text/plain"``
 
-A list of Media Types (MIME Types) as mandated in `RFC
-6838 <https://tools.ietf.org/html/rfc6838>`__ which the application can
-handle as input.
+`RFC 6838 <https://tools.ietf.org/html/rfc6838>`__ 規定的媒體類型(MIME類型)，可被應用程式視為輸入來源。
 
-In case the software does not support any input, you can skip this field
-or use ``application/x.empty``.
+若軟體不支援任何輸入功能，您可以跳過此欄位或使用 ``application/x.empty``。
 
-Key ``outputTypes`` (*deprecated*)
+鍵 ``outputTypes`` (*deprecated*)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Type: array of enumerated strings
--  Presence: optional
--  Values: as per RFC 6838
--  Example: ``"text/plain"``
+-  類型： 各種列舉的string
+-  是否必要：非必要
+-  值：遵循RFC 6838
+-  範例： ``"text/plain"``
 
-A list of Media Types (MIME Types) as mandated in `RFC
-6838 <https://tools.ietf.org/html/rfc6838>`__ which the application can
-handle as output.
+`RFC 6838 <https://tools.ietf.org/html/rfc6838>`__ 規定的媒體類型(MIME類型)，可被應用程式視為輸出來源。
 
-In case the software does not support any output, you can skip this
-field or use ``application/x.empty``.
+若軟體不支援任何輸出功能，您可以跳過此欄位或使用 ``application/x.empty``。
 
-Key ``platforms``
+鍵 ``platforms``
 ~~~~~~~~~~~~~~~~~
 
--  Type: enumerated string or array of strings
--  Presence: mandatory
--  Values: ``web``, ``windows``, ``mac``, ``linux``, ``ios``,
-   ``android``. Human readable values outside this list are allowed.
--  Example: ``web``
+-  類型： enumerated string or各種string
+-  是否必要：必要
+-  值： ``web``, ``windows``, ``mac``, ``linux``, ``ios``,
+   ``android``。可使用不在本列表上但人類可讀的值。
+-  範例： ``web``
 
-This key specifies which platform the software runs on. It is meant to
-describe the platforms that users will use to access and operate the
-software, rather than the platform the software itself runs on.
+本鍵指明軟體運行的平台。本鍵是描述使用者為了使用該軟體而必須使用的平台，而非軟體本身運作時所在的平台。
 
-Use the predefined values if possible. If the software runs on a
-platform for which a predefined value is not available, a different
-value can be used.
+若可以，請以預定義值優先。如果軟體執行的平台沒有預定義值，則可使用不同的值。
 
-Key ``categories``
+鍵 ``categories``
 ~~~~~~~~~~~~~~~~~~
 
--  Type: array of strings
--  Presence: mandatory
--  Acceptable values: see :ref:`categories-list` 
+-  類型：各種string
+-  是否必要：必要
+-  可接受值：請參閱 :ref:`categories-list` 
 
-A list of words that can be used to describe the software and can help
-building catalogs of open software.
+能用於描述軟體並協助建立開源軟體目錄的字表。
 
-The controlled vocabulary :ref:`categories-list` contains the list of allowed
-values.
+受控字彙 :ref:`categories-list` 包含允許值列表。
 
-Key ``usedBy``
+鍵 ``usedBy``
 ~~~~~~~~~~~~~~
 
--  Type: array of strings
--  Presence: optional
+-  類型：各種string
+-  是否必要：非必要
 
-A list of the names of prominent public administrations (that will serve
-as “testimonials”) that are currently known to the software maintainer
-to be using this software.
+軟體維護人員知道有在使用軟體的主要公共行政機關名單(可視為推薦軟體的使用者)。
 
-Parsers are encouraged to enhance this list also with other information
-that can obtain independently; for instance, a fork of a software, owned
-by an administration, could be used as a signal of usage of the
-software.
+語法分析器也可將獨立取得的其他資訊加入該列表中。舉例來說，有行政管理機關擁有該軟體的分支，也可視為該軟體的用戶。
 
-Key ``roadmap``
+鍵 ``roadmap``
 ~~~~~~~~~~~~~~~
 
--  Type: string
--  Presence: optional
+-  類型： string
+-  是否必要：非必要
 
-A link to a public roadmap of the software.
+軟體公共路徑圖連結。
 
-Key ``developmentStatus``
+鍵 ``developmentStatus``
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Type: enumerated string
--  Presence: mandatory
+-  類型： enumerated string
+-  是否必要：必要
 -  Allowed values: ``concept``, ``development``, ``beta``, ``stable``,
    ``obsolete``
 
-The keys are: 
+這些鍵包括：
 
--  ``concept`` - The software is just a “concept”. No
-   actual code may have been produced, and the repository could simply be a
-   placeholder. 
--  ``development`` - Some effort has gone into the
-   development of the software, but the code is not ready for the end user,
-   even in a preliminary version (beta or alpha) to be tested by end users.
--  ``beta`` - The software is in the testing phase (alpha or beta). At
-   this stage, the software might or might not have had a preliminary
-   public release. 
--  ``stable`` - The software has seen a first public
-   release and is ready to be used in a production environment.
--  ``obsolete`` - The software is no longer maintained or kept up to date.
-   All of the source code is archived and kept for historical reasons.
+-  ``concept`` - 軟體只是一個「概念」，目前沒有編寫任何程式碼，儲存庫也只是預留位置。
+-  ``development`` - 已經為開發該軟體投注了心力，但是程式碼還不到能讓終端使用者使用的階段，甚至無法推出預覽或測試版本供終端使用者測試。
+-  ``beta`` - 軟體正在進行測試的階段(預覽或測試版)。在這個階段，軟體可能已經也可能尚未有公開發行。
+-  ``stable`` - 軟體已經公開發佈，並且準備好用於生產環境中。
+-  ``obsolete`` - 軟體已經停止維護或更新。所有原始碼都已經封存為歷史紀錄檔案。
 
-Key ``softwareType``
+鍵 ``softwareType``
 ~~~~~~~~~~~~~~~~~~~~
 
--  Type: enumerated string
--  Presence: mandatory
+-  類型： enumerated string
+-  是否必要：必要
 -  Allowed values: ``"standalone/mobile"``, ``"standalone/iot"``,
    ``"standalone/desktop"``, ``"standalone/web"``, ``"standalone/backend"``,
    ``"standalone/other"``, ``"addon"``, ``"library"``, ``"configurationFiles"``
 
-The keys are:
+這些鍵包括：
 
--  ``standalone/mobile`` - The software is a standalone, self-contained
-   The software is a native mobile app.
--  ``standalone/iot`` - The software is suitable for an IoT context.
--  ``standalone/desktop`` - The software is typically installed and run in a  
-   a desktop operating system environment.
--  ``standalone/web`` - The software represents a web application usable by
-   means of a browser. 
--  ``standalone/backend`` - The software is a backend application.
--  ``standalone/other`` - The software has a different nature from the once
-   listed above.  
--  ``softwareAddon`` - The software is an addon, such as a plugin or a
-   theme, for a more complex software (e.g. a CMS or an office suite).
--  ``library`` - The software contains a library or an SDK to make it
-   easier to third party developers to create new products.
--  ``configurationFiles`` - The software does not contain executable
-   script but a set of configuration files. They may document how to
-   obtain a certain deployment. They could be in the form of plain
-   configuration files, bash scripts, ansible playbooks, Dockerfiles, or
-   other instruction sets.
+-  ``standalone/mobile`` - 軟體為單機獨立軟體。軟體為原生行動應用程式。
+-  ``standalone/iot`` - 軟體適合物聯網情境。
+-  ``standalone/desktop`` - 軟體通常安裝在桌上型電腦作業系統環境中執行。
+-  ``standalone/web`` - 軟體代表可透過瀏覽器使用的網路應用程式。
+-  ``standalone/backend`` - 軟體為後端應用程式。
+-  ``standalone/other`` - 軟體性質與前一個不同。
+-  ``softwareAddon`` - 軟體屬於更複雜的軟體(例如CMW或辦公室套裝軟體)的附加軟體，像是插件或主題。
+-  ``library`` - 軟體包含函式庫或是SDK，讓第三方開發人員更容易設計新產品。
+-  ``configurationFiles`` - 軟體沒有可執行的文本，只有一組配置檔案。這些檔案可能紀錄特定部署方式。這樣檔案可能是簡單的配置檔案、bash scripts、sensible playbooks、Dockerfiles或其他指令集。
 
-Section ``intendedAudience``
+``intendedAudience`` 段落
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Key ``intendedAudience/countries``
+鍵 ``intendedAudience/countries``
 ''''''''''''''''''''''''''''''''''
 
--  Type: array of strings
--  Presence: optional
+-  類型：各種string
+-  是否必要：非必要
 
-This key explicitly includes certain countries in the intended audience,
-i.e. the software explicitly claims compliance with specific processes,
-technologies or laws. All countries are specified using lowercase ISO
-3166-1 alpha-2 two-letter country codes.
+本鍵明確地將某些國家列入其目標受眾。換句話說，該軟體明確表示遵守特定流程、科技或法律。所有國家都以ISO3166-1二位字母代碼表示。
 
-Key ``intendedAudience/unsupportedCountries``
+鍵 ``intendedAudience/unsupportedCountries``
 '''''''''''''''''''''''''''''''''''''''''''''
 
--  Type: array of strings
--  Presence: optional
+-  類型：各種string
+-  是否必要：非必要
 
-This key explicitly marks countries as NOT supported. This might be the
-case if there is a conflict between how software is working and a
-specific law, process or technology. All countries are specified using
-lowercase ISO 3166-1 alpha-2 two-letter country codes.
+本鍵明確標示不支援的國家。原因可能是因為該軟體運作方式，與該國特定法規、流程或科技有所衝突。所有國家都以ISO3166-1二位字母代碼表示。
 
-Key ``intendedAudience/scope``
+鍵 ``intendedAudience/scope``
 ''''''''''''''''''''''''''''''
 
--  Type: array of strings
--  Presence: optional
--  Acceptable values: see :ref:`scope-list` 
+-  類型：各種string
+-  是否必要：非必要
+-  可接受值：請參閱 :ref:`scope-list` 
 
-This key contains a list of tags related to the field of application of
-the software. 
+本鍵包含與軟體應用領域相關的標籤列表。
 
-Section ``description``
+``description`` 段落
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-This section contains a general description of the software. Parsers can
-use this section for instance to create a web page describing the
-software.
+本段落包含對軟體的一般描述。語法分析器可使用本段落來製作描述該軟體的網頁。
 
-**Note:** since all the strings contained in this section are
-user-visible and written in a specific language, you **must** specify
-the language you are editing the text in (using the IETF 
-`BCP 47 <https://tools.ietf.org/html/bcp47>`__ specifications) by
-creating a sub-section with that name. The primary language subtag cannot be
-omitted, as mandated by the BCP 47.  
+**請注意：**由於本段落包含的所有string，都是使用者可見且採用特定語言，您**必須**新增一個小節並在當中指明您編輯文字所採取的語言(使用IETF `BCP 47 <https://tools.ietf.org/html/bcp47>`__ specifications)，該小節的名稱就是您所用的語言。依據BCP 47的規定，主要語言子標籤不可以刪除。
 
-An example for English:
+以英文為例：
 
 .. code:: yaml 
 
@@ -348,388 +259,275 @@ An example for English:
        shortDescription: ...
        longDescription: ...
 
-In the following part of the document, all keys are assumed to be in a
-sub-section with the name of the language (we will note this with
-``[lang]``).
+在之後的章節，所有鍵都假定位於以語言為名的小節中(以 ``[lang]`` 表示)。
 
-**Note:** it is mandatory to have *at least* one language in this
-section. All other languages are optional.
+**請注意：**本段落中*至少*要有一個語言，其他語言為選擇性。
 
-Key ``description/[lang]/localisedName``
+鍵 ``description/[lang]/localisedName``
 ''''''''''''''''''''''''''''''''''''''''
 
--  Type: string
--  Presence: optional
--  Example: ``"Medusa"``
+-  類型： string
+-  是否必要：非必要
+-  範例： ``"Medusa"``
 
-This key is an opportunity to localise the name in a specific language.
-It contains the (short) public name of the product. It should be the
-name most people usually refer to the software. In case the software has
-both an internal “code” name and a commercial name, use the commercial
-name.
+本鍵代表將名稱翻譯成特定語言的機會。當中包含產品的公開名稱與短名，這名稱也應該是多數消費者稱呼該軟體的名字。若該軟體有公司內部的代號以及上市的名稱，請以上市名稱為主。
 
-Key ``description/[lang]/genericName`` (*deprecated*)
+鍵 ``description/[lang]/genericName`` (*deprecated*)
 '''''''''''''''''''''''''''''''''''''''''''''''''''''
 
--  Type: string (max 35 chars)
--  Presence: optional
--  Example: ``"Text Editor"``
+-  類型：string (最多35個字符)
+-  是否必要：非必要
+-  範例： ``"Text Editor"``
 
-This key is the “Generic name”, which refers to the specific category to
-which the software belongs. You can usually find the generic name in the
-presentation of the software, when you write: “Software xxx is a yyy”.
-Notable examples include “Text Editor”, “Word Processor”, “Web Browser”,
-“Chat” and so on… The generic name can be up to 35 characters long.
+本鍵為「通用名稱」，也就是軟體所屬的特定類別。您通常可在軟體的簡報發表會上看到軟體的通用名稱，通常都會看到「xxx軟體是yyy」。比較常見的範例包括"文字編輯器"、"文書處理器"、"網路瀏覽器"與"聊天室"等。通用名稱最多可有35個字符。
 
-Key ``description/[lang]/shortDescription``
+鍵 ``description/[lang]/shortDescription``
 '''''''''''''''''''''''''''''''''''''''''''
 
--  Type: string (max 150 chars)
--  Presence: mandatory
--  Example: ``"Advanced booking system for hospitals"``
+-  類型： string(最多150個字符)
+-  是否必要：必要
+-  範例： ``"Advanced booking system for hospitals"``
 
-This key contains a short description of the software. It should be a
-single line containing a single sentence. Maximum 150 characters are
-allowed.
+本鍵包含對軟體的簡短描述，內容應該是包含一句話的一行程式碼，上限為150個字符。
 
-Key ``description/[lang]/longDescription``
+鍵 ``description/[lang]/longDescription``
 ''''''''''''''''''''''''''''''''''''''''''
 
--  Type: string (min 150 chars, max 10000 chars)
--  Presence: mandatory (for at least one language)
+-  類型： string(最少150個字符，最多10000個字符)
+-  是否必要：必要 (至少對一個語言來說)
 
-This key contains a longer description of the software, between 150 and
-10000 chars. It is meant to provide an overview of the capabilities of
-the software for a potential user. The audience for this text should be
-that of users of the software, not developers. You can think of this
-text as the description of the software that would be in its website (if
-the software had one).
+本鍵包含對軟體較長的描述，長度介於150與10,000個字符之間。本鍵旨在為潛在用戶提供軟體功能的概覽。本段文字的受眾應該是軟體用戶，而非開發人員。您可將本段文字視為應該放在軟體官網上(若有)用來描述軟體的文字。
 
-This description can contain some basic markdown: ``*italic*``,
-``**bold**``, bullet points and ``[links](#)``.
+本敘述可包含一些基本的 markdown： ``*italic*``、``**bold**``、項目符號與 ``[links](#)``。
 
-Key ``description/[lang]/documentation``
+鍵 ``description/[lang]/documentation``
 ''''''''''''''''''''''''''''''''''''''''
 
--  Type: URL
--  Presence: optional
+-  類型： URL
+-  是否必要：非必要
 
-This key contains a reference to the user-level (not developer-level)
-documentation of the software. The value must be a URL to a hosted
-version of the documentation.
+本鍵提到軟體使用者階層(非開發人員階層)註解。本鍵的值必須是該註解託管版本的連結。
 
-It is suggested that the URL points to a hosted version of the
-documentation that is immediately readable through a common web browser
-in both desktop and mobile format. The documentation should be rendered
-in HTML and browsable like a website (with a navigation index, a search
-bar, etc.).
+建議該連結是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使用網路瀏覽器立即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含頁面導覽、搜尋欄等)。
 
-If the documentation is instead available only as a document, put a
-direct view/download link as URL in this key. You should commit the
-document as part of the source code repository, and then link to it
-using the code hosting source browser URL (e.g.: GitHub URL to the file).
-Prefer using open formats like PDF or ODT for maximum interoperability.
+如果該註解只有文件版，請將文件直接瀏覽/下載連結放在此鍵中。您應該將該文件上傳至原始碼儲存庫中，然後加上該文件的程式碼託管平台連結(像是GitHub連結)。該文件格式請以PDF或ODT等開放格式為主，方便在各種平台上閱讀。
 
-Whichever the format for the documentation, remember to make its source
-files available under an open license, possibly by committing them as
-part of the repository itself.
+不論註解採取什麼格式，請記得開放其原始檔案的授權，將原始檔案視為儲存庫的一部份。
 
-Key ``description/[lang]/apiDocumentation``
+鍵 ``description/[lang]/apiDocumentation``
 '''''''''''''''''''''''''''''''''''''''''''
 
--  Type: URL
--  Presence: optional
+-  類型： URL
+-  是否必要：非必要
 
-This key contains a reference to the API documentation of the software.
-The value must be a URL to a hosted version of the documentation.
+本鍵包含對軟體API註解的參照。本鍵的值必須是對託管版本的註解的連結。
 
-It is suggested that the URL points to a hosted version of the
-documentation that is immediately readable through a common web browser.
-The documentation should be rendered in HTML and browsable like a
-website (with a navigation index, a search bar, etc.), and if there is a
-reference or test deployment, possibly offer an interactive interface
-(e.g. Swagger).
+建議該連結是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使用網路瀏覽器立即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含頁面導覽、搜尋欄等)。如果有參照或是測試部署，可以的話請提供互動式介面(像是Swagger)。
 
-If the documentation is instead available only as a document, put a
-direct view/download link as URL in this key. You should commit the
-document as part of the source code repository, and then link to it
-using the code hosting source browser URL (e.g.: GitHub URL to the file).
-Prefer using open formats like PDF or ODT for maximum interoperability.
+如果該註解只有文件版，請將文件直接瀏覽/下載連結放在此鍵中。您應該將該文件上傳至原始碼儲存庫中，然後加上該文件的程式碼託管平台連結(像是GitHub連結)。該文件格式請以PDF或ODT等開放格式為主，方便在各種平台上閱讀。
 
-Whichever the format for the documentation, remember to make its source
-files available under an open license, possibly by committing them as
-part of the repository itself.
+不論註解採取什麼格式，請記得開放其原始檔案的授權，將原始檔案視為儲存庫的一部份。
 
-Key ``description/[lang]/features``
+鍵 ``description/[lang]/features``
 '''''''''''''''''''''''''''''''''''
 
--  Type: array of strings
--  Presence: mandatory (for at least one language)
+-  類型：各種string
+-  是否必要：必要 (至少對一個語言來說)
 
-This key contains a list of software features, describing what
-capabilities the software allows to do. The audience for this text
-should be that of public decision makers who will be commissioning the
-software. The features should thus not target developers; instead of
-listing technical features referring to implementation details, prefer
-listing user-visible functionalities of the software.
+本鍵包含軟體功能列表，描述該軟體能提供的功能。本段文字的受眾應該是委託製作軟體的公共決策者，因此列出來的功能不應該以開發人員為目標，而是應該列出技術功能，像是執行詳細資訊等。請以使用者能看出的軟體功能為主。
 
-While the key is mandatory, there is no mandatory minimum or maximum
-number of features that should be listed in this key.
+雖然本鍵是必要的，但沒有規定本鍵當中應該列出的功能數量上限與下限。
 
-The suggested number of features to list is between 5 and 20, depending
-on the software size and complexity. There is no need for
-exhaustiveness, as users can always read the documentation for
-additional information.
+建議您根據軟體大小與複雜程度，列出5至20個功能。沒有必要列出所有功能，因為需要額外資訊的使用者可以自己看註解。
 
-Key ``description/[lang]/screenshots``
+鍵 ``description/[lang]/screenshots``
 ''''''''''''''''''''''''''''''''''''''
 
--  Type: array of strings (paths)
--  Presence: optional
+-  類型：各種string (paths)
+-  是否必要：非必要
 -  Formats: PNG, JPG
--  Example: ``"data/screenshots/configuration.png"``
+-  範例： ``"data/screenshots/configuration.png"``
 
-This key contains one or multiple paths to files showing screenshots of
-the software. They are meant to give a quick idea on how the software
-looks like and how it works.
-The key value can be the relative path to the file starting from the root of
-the repository, or it can be an absolute URL pointing to the screenshot in raw
-version. In both cases, the file must reside inside the same repository where
-the ``publiccode.yml`` file is stored.
+本鍵包含軟體螢幕截圖檔案的一或多個路徑，這些截圖幫助使用者能迅速瞭解軟體的外觀與功能。鍵值可以是從儲存庫根目錄連結到檔案的相對路徑，也可以是截圖原始版本的絕對URL。不論如何，檔案必須存放在 ``publiccode.yml``檔案所在的同一個儲存庫。
 
-Screenshots can be of any shape and size; the suggested formats are:
+螢幕截圖形狀與尺寸不限，但建議格式為：
 
 -  Desktop: 1280x800 @1x
 -  Tablet: 1024x768 @2x
 -  Mobile: 375x667 @2x
 
-Key ``description/[lang]/videos``
+鍵 ``description/[lang]/videos``
 '''''''''''''''''''''''''''''''''
 
--  Type: array of strings (URLs)
--  Presence: optional
--  Example: ``"https://youtube.com/xxxxxxxx"``
+-  類型：各種string (URLs)
+-  是否必要：非必要
+-  範例： ``"https://youtube.com/xxxxxxxx"``
 
-This key contains one or multiple URLs of videos showing how the
-software works. Like screenshots, videos should be used to give a quick
-overview on how the software looks like and how it works. Videos must be
-hosted on a video sharing website that supports the
-`oEmbed <https://oembed.com>`__ standard; popular options are YouTube
-and Vimeo.
+本鍵包含解釋軟體運作方式的影片的一或多個URL。影片跟螢幕截圖一樣，應該能迅速讓使用者瞭解軟體的外觀與功能。影片必須託管在支援 `oEmbed <https://oembed.com>`__ 標準的影音分享網站，最常見的選項是YouTube與Vimeo。
 
-Since videos are an integral part of the documentation, it is
-recommended to publish them with an open license.
+既然影片是註解不可或缺的內容，建議開放影片的授權。
 
-Key ``description/[lang]/awards``
+鍵 ``description/[lang]/awards``
 '''''''''''''''''''''''''''''''''
 
--  Type: array of strings
--  Presence: optional
+-  類型：各種string
+-  是否必要：非必要
 
-A list of awards won by the software.
+軟體獲獎清單。
 
 Section ``legal``
 ~~~~~~~~~~~~~~~~~
 
-Key ``legal/license``
-'''''''''''''''''''''
+``legal/license`` 段落
+''''''''''''''''''''''''
 
--  Type: string
--  Presence: mandatory
--  Example: ``"AGPL-3.0-or-later"``
+-  類型： string
+-  是否必要：必要
+-  範例： ``"AGPL-3.0-or-later"``
 
-This string describes the license under which the software is
-distributed. The string must contain a valid SPDX expression, referring
-to one (or multiple) open-source license. Please refer to the `SPDX
-documentation <https://spdx.org/licenses/>`__ for further information.
+本字串描述軟體散佈的授權。該字串必須包含有效的SPDX expression，參照一或多個開源授權。詳細資訊請參閱 `SPDX documentation <https://spdx.org/licenses/>`__。
 
-Key ``legal/mainCopyrightOwner``
+鍵 ``legal/mainCopyrightOwner``
 ''''''''''''''''''''''''''''''''
 
--  Type: string
--  Presence: optional
--  Example: ``"City of Amsterdam"``
+-  類型： string
+-  是否必要：非必要
+-  範例： ``"City of Amsterdam"``
 
-This string describes the entity that owns the copyright on “most” of
-the code in the repository. Normally, this is the line that is reported
-with the copyright symbol at the top of most files in the repo.
+本鍵描述擁有儲存庫當中，「多數」程式碼著作權的實體。通常來說，本鍵是一行具有著作權標誌的文字，且會出現在儲存庫多數檔案的頁首。
 
-It is possible to list multiple owners if required so, using an English
-sentence. It is also possible to informally refer to a community of
-group of people like “Linus Torvalds and all Linux contributors”.
+您可以在一句英文中列出多個著作權所有人，也可以列出一個社群，像是「Linus Torvalds以及所有Linux貢獻者」。
 
-In case it is not possible to name a main copyright owner, it is
-possible to omit this key; in those cases, if the repo has a authors
-file, you can point to it through ``legal/authorsFile``.
+若無法列出主要的著作權所有人，則可刪除本鍵。在此情況下，若儲存庫有作者檔案，您可以透過 ``legal/authorsFile`` 指向該檔案。
 
-Key ``legal/repoOwner``
+鍵 ``legal/repoOwner``
 '''''''''''''''''''''''
 
--  Type: string
--  Presence: optional
--  Example: ``"City of Amsterdam"``
+-  類型： string
+-  是否必要：非必要
+-  範例： ``"City of Amsterdam"``
 
-This string describes the entity that owns this repository; this might
-or might not be the same entity who owns the copyright on the code
-itself. For instance, in case of a fork of the original software, the
-``repoOwner`` is probably different from the ``mainCopyrightOwner``.
+本字串描述擁有本儲存庫的實體，可能是也可能不是程式碼本身的著作權所有人。舉例來說，在原始軟體的分支，``repoOwner`` 跟 ``mainCopyrightOwner`` 可能是不同實體。
 
-Key ``legal/authorsFile``
+鍵 ``legal/authorsFile``
 '''''''''''''''''''''''''
 
--  Type: string (path to file)
--  Presence: optional
--  Example: ``"doc/AUTHORS.txt"``
+-  類型： string (path to file)
+-  是否必要：非必要
+-  範例： ``"doc/AUTHORS.txt"``
 
-Some open-source software adopt a convention of identify the copyright
-holders through a file that lists all the entities that own the
-copyright. This is common in projects strongly backed by a community
-where there are many external contributors and no clear single/main
-copyright owner. In such cases, this key can be used to refer to the
-authors file, using a path relative to the root of the repository.
+有些開源軟體的做法，是將擁有其著作權的所有實體列在檔案中。這在由社群所支持的專案中相當常見，這些專案有許多外部貢獻者且沒有明確/主要著作權所有人。在此情況下，本鍵可透過儲存庫根目錄的相對路徑，參照作者檔案。
 
 Section ``maintenance``
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-This section provides information on the maintenance status of the
-software, useful to evaluate whether the software is actively developed
-or not.
+本段落提供軟體維護狀態資訊，可用來判斷該軟體是否依舊定期維護。
 
-Key ``maintenance/type``
+鍵 ``maintenance/type``
 ''''''''''''''''''''''''
 
--  Type: enumerate
--  Presence: mandatory
+-  類型： enumerate
+-  是否必要：必要
 -  Values: ``"internal"``, ``"contract"``, ``"community"``, ``"none"``
 
-This key describes how the software is currently maintained.
+本鍵描述軟體目前維護方式。
 
--  ``internal`` - means that the software is internally maintained by the
-   repository owner;
--  ``contract`` - means that there is a commercial
-   contract that binds an entity to the maintenance of the software;
--  ``community`` - means that the software is currently maintained by one
-   or more people that donate their time to the project;
--  ``none`` - means that the software is not actively maintained.
+-  ``internal`` - 軟體由儲存庫所有人從內部進行維護;
+-  ``contract`` - 有與實體簽約，由該實體負責維護軟體;
+-  ``community`` - 軟體由一或多位專案志願者來維護;
+-  ``none`` - 軟體由儲存庫所有人從內部進行維護;
 
-Key ``maintenance/contractors``
+鍵 ``maintenance/contractors``
 '''''''''''''''''''''''''''''''
 
--  Type: array of Contractor (see below)
--  Presence: mandatory (if ``maintenance/type`` **is** ``contract``)
+-  類型： array of Contractor (see below)
+-  是否必要：必要 (if ``maintenance/type`` **is** ``contract``)
 
-This key describes the entity or entities, if any, that are currently
-contracted for maintaining the software. They can be companies,
-organizations, or other collective names.
+本鍵描述目前簽約來維護軟體的實體(若有)，這些實體可以是公司、組織或是其他群體。
 
-Key ``maintenance/contacts``
+鍵 ``maintenance/contacts``
 ''''''''''''''''''''''''''''
 
--  Type: List of Contacts (see below)
--  Presence: mandatory (if ``maintenance/type`` **is** ``internal`` or ``community``)
+-  類型： 聯絡人列表(見下文)
+-  是否必要：必要 (若 ``maintenance/type`` **就是** ``internal`` 或 ``community``)
 
-One or more contacts maintaining this software.
+一或多位聯絡人負責維護本軟體。
 
-This key describes the technical people currently responsible for
-maintaining the software. All contacts need to be a physical person, not
-a company or an organisation. If somebody is acting as a representative
-of an institution, it must be listed within the ``affiliation`` of the
-contact.
+本鍵描述目前負責維護軟體的技術人員。所有聯絡人都必須是真人，而非公司或組織。若有人代表一個機構，則必須在聯絡人 ``affiliation`` 註明。
 
-In case of a commercial agreement (or a chain of such agreements),
-specify the final entities actually contracted to deliver the
-maintenance. Do not specify the software owner unless it is technically
-involved with the maintenance of the product as well.
+如果是簽署商業協議(或是多份商業協議)，請指明實際簽約來負責維護軟體的實體。除非有參與產品維護，否則請勿指明軟體所有人。
 
-Section ``localisation``
+``localisation`` 段落
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-This section provides an overview of the localization features of the
-software.
+本段落提供軟體本地化功能概覽。
 
-Key ``localisation/localisationReady``
+鍵 ``localisation/localisationReady``
 ''''''''''''''''''''''''''''''''''''''
 
--  Type: boolean
--  Presence: mandatory
+-  類型： boolean
+-  是否必要：必要
 
-If ``true``, the software has infrastructure in place or is otherwise
-designed to be multilingual. It does not need to be available in more
-than one language.
+如果本鍵為 ``true``，代表軟體有多語言的架構或設計，因此不需要提供多語言版本。
 
-Key ``localisation/availableLanguages``
+鍵 ``localisation/availableLanguages``
 '''''''''''''''''''''''''''''''''''''''
 
--  Type: list of IETF BCP 47 language tags
--  Presence: mandatory
--  Example: ``"it"``, ``"en"``, ``"sl-IT-nedis"``
+-  類型：IETF BCP 47語言標籤列表
+-  是否必要：必要
+-  範例： ``"it"``, ``"en"``, ``"sl-IT-nedis"``
 
-If present, this is the list of languages in which the software is
-available. Of course, this list will contain at least one language.
-The primary language subtag cannot be omitted, as mandated by the 
-`BCP 47 <https://tools.ietf.org/html/bcp47>`__.
+若有此鍵，代表該軟體的各語言版本列表。該列表至少會有一個語言。根據 `BCP 47 <https://tools.ietf.org/html/bcp47>`__ 規定，不能刪除主要語言子標籤。
 
-Section ``dependsOn``
+``dependsOn`` 段落
 ~~~~~~~~~~~~~~~~~~~~~
 
-This section provides an overview on the system-level dependencies
-required to install and use this software.
+本段落提供安裝與使用本軟體時，所需的系統階層相依性概覽。
 
-**NOTE:** do not list dependencies at the source code level (e.g.:
-software libraries being used), and focus only on runtime and/or
-system-level dependencies that must be installed and maintained
-separately. For instance, a database is a good example of such
-dependencies.
+**請注意：** 請勿列出原始碼的相依性(例如使用的軟體函式庫)，以安裝與維護軟體所需的執行時期和/或系統階層相依性為主。舉例來說，資料庫就是很好的相依性範例。
 
-Key ``dependsOn/open``
+鍵 ``dependsOn/open``
 ''''''''''''''''''''''
 
--  Type: array of ``dependency`` (see below)
--  Presence: optional
+-  類型： 各種 ``dependency`` (見下文)
+-  是否必要：非必要
 
-This key contains a list of runtime dependencies that are distributed
-under an open-source license.
+本鍵包含使用開源軟體授權發佈的執行時期相依性列表。
 
-Key ``dependsOn/proprietary``
+鍵 ``dependsOn/proprietary``
 '''''''''''''''''''''''''''''
 
--  Type: array of ``dependency`` (see below)
--  Presence: optional
+-  類型： 各種 ``dependency`` (見下文)
+-  是否必要：非必要
 
-This key contains a list of runtime dependencies that are distributed
-under a proprietary license.
+本鍵包含使用私有軟體授權發佈的執行時期相依性列表。
 
-Key ``dependsOn/hardware``
+鍵 ``dependsOn/hardware``
 ''''''''''''''''''''''''''
 
--  Type: array of ``dependency`` (see below)
--  Presence: optional
+-  類型： 各種 ``dependency`` (見下文)
+-  是否必要：非必要
 
-This key contains a list of hardware dependencies that must be owned to
-use the software.
+本鍵包含使用軟體所需要的硬體相依性列表。
 
-Special data formats
+特別資料格式
 --------------------
 
-Dependency
+相依性
 ~~~~~~~~~~
 
-A ``dependency`` is a complex object. The properties are the following:
+``dependency`` 是複雜的主題，並且具有以下屬性：
 
--  ``name`` - **mandatory** - The name of the dependency (e.g. MySQL,
-   NFC Reader)
--  ``versionMin`` - the first compatible version
--  ``versionMax`` - the latest compatible version
--  ``version`` - the only major version for which the software is
-   compatible. It assumes compatibility with all patches and bugfixes
-   later applied to this version.
--  ``optional`` - whether the dependency is optional or mandatory
+-  ``name`` - **必要** - 相依性名稱(例如MySQL、NFC Reader)
+-  ``versionMin`` - 第一個相容版本
+-  ``versionMax`` - 最新相容版本
+-  ``version`` - 軟體相容的唯一主要版本，並且能相容之後推出的所有修復與除錯更新。
+-  ``optional`` - 相依性是否必要
 
-Complex versioning
+複雜的版本控制
 ~~~~~~~~~~~~~~~~~~
 
-It is of course possible to use the various keys to specify a complex
-compatibility matrix.
+也可以使用其他鍵來指明複雜的相容性矩陣。
 
 *Ex. 1*
 
@@ -739,8 +537,7 @@ compatibility matrix.
      version: "3.2"
      optional: true
 
-This snippet marks an optional dependency on PostgreSQL exactly version
-3.2.
+這一段程式碼標示PostgreSQL 3.2版的選擇性相依性。
 
 *Ex. 2*
 
@@ -750,64 +547,34 @@ This snippet marks an optional dependency on PostgreSQL exactly version
      versionMin: "1.1"
      versionMax: "1.3"
 
-This snippet marks a mandatory dependency on MySQL, allowing any version
-between 1.1 and 1.3.
+這一段程式碼標示MySQL的必要相依性，可使用1.1至1.3之間的版本。
 
-Contact
+聯絡人
 ~~~~~~~
 
-A Contact is an object with the following properties:
+聯絡人具有以下屬性：
 
--  ``name`` - **mandatory** - This key contains the full name of one of
-   the technical contacts. It must be a real person; do NOT populate
-   this key with generic contact information, company departments,
-   associations, etc.
--  ``email`` - This key contains the e-mail address of the technical
-   contact. It must be an email address of where the technical contact
-   can be directly reached; do NOT populate this key with mailing-lists
-   or generic contact points like “info@acme.inc”. The e-mail address
-   must not be obfuscated. To improve resistance against e-mail
-   collection, use ``\x64`` to replace ``@``, as allowed by the YAML
-   specification.
--  ``phone`` - phone number (with international prefix). This has to be
-   a string. 
--  ``affiliation`` - This key contains an explicit affiliation
-   information for the technical contact. In case of multiple
-   maintainers, this can be used to create a relation between each
-   technical contact and each maintainer entity. It can contain for
-   instance a company name, an association name, etc.
+-  ``name`` - **必要** - 本鍵包含技術聯絡人之一的全名。技術連絡人必須是真人，所以請勿將一般聯絡人資訊、公司部門或協會等資訊填入此鍵中。
+-  ``email`` - 本鍵包含技術連絡人的電子郵件信箱，必須是能直接聯繫上該技術聯絡人的電子郵件信箱。請勿輸入 "info@acme.inc" 這樣的一般郵寄名單。電子郵件信箱必須清楚無誤。為了進一步預防電子郵件資料收集，請依照YAML規範，以 ``\x64`` 取代 ``@``。
+-  ``phone`` - 電話號碼(包含國際冠碼)。必須採用string 格式。
+-  ``affiliation`` - 本鍵包含技術聯絡人的聯絡資訊。有多位維護人員時，可使用本鍵在每位技術聯絡人與維護人員之間建立關聯性。本鍵能包含公司名與機構名稱等。
 
-Contractor
+承包商
 ~~~~~~~~~~
 
-A Contractor is an object with the following properties:
+承包商具有以下屬性：
 
--  ``name`` - **mandatory** - The name of the contractor, whether it’s a
-   company or a physical person.
--  ``until`` - **mandatory** - This is a date (YYYY-MM-DD). This key
-   must contain the date at which the maintenance is going to end. In
-   case of community maintenance, the value should not be more than 2
-   years in the future, and thus will need to be regularly updated as
-   the community continues working on the project.
--  ``email`` - This key contains the e-mail address of the technical
-   contact. It must be an email address of where the technical contact
-   can be directly reached; do NOT populate this key with mailing-lists
-   or generic contact points like “info@acme.inc”. The e-mail address
-   must not be obfuscated. To improve resistance against e-mail
-   collection, use ``\x64`` to replace ``@``, as allowed by the YAML
-   specification.
--  ``website`` - This key points to the maintainer website. It can
-   either point to the main institutional website, or to a more
-   project-specific page or website.
+-  ``name`` - **必要** - 承包商姓名，可以是公司或是本人。
+-  ``until`` - **必要** - 這是日期(YYYY-MM-DD)。本鍵必須包含維護結束的日期。如果是由社群進行維護，本鍵的值不應該超過未來2年。因此隨著社群持續改善專案，也必須定期更新本鍵的值。
+-  ``email`` - 本鍵包含技術連絡人的電子郵件信箱，必須是能直接聯繫上該技術聯絡人的電子郵件信箱。請勿輸入 "info@acme.inc" 這樣的一般郵寄名單。電子郵件信箱必須清楚無誤。為了進一步預防電子郵件資料收集，請依照YAML規範，以 ``\x64`` 取代 ``@``。
+-  ``website`` - 本鍵指向維護人員網站，可以是該公司官網，或是與專案相關的網頁或網站。
 
-Dates
+日期
 ~~~~~
 
-All dates in ``publiccode.yml`` must follow the format “YYYY-MM-DD”,
-which is one of the ISO8601 allowed formats. This is the only allowed
-format though, so not the full ISO8601 is allowed for the date keys.
+``publiccode.yml`` 當中所有日期都必須採用"YYYY-MM-DD"格式，這也是ISO8601允許的格式之一。該格式是唯一允許的格式，所以並非所有ISO8601允許的格式都適用於日期鍵。
 
-Encoding
+編碼
 ~~~~~~~~
-`publiccode.yml` **MUST** be a UTF-8 encoded and **SHOULD** be a YAML 1.2 document,
-using YAML 1.1 is *deprecated*.
+
+`publiccode.yml` **必須**採用UTF-8編碼，且**應該**採用YAML 1.2文件格式，因為YAML 1.1格式*已棄用*。

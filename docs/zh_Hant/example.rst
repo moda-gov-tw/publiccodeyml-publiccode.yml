@@ -1,11 +1,9 @@
-Examples
+範例
 ==========================
 
-Below there are two examples of `publiccode.yml` files, the first one
-represents the minimum configuration, which contains the mandatory fields,
-whilst the second one represents a more extended version. 
+下面為兩個 `publiccode.yml` 檔案的範例，第一個是只有必要欄位的精簡配置，第二個內容則較為豐富。
 
-Minimum Version
+精簡版本
 ~~~~~~~~~~~~~~~
 
 .. literalinclude:: example/publiccode.minimal.yml
@@ -13,7 +11,7 @@ Minimum Version
    :linenos:
 
 
-Extended Version
+詳盡版本
 ~~~~~~~~~~~~~~~
 
 .. literalinclude:: example/publiccode.yml

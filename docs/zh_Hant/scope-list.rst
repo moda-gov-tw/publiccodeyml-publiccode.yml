@@ -1,36 +1,35 @@
 .. _scope-list:
 
-Scope list
+範圍列表
 ==========
 
-Here follows a controlled vocabulary of useful tags for categorizing the
-software.
+依照受控的實用標籤，將軟體分類。
 
 ==========
-Valid Tags
+有效標籤
 ==========
 
-- agriculture
-- culture
-- defence
-- education
-- emergency-services
-- employment
-- energy
-- environment
-- finance-and-economic-development
-- foreign-affairs
-- government
-- healthcare
-- infrastructures
-- justice
-- local-authorities
-- manufacturing
-- research
-- science-and-technology
-- security
-- society
-- sport
-- tourism
-- transportation
-- welfare
+- 農業
+- 文化
+- 國防
+- 教育
+- 緊急服務
+- 就業
+- 能源
+- 環境
+- 金融與經濟發展
+- 外交事務
+- 政府
+- 醫療保健
+- 基礎建設
+- 法務
+- 地方當局
+- 製造
+- 研究
+- 科技
+- 保全
+- 社會
+- 運動
+- 旅遊
+- 交通
+- 福利
