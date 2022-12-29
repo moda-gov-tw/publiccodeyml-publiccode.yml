@@ -34,16 +34,9 @@
 - 類型：布林
 - 是否必要：非必要
 
-If present and set to ``true``, the software is compliant with the `linee
-guida
-sull’interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`_.
-
 如果程式碼包含此鍵並且為 ``true``，代表該軟體符合 `linee guida sull'interoperabilità <https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs>`_。
 
-Regulatory reference: `Art. 73 del
-CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`_ (Italian language).
-
-法規參考資料：`Art. 73 del CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`_ (義大利文)。
+法規參考資料： `Art. 73 del CAD <https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html>`_ (義大利文)。
 
 
 鍵 ``conforme/misureMinimeSicurezza``

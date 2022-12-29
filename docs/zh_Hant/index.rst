@@ -5,8 +5,8 @@
 
 將 ``publiccode.yml`` 檔案加入儲存庫根目錄，並且在當中加入軟體相關資訊，技術人員與公務人員就能評估。由於人機都可輕鬆判讀此格式，因此也可建立自動索引工具。
 
-根據義大利國家`指引 <https://docs.italia.it/AgID/linee-guida-riuso-software/lg-acquisizione-e-riuso-software-per-pa-docs/>`_，在義大利開發的所有公共軟體都必須包含 publiccode.yml。這讓 Developers
-Italia 能夠利用爬蟲程式建立國家`軟體目錄 <https://developers.italia.it/>`_。此標準全球通用，因此特定國家的鍵不會放在標準的核心中，而是放在各國專屬的段落，並由各國政府決定。
+根據義大利國家 `指引 <https://docs.italia.it/AgID/linee-guida-riuso-software/lg-acquisizione-e-riuso-software-per-pa-docs/>`_，在義大利開發的所有公共軟體都必須包含 publiccode.yml。這讓 Developers
+Italia 能夠利用爬蟲程式建立國家 `軟體目錄 <https://developers.italia.it/>`_。此標準全球通用，因此特定國家的鍵不會放在標準的核心中，而是放在各國專屬的段落，並由各國政府決定。
 
 
 ``publiccode.yml`` 檔案當中的詳細資訊包括：
