@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:28+0800\n"
-"PO-Revision-Date: 2023-01-18 15:35+0000\n"
+"PO-Revision-Date: 2023-01-20 09:35+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/publiccodeyml-publiccode-yml/zh_Hant/>\n"
@@ -1237,9 +1237,8 @@ msgid ""
 "but just displayed; parsers should not assume semantic versioning or any "
 "other specific version format."
 msgstr ""
-"本鍵包含軟體的最新且穩定的版本編號。版本編號是一個字串，不應該被解讀或分析，"
-"只應該被顯示出來。分析人員不應該認定版本編號有任何語意化命名方式或其他特定版"
-"本格式。"
+"本鍵包含軟體的最新穩定版本號。版本號是個字串，不能用來解譯或分析，只能顯示。"
+"分析器不應該假定版本號會採用任何語意化命名方式，或其他特定版本格式。"
 
 #: ./en-md/schema.core.md:block 28 (paragraph)
 msgid ""
@@ -1466,7 +1465,7 @@ msgstr "### [roadmap]{.title-ref}鍵"
 
 #: ./en-md/schema.core.md:block 60 (paragraph)
 msgid "A link to a public roadmap of the software."
-msgstr "軟體公共路徑圖連結。"
+msgstr "軟體公開的發展路線圖連結。"
 
 #: ./en-md/schema.core.md:block 61 (paragraph)
 msgid "### Key [developmentStatus]{.title-ref}"
@@ -1759,7 +1758,7 @@ msgstr "範例：[\"Advanced booking system for hospitals\"]{.title-ref}"
 msgid ""
 "This key contains a short description of the software. It should be a single"
 " line containing a single sentence. Maximum 150 characters are allowed."
-msgstr "本鍵包含對軟體的簡短描述，內容應該是包含一句話的一行程式碼，上限為150個字元。"
+msgstr "本鍵包含軟體的簡短描述。內容應該是包含一句話的一列文字，上限為150個字元。"
 
 #: ./en-md/schema.core.md:block 95 (paragraph)
 msgid "#### Key [description/[lang]/longDescription]{.title-ref}"
@@ -2156,8 +2155,8 @@ msgid ""
 "This key describes the entity or entities, if any, that are currently "
 "contracted for maintaining the software. They can be companies, "
 "organizations, or other collective names."
-msgstr "本鍵描述目前簽約來維護軟體的實體(若有)，這些實體可以是公司、組織或是其他群體"
-"。"
+msgstr "本鍵描述目前簽約來維護軟體的法人或團體（如果有的話）。可以是公司、組織或是其"
+"他集合性的名稱。"
 
 #: ./en-md/schema.core.md:block 152 (paragraph)
 msgid "#### Key [maintenance/contacts]{.title-ref}"
@@ -2253,7 +2252,7 @@ msgstr "### 區段 [dependsOn]{.title-ref}"
 msgid ""
 "This section provides an overview on the system-level dependencies required "
 "to install and use this software."
-msgstr "本區段提供安裝與使用本軟體時，所需的系統階層依賴關係概覽。"
+msgstr "本區段提供安裝與使用本軟體時，所必要的系統層級依賴項目概覽。"
 
 #: ./en-md/schema.core.md:block 167 (paragraph)
 msgid ""
