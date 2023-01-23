@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:28+0800\n"
-"PO-Revision-Date: 2023-01-23 17:00+0000\n"
+"PO-Revision-Date: 2023-01-24 17:35+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/publiccodeyml-publiccode-yml/zh_Hant/>\n"
@@ -678,7 +678,7 @@ msgstr ""
 
 #: ./en-md/country.md:block 45 (paragraph)
 msgid "#### Chiave [riuso/codiceIPA]{.title-ref}"
-msgstr "#### 鍵 [riuso/codiceIPA]{.title-ref}"
+msgstr "#### 鍵碼 [riuso/codiceIPA]{.title-ref}"
 
 #: ./en-md/country.md:block 46 (unordered list)
 msgid "Type: string (iPA code)"
@@ -2563,7 +2563,7 @@ msgstr "## 區段 [riuso]{.title-ref}"
 
 #: ./en-md/schema.it.md:block 39 (paragraph)
 msgid "### Chiave [riuso/codiceIPA]{.title-ref}"
-msgstr "### 註冊碼 [riuso/codiceIPA]{.title-ref}"
+msgstr "### 鍵碼 [riuso/codiceIPA]{.title-ref}"
 
 #: ./en-md/scope-list.md:block 1 (paragraph)
 msgid "# Scope list"
