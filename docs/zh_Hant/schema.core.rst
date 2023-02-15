@@ -46,10 +46,6 @@ Top-Level 鍵與段落
 
 為了貢獻給上流軟體所建立的分支，不應該修改此檔案。這將有助於軟體分析 ``publiccode.yml``，立即跳過技術分支。反過來說，完整且應該與原始軟體獨立分開的分支，則應修改此段程式碼，才能取得不同專案的狀態。
 
-See :ref:`forks-and-variants` for a complete description of what
-is a software variant and how to handle forked software as a parser or
-an author.
-
 請參閱 :ref:`forks-and-variants`，當中完整定義軟體變種，以及如何以分析人員或作者身份來處理分支軟體。
 
 鍵 ``landingURL``
@@ -154,7 +150,7 @@ an author.
 
 -  類型：各種string
 -  是否必要：必要
--  可接受值：請參閱 :ref:`categories-list` 
+-  可接受值：請參閱 :ref:`categories-list`
 
 能用於描述軟體並協助建立開源軟體目錄的字表。
 
@@ -239,7 +235,7 @@ an author.
 
 -  類型：各種string
 -  是否必要：非必要
--  可接受值：請參閱 :ref:`scope-list` 
+-  可接受值：請參閱 :ref:`scope-list`
 
 本鍵包含與軟體應用領域相關的標籤列表。
 
@@ -248,11 +244,11 @@ an author.
 
 本段落包含對軟體的一般描述。語法分析器可使用本段落來製作描述該軟體的網頁。
 
-**請注意：**由於本段落包含的所有string，都是使用者可見且採用特定語言，您**必須**新增一個小節並在當中指明您編輯文字所採取的語言(使用IETF `BCP 47 <https://tools.ietf.org/html/bcp47>`_ specifications)，該小節的名稱就是您所用的語言。依據BCP 47的規定，主要語言子標籤不可以刪除。
+**請注意：**由於本段落包含的所有string，都是使用者可見且採用特定語言，您 **必須** 新增一個小節並在當中指明您編輯文字所採取的語言(使用IETF `BCP 47 <https://tools.ietf.org/html/bcp47>`_ specifications)，該小節的名稱就是您所用的語言。依據BCP 47的規定，主要語言子標籤不可以刪除。
 
 以英文為例：
 
-.. code:: yaml 
+.. code:: yaml
 
    description:
      en:
@@ -441,7 +437,7 @@ Section ``maintenance``
 '''''''''''''''''''''''''''''''
 
 -  類型： array of Contractor (see below)
--  是否必要：必要 (if ``maintenance/type`` **is** ``contract``)
+-  是否必要：必要 (若 ``maintenance/type`` **是** ``contract``)
 
 本鍵描述目前簽約來維護軟體的實體(若有)，這些實體可以是公司、組織或是其他群體。
 
@@ -577,4 +573,4 @@ Section ``maintenance``
 編碼
 ~~~~~~~~
 
-`publiccode.yml` **必須**採用UTF-8編碼，且**應該**採用YAML 1.2文件格式，因為YAML 1.1格式*已棄用*。
+`publiccode.yml` **必須** 採用UTF-8編碼，且 **應該** 採用YAML 1.2文件格式，因為YAML 1.1格式 *已棄用* 。

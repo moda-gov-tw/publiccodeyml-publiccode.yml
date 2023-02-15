@@ -3,7 +3,7 @@
 義大利
 -------
 
-以下列出的鍵僅適用於義大利，因此只能插入在具有 ``it`` 的程式碼。每個*國家的代碼*都是兩個英文字母，並遵守ISO 3166-1二位字母代碼標準。
+以下列出的鍵僅適用於義大利，因此只能插入在具有 ``it`` 的程式碼。每個 *國家的代碼* 都是兩個英文字母，並遵守ISO 3166-1二位字母代碼標準。
 
 
 鍵 ``countryExtensionVersion``
@@ -66,11 +66,6 @@
 - 類型：布林
 - 是否必要：非必要
 
-
-If present and set to ``true``, the software interfaces with `SPID
-- il Sistema Pubblico di Identità
-Digitale <https://developers.italia.it/it/spid>`_.
-
 如果程式碼包含此鍵並且為 ``true``，代表該軟體配合 `SPID - il Sistema Pubblico di Identità Digitale <https://developers.italia.it/it/spid>`_。
 
 鍵 ``piattaforme/cie``
@@ -78,9 +73,6 @@ Digitale <https://developers.italia.it/it/spid>`_.
 
 - 類型：布林
 - 是否必要：非必要
-
-If present and set to ``true``, the software interfaces with the Italian
-electronic ID card (``Carta di Identità Elettronica``).
 
 如果程式碼包含此鍵並且為 ``true``，代表該軟體配合義大利電子身分證使用 (``Carta di Identità Elettronica``)。
 
