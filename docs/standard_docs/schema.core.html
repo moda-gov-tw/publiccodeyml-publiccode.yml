@@ -1,0 +1,649 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>1. 標準(核心) &#8212; Python  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2. 特定國家段落" href="country.html" />
+    <link rel="prev" title="publiccode.yml" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="core">
+<span id="id1"></span><h1><span class="section-number">1. </span>標準(核心)<a class="headerlink" href="#core" title="Permalink to this headline">¶</a></h1>
+<p>本文件說明 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 的規範。</p>
+<section id="top-level">
+<h2><span class="section-number">1.1. </span>Top-Level 鍵與段落<a class="headerlink" href="#top-level" title="Permalink to this headline">¶</a></h2>
+<section id="publiccodeymlversion">
+<h3><span class="section-number">1.1.1. </span>鍵 <code class="docutils literal notranslate"><span class="pre">publiccodeYmlVersion</span></code><a class="headerlink" href="#publiccodeymlversion" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;0.1&quot;</span></code></p></li>
+</ul>
+<p>此鍵代表目前 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 採用的軟體版本，方便判斷與舊系統的相容性。</p>
+</section>
+<section id="name">
+<h3><span class="section-number">1.1.2. </span>鍵 <code class="docutils literal notranslate"><span class="pre">name</span></code><a class="headerlink" href="#name" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;Medusa&quot;</span></code></p></li>
+</ul>
+<p>此鍵包含軟體名稱，以及產品的公開名稱(短名)，該名稱可在特定國家 localisation 程式碼段落中本地化，並以最多人熟知的名稱為主。若軟體有公司內部用的代號跟對外販售的名稱，則以對外販售的名稱為主。</p>
+</section>
+<section id="applicationsuite">
+<h3><span class="section-number">1.1.3. </span>鍵 <code class="docutils literal notranslate"><span class="pre">applicationSuite</span></code><a class="headerlink" href="#applicationsuite" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;MegaProductivitySuite&quot;</span></code></p></li>
+</ul>
+<p>此鍵包含收錄軟體的軟體套裝名稱。</p>
+</section>
+<section id="url">
+<h3><span class="section-number">1.1.4. </span>鍵 <code class="docutils literal notranslate"><span class="pre">url</span></code><a class="headerlink" href="#url" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string (URL)</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;https://example.com/italia/medusa.git&quot;</span></code></p></li>
+</ul>
+<p>該軟體特有的識別符號。此字串必須是當初軟體發佈時，所在的原始碼儲存庫(git, svn, …)連結。如果儲存庫採用多種協定，請以不需要使用者認證的HTTP/HTTPS連結為主。</p>
+<p>為了貢獻給上流軟體所建立的分支，不應該修改此檔案。這將有助於軟體分析 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code>，立即跳過技術分支。反過來說，完整且應該與原始軟體獨立分開的分支，則應修改此段程式碼，才能取得不同專案的狀態。</p>
+<p>請參閱 <a class="reference internal" href="forks.html#forks-and-variants"><span class="std std-ref">分支與變種</span></a>，當中完整定義軟體變種，以及如何以分析人員或作者身份來處理分支軟體。</p>
+</section>
+<section id="landingurl">
+<h3><span class="section-number">1.1.5. </span>鍵 <code class="docutils literal notranslate"><span class="pre">landingURL</span></code><a class="headerlink" href="#landingurl" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string (URL)</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;https://example.com/italia/medusa&quot;</span></code></p></li>
+</ul>
+<p>若 <code class="docutils literal notranslate"><span class="pre">url</span></code> 參數無法產生人類可讀或瀏覽的頁面，而只能提供原始碼給原始碼控制客戶端 。只要有鍵，您就能夠指定到達網頁。在理想狀況下，您的用戶在按下網站上類似「查看應用程式原始碼」的按鈕時，就會前往該網頁。如果產品提供自動化圖形介面安裝程式，此連結能夠連結一個提到原始碼但同時允許使用者下載安裝程式的網頁。</p>
+</section>
+<section id="isbasedon">
+<h3><span class="section-number">1.1.6. </span>鍵 <code class="docutils literal notranslate"><span class="pre">isBasedOn</span></code><a class="headerlink" href="#isbasedon" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string or各種string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;https://github.com/italia/otello.git&quot;</span></code></p></li>
+</ul>
+<p>若本軟體為可能包含 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 檔案的軟體)的分支或變種，本鍵將包含原始專案的 <code class="docutils literal notranslate"><span class="pre">url</span></code>。</p>
+<p>本鍵能判斷分支為來自特定儲存庫的軟體變種。</p>
+</section>
+<section id="softwareversion">
+<h3><span class="section-number">1.1.7. </span>鍵 <code class="docutils literal notranslate"><span class="pre">softwareVersion</span></code><a class="headerlink" href="#softwareversion" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;1.0&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;dev&quot;</span></code></p></li>
+</ul>
+<p>本鍵包含軟體的最新且穩定的版本編號。版本編號是一個字串，不應該被解讀或分析，只應該被顯示出來。分析人員不應該認定版本編號有任何語意化命名方式或其他特定版本格式。</p>
+<p>若軟體尚在初始開發階段，且還沒有發佈，則可忽略此鍵。</p>
+</section>
+<section id="releasedate">
+<h3><span class="section-number">1.1.8. </span>鍵 <code class="docutils literal notranslate"><span class="pre">releaseDate</span></code><a class="headerlink" href="#releasedate" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string (date)</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;2017-04-15&quot;</span></code></p></li>
+</ul>
+<p>本鍵包含最新軟體版本發佈時的日期。如果軟體已經被發佈過至少一次，因此有版本編號時，則必須要用此鍵標示該日期。</p>
+</section>
+<section id="logo">
+<h3><span class="section-number">1.1.9. </span>鍵 <code class="docutils literal notranslate"><span class="pre">logo</span></code><a class="headerlink" href="#logo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string (relative path to file or absolute URL)</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>可接受格式： SVG, SVGZ, PNG</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;img/logo.svg&quot;</span></code></p></li>
+</ul>
+<p>本鍵包含連結至軟體標誌的路徑。軟體標誌應該採用向量圖形格式，點陣圖版本只能當作備份。在此情況下，軟體標誌應該採用透明PNG圖，最低寬度為1000px。鍵值可以是從儲存庫根目錄前往該檔案的相對路徑，也可以是連結至標誌原始檔的連結。無論如何，標誌的檔案都必須存放在 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 檔案所在的同一個儲存庫。</p>
+</section>
+<section id="monochromelogo-deprecated">
+<h3><span class="section-number">1.1.10. </span>鍵 <code class="docutils literal notranslate"><span class="pre">monochromeLogo</span></code> (<em>deprecated</em>)<a class="headerlink" href="#monochromelogo-deprecated" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string (path to file)</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>可接受格式： SVG, SVGZ, PNG</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;img/logo-mono.svg&quot;</span></code></p></li>
+</ul>
+<p>單色(黑色)標誌。標誌應該採用向量圖形格式，點陣圖版本只能當作備份。在此情況下，軟體標誌應該採用透明PNG圖，最低寬度為1000px。鍵值可以是從儲存庫根目錄前往該檔案的相對路徑，也可以是連結至標誌原始檔的連結。無論如何，標誌的檔案都必須存放在 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 檔案所在的同一個儲存庫。</p>
+</section>
+<section id="inputtypes-deprecated">
+<h3><span class="section-number">1.1.11. </span>鍵 <code class="docutils literal notranslate"><span class="pre">inputTypes</span></code> (<em>deprecated</em>)<a class="headerlink" href="#inputtypes-deprecated" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： 各種列舉的string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>值：遵循RFC 6838</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;text/plain&quot;</span></code></p></li>
+</ul>
+<p><a class="reference external" href="https://tools.ietf.org/html/rfc6838">RFC 6838</a> 規定的媒體類型(MIME類型)，可被應用程式視為輸入來源。</p>
+<p>若軟體不支援任何輸入功能，您可以跳過此欄位或使用 <code class="docutils literal notranslate"><span class="pre">application/x.empty</span></code>。</p>
+</section>
+<section id="outputtypes-deprecated">
+<h3><span class="section-number">1.1.12. </span>鍵 <code class="docutils literal notranslate"><span class="pre">outputTypes</span></code> (<em>deprecated</em>)<a class="headerlink" href="#outputtypes-deprecated" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： 各種列舉的string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>值：遵循RFC 6838</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;text/plain&quot;</span></code></p></li>
+</ul>
+<p><a class="reference external" href="https://tools.ietf.org/html/rfc6838">RFC 6838</a> 規定的媒體類型(MIME類型)，可被應用程式視為輸出來源。</p>
+<p>若軟體不支援任何輸出功能，您可以跳過此欄位或使用 <code class="docutils literal notranslate"><span class="pre">application/x.empty</span></code>。</p>
+</section>
+<section id="platforms">
+<h3><span class="section-number">1.1.13. </span>鍵 <code class="docutils literal notranslate"><span class="pre">platforms</span></code><a class="headerlink" href="#platforms" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： enumerated string or各種string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>值： <code class="docutils literal notranslate"><span class="pre">web</span></code>, <code class="docutils literal notranslate"><span class="pre">windows</span></code>, <code class="docutils literal notranslate"><span class="pre">mac</span></code>, <code class="docutils literal notranslate"><span class="pre">linux</span></code>, <code class="docutils literal notranslate"><span class="pre">ios</span></code>,
+<code class="docutils literal notranslate"><span class="pre">android</span></code>。可使用不在本列表上但人類可讀的值。</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">web</span></code></p></li>
+</ul>
+<p>本鍵指明軟體運行的平台。本鍵是描述使用者為了使用該軟體而必須使用的平台，而非軟體本身運作時所在的平台。</p>
+<p>若可以，請以預定義值優先。如果軟體執行的平台沒有預定義值，則可使用不同的值。</p>
+</section>
+<section id="categories">
+<h3><span class="section-number">1.1.14. </span>鍵 <code class="docutils literal notranslate"><span class="pre">categories</span></code><a class="headerlink" href="#categories" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：各種string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>可接受值：請參閱 <a class="reference internal" href="categories-list.html#categories-list"><span class="std std-ref">軟體類別清單</span></a></p></li>
+</ul>
+<p>能用於描述軟體並協助建立開源軟體目錄的字表。</p>
+<p>受控字彙 <a class="reference internal" href="categories-list.html#categories-list"><span class="std std-ref">軟體類別清單</span></a> 包含允許值列表。</p>
+</section>
+<section id="usedby">
+<h3><span class="section-number">1.1.15. </span>鍵 <code class="docutils literal notranslate"><span class="pre">usedBy</span></code><a class="headerlink" href="#usedby" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：各種string</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>軟體維護人員知道有在使用軟體的主要公共行政機關名單(可視為推薦軟體的使用者)。</p>
+<p>語法分析器也可將獨立取得的其他資訊加入該列表中。舉例來說，有行政管理機關擁有該軟體的分支，也可視為該軟體的用戶。</p>
+</section>
+<section id="roadmap">
+<h3><span class="section-number">1.1.16. </span>鍵 <code class="docutils literal notranslate"><span class="pre">roadmap</span></code><a class="headerlink" href="#roadmap" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>軟體公共路徑圖連結。</p>
+</section>
+<section id="developmentstatus">
+<h3><span class="section-number">1.1.17. </span>鍵 <code class="docutils literal notranslate"><span class="pre">developmentStatus</span></code><a class="headerlink" href="#developmentstatus" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： enumerated string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>Allowed values: <code class="docutils literal notranslate"><span class="pre">concept</span></code>, <code class="docutils literal notranslate"><span class="pre">development</span></code>, <code class="docutils literal notranslate"><span class="pre">beta</span></code>, <code class="docutils literal notranslate"><span class="pre">stable</span></code>,
+<code class="docutils literal notranslate"><span class="pre">obsolete</span></code></p></li>
+</ul>
+<p>這些鍵包括：</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">concept</span></code> - 軟體只是一個「概念」，目前沒有編寫任何程式碼，儲存庫也只是預留位置。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">development</span></code> - 已經為開發該軟體投注了心力，但是程式碼還不到能讓終端使用者使用的階段，甚至無法推出預覽或測試版本供終端使用者測試。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">beta</span></code> - 軟體正在進行測試的階段(預覽或測試版)。在這個階段，軟體可能已經也可能尚未有公開發行。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">stable</span></code> - 軟體已經公開發佈，並且準備好用於生產環境中。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">obsolete</span></code> - 軟體已經停止維護或更新。所有原始碼都已經封存為歷史紀錄檔案。</p></li>
+</ul>
+</section>
+<section id="softwaretype">
+<h3><span class="section-number">1.1.18. </span>鍵 <code class="docutils literal notranslate"><span class="pre">softwareType</span></code><a class="headerlink" href="#softwaretype" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型： enumerated string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>Allowed values: <code class="docutils literal notranslate"><span class="pre">&quot;standalone/mobile&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;standalone/iot&quot;</span></code>,
+<code class="docutils literal notranslate"><span class="pre">&quot;standalone/desktop&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;standalone/web&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;standalone/backend&quot;</span></code>,
+<code class="docutils literal notranslate"><span class="pre">&quot;standalone/other&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;addon&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;library&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;configurationFiles&quot;</span></code></p></li>
+</ul>
+<p>這些鍵包括：</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">standalone/mobile</span></code> - 軟體為單機獨立軟體。軟體為原生行動應用程式。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">standalone/iot</span></code> - 軟體適合物聯網情境。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">standalone/desktop</span></code> - 軟體通常安裝在桌上型電腦作業系統環境中執行。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">standalone/web</span></code> - 軟體代表可透過瀏覽器使用的網路應用程式。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">standalone/backend</span></code> - 軟體為後端應用程式。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">standalone/other</span></code> - 軟體性質與前一個不同。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">softwareAddon</span></code> - 軟體屬於更複雜的軟體(例如CMW或辦公室套裝軟體)的附加軟體，像是插件或主題。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">library</span></code> - 軟體包含函式庫或是SDK，讓第三方開發人員更容易設計新產品。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">configurationFiles</span></code> - 軟體沒有可執行的文本，只有一組配置檔案。這些檔案可能紀錄特定部署方式。這樣檔案可能是簡單的配置檔案、bash scripts、sensible playbooks、Dockerfiles或其他指令集。</p></li>
+</ul>
+</section>
+<section id="intendedaudience">
+<h3><span class="section-number">1.1.19. </span><code class="docutils literal notranslate"><span class="pre">intendedAudience</span></code> 段落<a class="headerlink" href="#intendedaudience" title="Permalink to this headline">¶</a></h3>
+<section id="intendedaudience-countries">
+<h4><span class="section-number">1.1.19.1. </span>鍵 <code class="docutils literal notranslate"><span class="pre">intendedAudience/countries</span></code><a class="headerlink" href="#intendedaudience-countries" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：各種string</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>本鍵明確地將某些國家列入其目標受眾。換句話說，該軟體明確表示遵守特定流程、科技或法律。所有國家都以ISO3166-1二位字母代碼表示。</p>
+</section>
+<section id="intendedaudience-unsupportedcountries">
+<h4><span class="section-number">1.1.19.2. </span>鍵 <code class="docutils literal notranslate"><span class="pre">intendedAudience/unsupportedCountries</span></code><a class="headerlink" href="#intendedaudience-unsupportedcountries" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：各種string</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>本鍵明確標示不支援的國家。原因可能是因為該軟體運作方式，與該國特定法規、流程或科技有所衝突。所有國家都以ISO3166-1二位字母代碼表示。</p>
+</section>
+<section id="intendedaudience-scope">
+<h4><span class="section-number">1.1.19.3. </span>鍵 <code class="docutils literal notranslate"><span class="pre">intendedAudience/scope</span></code><a class="headerlink" href="#intendedaudience-scope" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：各種string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>可接受值：請參閱 <a class="reference internal" href="scope-list.html#scope-list"><span class="std std-ref">範圍列表</span></a></p></li>
+</ul>
+<p>本鍵包含與軟體應用領域相關的標籤列表。</p>
+</section>
+</section>
+<section id="description">
+<h3><span class="section-number">1.1.20. </span><code class="docutils literal notranslate"><span class="pre">description</span></code> 段落<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h3>
+<p>本段落包含對軟體的一般描述。語法分析器可使用本段落來製作描述該軟體的網頁。</p>
+<p><strong>請注意：**由於本段落包含的所有string，都是使用者可見且採用特定語言，您 **必須</strong> 新增一個小節並在當中指明您編輯文字所採取的語言(使用IETF <a class="reference external" href="https://tools.ietf.org/html/bcp47">BCP 47</a> specifications)，該小節的名稱就是您所用的語言。依據BCP 47的規定，主要語言子標籤不可以刪除。</p>
+<p>以英文為例：</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">description</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="nt">en</span><span class="p">:</span><span class="w"></span>
+<span class="w">    </span><span class="nt">shortDescription</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">...</span><span class="w"></span>
+<span class="w">    </span><span class="nt">longDescription</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">...</span><span class="w"></span>
+</pre></div>
+</div>
+<p>在之後的章節，所有鍵都假定位於以語言為名的小節中(以 <code class="docutils literal notranslate"><span class="pre">[lang]</span></code> 表示)。</p>
+<p><a href="#id3"><span class="problematic" id="id4">**</span></a>請注意：<a href="#id5"><span class="problematic" id="id6">**</span></a>本段落中*至少*要有一個語言，其他語言為選擇性。</p>
+<section id="description-lang-localisedname">
+<h4><span class="section-number">1.1.20.1. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/localisedName</span></code><a class="headerlink" href="#description-lang-localisedname" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;Medusa&quot;</span></code></p></li>
+</ul>
+<p>本鍵代表將名稱翻譯成特定語言的機會。當中包含產品的公開名稱與短名，這名稱也應該是多數消費者稱呼該軟體的名字。若該軟體有公司內部的代號以及上市的名稱，請以上市名稱為主。</p>
+</section>
+<section id="description-lang-genericname-deprecated">
+<h4><span class="section-number">1.1.20.2. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/genericName</span></code> (<em>deprecated</em>)<a class="headerlink" href="#description-lang-genericname-deprecated" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：string (最多35個字符)</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;Text</span> <span class="pre">Editor&quot;</span></code></p></li>
+</ul>
+<p>本鍵為「通用名稱」，也就是軟體所屬的特定類別。您通常可在軟體的簡報發表會上看到軟體的通用名稱，通常都會看到「xxx軟體是yyy」。比較常見的範例包括”文字編輯器”、”文書處理器”、”網路瀏覽器”與”聊天室”等。通用名稱最多可有35個字符。</p>
+</section>
+<section id="description-lang-shortdescription">
+<h4><span class="section-number">1.1.20.3. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/shortDescription</span></code><a class="headerlink" href="#description-lang-shortdescription" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： string(最多150個字符)</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;Advanced</span> <span class="pre">booking</span> <span class="pre">system</span> <span class="pre">for</span> <span class="pre">hospitals&quot;</span></code></p></li>
+</ul>
+<p>本鍵包含對軟體的簡短描述，內容應該是包含一句話的一行程式碼，上限為150個字符。</p>
+</section>
+<section id="description-lang-longdescription">
+<h4><span class="section-number">1.1.20.4. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/longDescription</span></code><a class="headerlink" href="#description-lang-longdescription" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： string(最少150個字符，最多10000個字符)</p></li>
+<li><p>是否必要：必要 (至少對一個語言來說)</p></li>
+</ul>
+<p>本鍵包含對軟體較長的描述，長度介於150與10,000個字符之間。本鍵旨在為潛在用戶提供軟體功能的概覽。本段文字的受眾應該是軟體用戶，而非開發人員。您可將本段文字視為應該放在軟體官網上(若有)用來描述軟體的文字。</p>
+<p>本敘述可包含一些基本的 markdown： <code class="docutils literal notranslate"><span class="pre">*italic*</span></code>、<code class="docutils literal notranslate"><span class="pre">**bold**</span></code>、項目符號與 <code class="docutils literal notranslate"><span class="pre">[links](#)</span></code>。</p>
+</section>
+<section id="description-lang-documentation">
+<h4><span class="section-number">1.1.20.5. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/documentation</span></code><a class="headerlink" href="#description-lang-documentation" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： URL</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>本鍵提到軟體使用者階層(非開發人員階層)註解。本鍵的值必須是該註解託管版本的連結。</p>
+<p>建議該連結是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使用網路瀏覽器立即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含頁面導覽、搜尋欄等)。</p>
+<p>如果該註解只有文件版，請將文件直接瀏覽/下載連結放在此鍵中。您應該將該文件上傳至原始碼儲存庫中，然後加上該文件的程式碼託管平台連結(像是GitHub連結)。該文件格式請以PDF或ODT等開放格式為主，方便在各種平台上閱讀。</p>
+<p>不論註解採取什麼格式，請記得開放其原始檔案的授權，將原始檔案視為儲存庫的一部份。</p>
+</section>
+<section id="description-lang-apidocumentation">
+<h4><span class="section-number">1.1.20.6. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/apiDocumentation</span></code><a class="headerlink" href="#description-lang-apidocumentation" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： URL</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>本鍵包含對軟體API註解的參照。本鍵的值必須是對託管版本的註解的連結。</p>
+<p>建議該連結是連結到註解的託管版本，如此一來不論是電腦或是行動裝置，都能使用網路瀏覽器立即閱讀該註解。本註解應該以HTML渲染，並且可以跟網站一樣瀏覽(包含頁面導覽、搜尋欄等)。如果有參照或是測試部署，可以的話請提供互動式介面(像是Swagger)。</p>
+<p>如果該註解只有文件版，請將文件直接瀏覽/下載連結放在此鍵中。您應該將該文件上傳至原始碼儲存庫中，然後加上該文件的程式碼託管平台連結(像是GitHub連結)。該文件格式請以PDF或ODT等開放格式為主，方便在各種平台上閱讀。</p>
+<p>不論註解採取什麼格式，請記得開放其原始檔案的授權，將原始檔案視為儲存庫的一部份。</p>
+</section>
+<section id="description-lang-features">
+<h4><span class="section-number">1.1.20.7. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/features</span></code><a class="headerlink" href="#description-lang-features" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：各種string</p></li>
+<li><p>是否必要：必要 (至少對一個語言來說)</p></li>
+</ul>
+<p>本鍵包含軟體功能列表，描述該軟體能提供的功能。本段文字的受眾應該是委託製作軟體的公共決策者，因此列出來的功能不應該以開發人員為目標，而是應該列出技術功能，像是執行詳細資訊等。請以使用者能看出的軟體功能為主。</p>
+<p>雖然本鍵是必要的，但沒有規定本鍵當中應該列出的功能數量上限與下限。</p>
+<p>建議您根據軟體大小與複雜程度，列出5至20個功能。沒有必要列出所有功能，因為需要額外資訊的使用者可以自己看註解。</p>
+</section>
+<section id="description-lang-screenshots">
+<h4><span class="section-number">1.1.20.8. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/screenshots</span></code><a class="headerlink" href="#description-lang-screenshots" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：各種string (paths)</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>Formats: PNG, JPG</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;data/screenshots/configuration.png&quot;</span></code></p></li>
+</ul>
+<p>本鍵包含軟體螢幕截圖檔案的一或多個路徑，這些截圖幫助使用者能迅速瞭解軟體的外觀與功能。鍵值可以是從儲存庫根目錄連結到檔案的相對路徑，也可以是截圖原始版本的絕對URL。不論如何，檔案必須存放在 <a href="#id7"><span class="problematic" id="id8">``</span></a>publiccode.yml``檔案所在的同一個儲存庫。</p>
+<p>螢幕截圖形狀與尺寸不限，但建議格式為：</p>
+<ul class="simple">
+<li><p>Desktop: 1280x800 &#64;1x</p></li>
+<li><p>Tablet: 1024x768 &#64;2x</p></li>
+<li><p>Mobile: 375x667 &#64;2x</p></li>
+</ul>
+</section>
+<section id="description-lang-videos">
+<h4><span class="section-number">1.1.20.9. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/videos</span></code><a class="headerlink" href="#description-lang-videos" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：各種string (URLs)</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;https://youtube.com/xxxxxxxx&quot;</span></code></p></li>
+</ul>
+<p>本鍵包含解釋軟體運作方式的影片的一或多個URL。影片跟螢幕截圖一樣，應該能迅速讓使用者瞭解軟體的外觀與功能。影片必須託管在支援 <a class="reference external" href="https://oembed.com">oEmbed</a> 標準的影音分享網站，最常見的選項是YouTube與Vimeo。</p>
+<p>既然影片是註解不可或缺的內容，建議開放影片的授權。</p>
+</section>
+<section id="description-lang-awards">
+<h4><span class="section-number">1.1.20.10. </span>鍵 <code class="docutils literal notranslate"><span class="pre">description/[lang]/awards</span></code><a class="headerlink" href="#description-lang-awards" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：各種string</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>軟體獲獎清單。</p>
+</section>
+</section>
+<section id="section-legal">
+<h3><span class="section-number">1.1.21. </span>Section <code class="docutils literal notranslate"><span class="pre">legal</span></code><a class="headerlink" href="#section-legal" title="Permalink to this headline">¶</a></h3>
+<section id="legal-license">
+<h4><span class="section-number">1.1.21.1. </span><code class="docutils literal notranslate"><span class="pre">legal/license</span></code> 段落<a class="headerlink" href="#legal-license" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;AGPL-3.0-or-later&quot;</span></code></p></li>
+</ul>
+<p>本字串描述軟體散佈的授權。該字串必須包含有效的SPDX expression，參照一或多個開源授權。詳細資訊請參閱 <a class="reference external" href="https://spdx.org/licenses/">SPDX documentation</a>。</p>
+</section>
+<section id="legal-maincopyrightowner">
+<h4><span class="section-number">1.1.21.2. </span>鍵 <code class="docutils literal notranslate"><span class="pre">legal/mainCopyrightOwner</span></code><a class="headerlink" href="#legal-maincopyrightowner" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;City</span> <span class="pre">of</span> <span class="pre">Amsterdam&quot;</span></code></p></li>
+</ul>
+<p>本鍵描述擁有儲存庫當中，「多數」程式碼著作權的實體。通常來說，本鍵是一行具有著作權標誌的文字，且會出現在儲存庫多數檔案的頁首。</p>
+<p>您可以在一句英文中列出多個著作權所有人，也可以列出一個社群，像是「Linus Torvalds以及所有Linux貢獻者」。</p>
+<p>若無法列出主要的著作權所有人，則可刪除本鍵。在此情況下，若儲存庫有作者檔案，您可以透過 <code class="docutils literal notranslate"><span class="pre">legal/authorsFile</span></code> 指向該檔案。</p>
+</section>
+<section id="legal-repoowner">
+<h4><span class="section-number">1.1.21.3. </span>鍵 <code class="docutils literal notranslate"><span class="pre">legal/repoOwner</span></code><a class="headerlink" href="#legal-repoowner" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： string</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;City</span> <span class="pre">of</span> <span class="pre">Amsterdam&quot;</span></code></p></li>
+</ul>
+<p>本字串描述擁有本儲存庫的實體，可能是也可能不是程式碼本身的著作權所有人。舉例來說，在原始軟體的分支，<code class="docutils literal notranslate"><span class="pre">repoOwner</span></code> 跟 <code class="docutils literal notranslate"><span class="pre">mainCopyrightOwner</span></code> 可能是不同實體。</p>
+</section>
+<section id="legal-authorsfile">
+<h4><span class="section-number">1.1.21.4. </span>鍵 <code class="docutils literal notranslate"><span class="pre">legal/authorsFile</span></code><a class="headerlink" href="#legal-authorsfile" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： string (path to file)</p></li>
+<li><p>是否必要：非必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;doc/AUTHORS.txt&quot;</span></code></p></li>
+</ul>
+<p>有些開源軟體的做法，是將擁有其著作權的所有實體列在檔案中。這在由社群所支持的專案中相當常見，這些專案有許多外部貢獻者且沒有明確/主要著作權所有人。在此情況下，本鍵可透過儲存庫根目錄的相對路徑，參照作者檔案。</p>
+</section>
+</section>
+<section id="section-maintenance">
+<h3><span class="section-number">1.1.22. </span>Section <code class="docutils literal notranslate"><span class="pre">maintenance</span></code><a class="headerlink" href="#section-maintenance" title="Permalink to this headline">¶</a></h3>
+<p>本段落提供軟體維護狀態資訊，可用來判斷該軟體是否依舊定期維護。</p>
+<section id="maintenance-type">
+<h4><span class="section-number">1.1.22.1. </span>鍵 <code class="docutils literal notranslate"><span class="pre">maintenance/type</span></code><a class="headerlink" href="#maintenance-type" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： enumerate</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>Values: <code class="docutils literal notranslate"><span class="pre">&quot;internal&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;contract&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;community&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;none&quot;</span></code></p></li>
+</ul>
+<p>本鍵描述軟體目前維護方式。</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">internal</span></code> - 軟體由儲存庫所有人從內部進行維護;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">contract</span></code> - 有與實體簽約，由該實體負責維護軟體;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">community</span></code> - 軟體由一或多位專案志願者來維護;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">none</span></code> - 軟體由儲存庫所有人從內部進行維護;</p></li>
+</ul>
+</section>
+<section id="maintenance-contractors">
+<h4><span class="section-number">1.1.22.2. </span>鍵 <code class="docutils literal notranslate"><span class="pre">maintenance/contractors</span></code><a class="headerlink" href="#maintenance-contractors" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： array of Contractor (see below)</p></li>
+<li><p>是否必要：必要 (若 <code class="docutils literal notranslate"><span class="pre">maintenance/type</span></code> <strong>是</strong> <code class="docutils literal notranslate"><span class="pre">contract</span></code>)</p></li>
+</ul>
+<p>本鍵描述目前簽約來維護軟體的實體(若有)，這些實體可以是公司、組織或是其他群體。</p>
+</section>
+<section id="maintenance-contacts">
+<h4><span class="section-number">1.1.22.3. </span>鍵 <code class="docutils literal notranslate"><span class="pre">maintenance/contacts</span></code><a class="headerlink" href="#maintenance-contacts" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： 聯絡人列表(見下文)</p></li>
+<li><p>是否必要：必要 (若 <code class="docutils literal notranslate"><span class="pre">maintenance/type</span></code> <strong>就是</strong> <code class="docutils literal notranslate"><span class="pre">internal</span></code> 或 <code class="docutils literal notranslate"><span class="pre">community</span></code>)</p></li>
+</ul>
+<p>一或多位聯絡人負責維護本軟體。</p>
+<p>本鍵描述目前負責維護軟體的技術人員。所有聯絡人都必須是真人，而非公司或組織。若有人代表一個機構，則必須在聯絡人 <code class="docutils literal notranslate"><span class="pre">affiliation</span></code> 註明。</p>
+<p>如果是簽署商業協議(或是多份商業協議)，請指明實際簽約來負責維護軟體的實體。除非有參與產品維護，否則請勿指明軟體所有人。</p>
+</section>
+</section>
+<section id="localisation">
+<h3><span class="section-number">1.1.23. </span><code class="docutils literal notranslate"><span class="pre">localisation</span></code> 段落<a class="headerlink" href="#localisation" title="Permalink to this headline">¶</a></h3>
+<p>本段落提供軟體本地化功能概覽。</p>
+<section id="localisation-localisationready">
+<h4><span class="section-number">1.1.23.1. </span>鍵 <code class="docutils literal notranslate"><span class="pre">localisation/localisationReady</span></code><a class="headerlink" href="#localisation-localisationready" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： boolean</p></li>
+<li><p>是否必要：必要</p></li>
+</ul>
+<p>如果本鍵為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表軟體有多語言的架構或設計，因此不需要提供多語言版本。</p>
+</section>
+<section id="localisation-availablelanguages">
+<h4><span class="section-number">1.1.23.2. </span>鍵 <code class="docutils literal notranslate"><span class="pre">localisation/availableLanguages</span></code><a class="headerlink" href="#localisation-availablelanguages" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型：IETF BCP 47語言標籤列表</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>範例： <code class="docutils literal notranslate"><span class="pre">&quot;it&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;en&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;sl-IT-nedis&quot;</span></code></p></li>
+</ul>
+<p>若有此鍵，代表該軟體的各語言版本列表。該列表至少會有一個語言。根據 <a class="reference external" href="https://tools.ietf.org/html/bcp47">BCP 47</a> 規定，不能刪除主要語言子標籤。</p>
+</section>
+</section>
+<section id="dependson">
+<h3><span class="section-number">1.1.24. </span><code class="docutils literal notranslate"><span class="pre">dependsOn</span></code> 段落<a class="headerlink" href="#dependson" title="Permalink to this headline">¶</a></h3>
+<p>本段落提供安裝與使用本軟體時，所需的系統階層相依性概覽。</p>
+<p><strong>請注意：</strong> 請勿列出原始碼的相依性(例如使用的軟體函式庫)，以安裝與維護軟體所需的執行時期和/或系統階層相依性為主。舉例來說，資料庫就是很好的相依性範例。</p>
+<section id="dependson-open">
+<h4><span class="section-number">1.1.24.1. </span>鍵 <code class="docutils literal notranslate"><span class="pre">dependsOn/open</span></code><a class="headerlink" href="#dependson-open" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： 各種 <code class="docutils literal notranslate"><span class="pre">dependency</span></code> (見下文)</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>本鍵包含使用開源軟體授權發佈的執行時期相依性列表。</p>
+</section>
+<section id="dependson-proprietary">
+<h4><span class="section-number">1.1.24.2. </span>鍵 <code class="docutils literal notranslate"><span class="pre">dependsOn/proprietary</span></code><a class="headerlink" href="#dependson-proprietary" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： 各種 <code class="docutils literal notranslate"><span class="pre">dependency</span></code> (見下文)</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>本鍵包含使用私有軟體授權發佈的執行時期相依性列表。</p>
+</section>
+<section id="dependson-hardware">
+<h4><span class="section-number">1.1.24.3. </span>鍵 <code class="docutils literal notranslate"><span class="pre">dependsOn/hardware</span></code><a class="headerlink" href="#dependson-hardware" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>類型： 各種 <code class="docutils literal notranslate"><span class="pre">dependency</span></code> (見下文)</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>本鍵包含使用軟體所需要的硬體相依性列表。</p>
+</section>
+</section>
+</section>
+<section id="id10">
+<h2><span class="section-number">1.2. </span>特別資料格式<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<section id="id11">
+<h3><span class="section-number">1.2.1. </span>相依性<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">dependency</span></code> 是複雜的主題，並且具有以下屬性：</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <strong>必要</strong> - 相依性名稱(例如MySQL、NFC Reader)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">versionMin</span></code> - 第一個相容版本</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">versionMax</span></code> - 最新相容版本</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">version</span></code> - 軟體相容的唯一主要版本，並且能相容之後推出的所有修復與除錯更新。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">optional</span></code> - 相依性是否必要</p></li>
+</ul>
+</section>
+<section id="id12">
+<h3><span class="section-number">1.2.2. </span>複雜的版本控制<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p>也可以使用其他鍵來指明複雜的相容性矩陣。</p>
+<p><em>Ex. 1</em></p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PostgreSQL</span><span class="w"></span>
+<span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;3.2&quot;</span><span class="w"></span>
+<span class="w">  </span><span class="nt">optional</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"></span>
+</pre></div>
+</div>
+<p>這一段程式碼標示PostgreSQL 3.2版的選擇性相依性。</p>
+<p><em>Ex. 2</em></p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MySQL</span><span class="w"></span>
+<span class="w">  </span><span class="nt">versionMin</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1.1&quot;</span><span class="w"></span>
+<span class="w">  </span><span class="nt">versionMax</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1.3&quot;</span><span class="w"></span>
+</pre></div>
+</div>
+<p>這一段程式碼標示MySQL的必要相依性，可使用1.1至1.3之間的版本。</p>
+</section>
+<section id="id13">
+<h3><span class="section-number">1.2.3. </span>聯絡人<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<p>聯絡人具有以下屬性：</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <strong>必要</strong> - 本鍵包含技術聯絡人之一的全名。技術連絡人必須是真人，所以請勿將一般聯絡人資訊、公司部門或協會等資訊填入此鍵中。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">email</span></code> - 本鍵包含技術連絡人的電子郵件信箱，必須是能直接聯繫上該技術聯絡人的電子郵件信箱。請勿輸入 “<a class="reference external" href="mailto:info&#37;&#52;&#48;acme&#46;inc">info<span>&#64;</span>acme<span>&#46;</span>inc</a>” 這樣的一般郵寄名單。電子郵件信箱必須清楚無誤。為了進一步預防電子郵件資料收集，請依照YAML規範，以 <code class="docutils literal notranslate"><span class="pre">\x64</span></code> 取代 <code class="docutils literal notranslate"><span class="pre">&#64;</span></code>。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">phone</span></code> - 電話號碼(包含國際冠碼)。必須採用string 格式。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">affiliation</span></code> - 本鍵包含技術聯絡人的聯絡資訊。有多位維護人員時，可使用本鍵在每位技術聯絡人與維護人員之間建立關聯性。本鍵能包含公司名與機構名稱等。</p></li>
+</ul>
+</section>
+<section id="id14">
+<h3><span class="section-number">1.2.4. </span>承包商<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<p>承包商具有以下屬性：</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <strong>必要</strong> - 承包商姓名，可以是公司或是本人。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">until</span></code> - <strong>必要</strong> - 這是日期(YYYY-MM-DD)。本鍵必須包含維護結束的日期。如果是由社群進行維護，本鍵的值不應該超過未來2年。因此隨著社群持續改善專案，也必須定期更新本鍵的值。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">email</span></code> - 本鍵包含技術連絡人的電子郵件信箱，必須是能直接聯繫上該技術聯絡人的電子郵件信箱。請勿輸入 “<a class="reference external" href="mailto:info&#37;&#52;&#48;acme&#46;inc">info<span>&#64;</span>acme<span>&#46;</span>inc</a>” 這樣的一般郵寄名單。電子郵件信箱必須清楚無誤。為了進一步預防電子郵件資料收集，請依照YAML規範，以 <code class="docutils literal notranslate"><span class="pre">\x64</span></code> 取代 <code class="docutils literal notranslate"><span class="pre">&#64;</span></code>。</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">website</span></code> - 本鍵指向維護人員網站，可以是該公司官網，或是與專案相關的網頁或網站。</p></li>
+</ul>
+</section>
+<section id="id15">
+<h3><span class="section-number">1.2.5. </span>日期<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 當中所有日期都必須採用”YYYY-MM-DD”格式，這也是ISO8601允許的格式之一。該格式是唯一允許的格式，所以並非所有ISO8601允許的格式都適用於日期鍵。</p>
+</section>
+<section id="id16">
+<h3><span class="section-number">1.2.6. </span>編碼<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<p><cite>publiccode.yml</cite> <strong>必須</strong> 採用UTF-8編碼，且 <strong>應該</strong> 採用YAML 1.2文件格式，因為YAML 1.1格式 <em>已棄用</em> 。</p>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. 標準(核心)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#top-level">1.1. Top-Level 鍵與段落</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">1.2. 特別資料格式</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="country.html">2. 特定國家段落</a></li>
+<li class="toctree-l1"><a class="reference internal" href="forks.html">3. 分支與變種</a></li>
+<li class="toctree-l1"><a class="reference internal" href="categories-list.html">4. 軟體類別清單</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scope-list.html">5. 範圍列表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">6. 範例</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter"><code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code></a></li>
+      <li>Next: <a href="country.html" title="next chapter"><span class="section-number">2. </span>特定國家段落</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/schema.core.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

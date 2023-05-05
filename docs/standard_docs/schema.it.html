@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>義大利 &#8212; Python  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="italian-sections">
+<span id="id1"></span><h1>義大利<a class="headerlink" href="#italian-sections" title="Permalink to this headline">¶</a></h1>
+<p>以下列出的鍵僅適用於義大利，因此只能插入在具有 <code class="docutils literal notranslate"><span class="pre">it</span></code> 的程式碼。每個 <em>國家的代碼</em> 都是兩個英文字母，並遵守ISO 3166-1二位字母代碼標準。</p>
+<section id="countryextensionversion">
+<h2>鍵 <code class="docutils literal notranslate"><span class="pre">countryExtensionVersion</span></code><a class="headerlink" href="#countryextensionversion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>類型：string</p></li>
+<li><p>是否必要：必要</p></li>
+<li><p>值：<code class="docutils literal notranslate"><span class="pre">&quot;1.0&quot;</span></code></p></li>
+</ul>
+<p>此鍵**必須**隨時保持在 <code class="docutils literal notranslate"><span class="pre">1.0</span></code>。</p>
+</section>
+<section id="conforme">
+<h2><code class="docutils literal notranslate"><span class="pre">conforme</span></code><a class="headerlink" href="#conforme" title="Permalink to this headline">¶</a></h2>
+<p>本章節包含用於宣告符合目前法規的鍵，這些鍵也同樣適用於之後的段落。沒有這些鍵，代表沒有符合法規或是沒有宣告合規。</p>
+<section id="conforme-lineeguidadesign">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">conforme/lineeGuidaDesign</span></code><a class="headerlink" href="#conforme-lineeguidadesign" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體符合義大利無障礙法規(L. 4/2004)，詳細資訊請參閱 <a class="reference external" href="https://docs.italia.it/italia/designers-italia/design-linee-guida-docs">linee guida di design</a> (義大利文)。</p>
+</section>
+<section id="conforme-modellointeroperatibilita">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">conforme/modelloInteroperatibilita</span></code><a class="headerlink" href="#conforme-modellointeroperatibilita" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體符合 <a class="reference external" href="https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs">linee guida sull’interoperabilità</a>。</p>
+<p>法規參考資料： <a class="reference external" href="https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo8_art73.html">Art. 73 del CAD</a> (義大利文)。</p>
+</section>
+<section id="conforme-misureminimesicurezza">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">conforme/misureMinimeSicurezza</span></code><a class="headerlink" href="#conforme-misureminimesicurezza" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體符合 <a class="reference external" href="https://www.agid.gov.it/it/sicurezza/misure-minime-sicurezza-ict">Misure minime di sicurezza ICT per le Pubbliche amministrazioni</a> (義大利文)。</p>
+</section>
+<section id="conforme-gdpr">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">conforme/gdpr</span></code><a class="headerlink" href="#conforme-gdpr" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體符合歐盟一般資料保護規範。</p>
+</section>
+</section>
+<section id="piattaforme">
+<h2>段落 <code class="docutils literal notranslate"><span class="pre">piattaforme</span></code><a class="headerlink" href="#piattaforme" title="Permalink to this headline">¶</a></h2>
+<section id="piattaforme-spid">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">piattaforme/spid</span></code><a class="headerlink" href="#piattaforme-spid" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體配合 <a class="reference external" href="https://developers.italia.it/it/spid">SPID - il Sistema Pubblico di Identità Digitale</a>。</p>
+</section>
+<section id="piattaforme-cie">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">piattaforme/cie</span></code><a class="headerlink" href="#piattaforme-cie" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體配合義大利電子身分證使用 (<code class="docutils literal notranslate"><span class="pre">Carta</span> <span class="pre">di</span> <span class="pre">Identità</span> <span class="pre">Elettronica</span></code>)。</p>
+</section>
+<section id="piattaforme-anpr">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">piattaforme/anpr</span></code><a class="headerlink" href="#piattaforme-anpr" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體配合ANPR。</p>
+</section>
+<section id="piattafome-pagopa">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">piattafome/pagopa</span></code><a class="headerlink" href="#piattafome-pagopa" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體配合pagoPA。</p>
+</section>
+<section id="piattaforme-io">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">piattaforme/io</span></code><a class="headerlink" href="#piattaforme-io" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：布林</p></li>
+<li><p>是否必要：非必要</p></li>
+</ul>
+<p>如果程式碼包含此鍵並且為 <code class="docutils literal notranslate"><span class="pre">true</span></code>，代表該軟體配合 <a class="reference external" href="https://io.italia.it/">IO - 義大利公共服務應用程式</a>。</p>
+</section>
+</section>
+<section id="riuso">
+<h2>段落 <code class="docutils literal notranslate"><span class="pre">riuso</span></code><a class="headerlink" href="#riuso" title="Permalink to this headline">¶</a></h2>
+<p>本段落包含與 <a class="reference external" href="https://developers.italia.it">Developers Italia</a> 重複利用目錄當中，軟體發行相關的多個鍵。</p>
+<section id="riuso-codiceipa">
+<h3>鍵 <code class="docutils literal notranslate"><span class="pre">riuso/codiceIPA</span></code><a class="headerlink" href="#riuso-codiceipa" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>類型：string (iPA代碼)</p></li>
+<li><p>是否必要：若 <code class="docutils literal notranslate"><span class="pre">repoOwner</span></code> 為公共行政機關，則有必要</p></li>
+<li><p>範例：<code class="docutils literal notranslate"><span class="pre">c_h501</span></code></p></li>
+</ul>
+<p>此鍵代表公共行政索引(codice IPA)當中的行政機關代碼。</p>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="schema.core.html">1. 標準(核心)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="country.html">2. 特定國家段落</a></li>
+<li class="toctree-l1"><a class="reference internal" href="forks.html">3. 分支與變種</a></li>
+<li class="toctree-l1"><a class="reference internal" href="categories-list.html">4. 軟體類別清單</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scope-list.html">5. 範圍列表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">6. 範例</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/schema.it.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

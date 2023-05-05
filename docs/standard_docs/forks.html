@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>3. 分支與變種 &#8212; Python  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="4. 軟體類別清單" href="categories-list.html" />
+    <link rel="prev" title="2. 特定國家段落" href="country.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="forks-and-variants">
+<span id="id1"></span><h1><span class="section-number">3. </span>分支與變種<a class="headerlink" href="#forks-and-variants" title="Permalink to this headline">¶</a></h1>
+<p>如前所述，分支會因為最終目標不同而有兩種不同形式。為了清楚解釋如何在兩種形式的分支下處理 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code>，我們在下面定義兩個不同的語義：技術分支與軟體變種。</p>
+<section id="id2">
+<h2><span class="section-number">3.1. </span>技術分支 (也就是發布補丁)<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>開發人員為了改善原始代碼庫或是將改善的程式碼內容寄給原始作者，同時沒有開發與發佈原始軟體的替代變種的意圖時，此時開發人員製作的分支就是技術分支。</p>
+<p>在GitHub這些分散式控制系統與程式碼託管與協作平台上，開發人員都利用分支以及傳送合併請求，將他們的程式碼貢獻給現有代碼庫。</p>
+<p>有鑒於GitHub與其他平台上處理分支的方式，開發人員發佈其分支時，都標示為原始軟體的完整複製版，因此程式碼中也會包含 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code>。然而，語法分析器需要能夠分辨技術分支與原始代碼庫。</p>
+<section id="id3">
+<h3><span class="section-number">3.1.1. </span>語法分析器<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>語法分析器 <strong>應該</strong> 能夠注意到 <code class="docutils literal notranslate"><span class="pre">url</span></code> 鍵沒有指向包含 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 的儲存庫，藉此看出這是一個技術分支。</p>
+<p>語法分析器 <strong>可能</strong> 也可以透過代碼託管平台的元資料(像是GitHub就會清楚標示分支)，分辨技術分支</p>
+</section>
+<section id="id4">
+<h3><span class="section-number">3.1.2. </span>作者<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>技術分支作者 <strong>不應</strong> 修改 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code>。明確來說，他們 <strong>絕對不可</strong> 修改 <strong>必須</strong> 持續指向原始儲存庫的 <code class="docutils literal notranslate"><span class="pre">url</span></code> 鍵。</p>
+<p>我們目前沒有設定特定鍵來將分支標示為技術分支。這是刻意的設計決策，因為我們不要技術分支的作者知道 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 的存在以及如何進行修改。目前的設計不需要作者採取任何行動。</p>
+</section>
+</section>
+<section id="id5">
+<h2><span class="section-number">3.2. </span>軟體變種<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>軟體變種是一個分支，是原本上游軟體的替代版本。</p>
+<p>當中的修改內容尚未收錄在上游版本當中，像是更多功能、不同的相依性與優化等。</p>
+<p>作者一旦將分支標示為變種，代表他們相信變種包含完善的修改內容，對他人可能有用。</p>
+<p>將分支標示為變種， <strong>不</strong> 關作者是否有意願將程式碼貢獻給上游軟體，但作者可能有此計畫，甚至已經在進行中。因此，雖然分支最終會與整併至上游軟體中，最好還是先將分支標示為變種，方便他人搜尋並且從中受益。</p>
+<section id="parsers-1">
+<span id="id6"></span><h3><span class="section-number">3.2.1. </span>語法分析器<a class="headerlink" href="#parsers-1" title="Permalink to this headline">¶</a></h3>
+<p>語法分析器 <strong>應該</strong> 能注意到 <code class="docutils literal notranslate"><span class="pre">url</span></code> 鍵與對應具有 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 的儲存庫， <strong>而且</strong> 具有指向不同儲存庫的 <code class="docutils literal notranslate"><span class="pre">isBasedOn</span></code> 鍵，藉此分辨變種。</p>
+<p>語法分析器應該能分析軟體不同變種間，在 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 的差異。明確來說，<code class="docutils literal notranslate"><span class="pre">description/features</span></code> 是用來在不同變種間作比較，藉此找出並且標示出使用者能看出的差異。</p>
+</section>
+<section id="authors-1">
+<span id="id7"></span><h3><span class="section-number">3.2.2. </span>作者<a class="headerlink" href="#authors-1" title="Permalink to this headline">¶</a></h3>
+<p>願意將分支標示為變種並且發佈的作者至少**必須**：</p>
+<ul class="simple">
+<li><p>新增 <code class="docutils literal notranslate"><span class="pre">isBasedOn</span></code> 鍵，並且指向本變種源自的一或多個上游軟體。</p></li>
+<li><p>變更 <code class="docutils literal notranslate"><span class="pre">url</span></code> 的值，將其指向存放該變種的儲存庫。</p></li>
+<li><p>變更 <code class="docutils literal notranslate"><span class="pre">legal/repoOwner</span></code> 的值，加入對自己(變種作者本身)的參照。</p></li>
+<li><p>修改 <code class="docutils literal notranslate"><span class="pre">maintenance</span></code> 段落，加入對變種維護狀態的參照。</p></li>
+</ul>
+<p>另外，作者 <strong>應該</strong> 評估以下變動：</p>
+<ul class="simple">
+<li><p>加入讓人能分辨變種與 <code class="docutils literal notranslate"><span class="pre">description/features</span></code> 鍵的功能。現有功能 <strong>不應該</strong> 被編輯或移除，除非原本就從變種當中移除，這是要方便語法分析器比較功能列表。</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="schema.core.html">1. 標準(核心)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="country.html">2. 特定國家段落</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. 分支與變種</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">3.1. 技術分支 (也就是發布補丁)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">3.2. 軟體變種</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="categories-list.html">4. 軟體類別清單</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scope-list.html">5. 範圍列表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">6. 範例</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="country.html" title="previous chapter"><span class="section-number">2. </span>特定國家段落</a></li>
+      <li>Next: <a href="categories-list.html" title="next chapter"><span class="section-number">4. </span>軟體類別清單</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/forks.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

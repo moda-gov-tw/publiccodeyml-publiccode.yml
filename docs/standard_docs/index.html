@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>publiccode.yml &#8212; Python  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. 標準(核心)" href="schema.core.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="publiccode-yml">
+<h1><code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code><a class="headerlink" href="#publiccode-yml" title="Permalink to this headline">¶</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 是一個元資料標準，適用於包含由公共行政學院開發或購買的軟體的儲存庫，目標是要方便其他實體找到並且重複利用這些儲存庫。</p>
+<p>將 <code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 檔案加入儲存庫根目錄，並且在當中加入軟體相關資訊，技術人員與公務人員就能評估。由於人機都可輕鬆判讀此格式，因此也可建立自動索引工具。</p>
+<p>根據義大利國家 <a class="reference external" href="https://docs.italia.it/AgID/linee-guida-riuso-software/lg-acquisizione-e-riuso-software-per-pa-docs/">指引</a>，在義大利開發的所有公共軟體都必須包含 publiccode.yml。這讓 Developers
+Italia 能夠利用爬蟲程式建立國家 <a class="reference external" href="https://developers.italia.it/">軟體目錄</a>。此標準全球通用，因此特定國家的鍵不會放在標準的核心中，而是放在各國專屬的段落，並由各國政府決定。</p>
+<p><code class="docutils literal notranslate"><span class="pre">publiccode.yml</span></code> 檔案當中的詳細資訊包括：</p>
+<ul class="simple">
+<li><p>專案或產品的名稱與說明(一或多語言版本);</p></li>
+<li><p>開發狀態(例如 <code class="docutils literal notranslate"><span class="pre">concept</span></code>、<code class="docutils literal notranslate"><span class="pre">development</span></code>、<code class="docutils literal notranslate"><span class="pre">beta</span></code>、<code class="docutils literal notranslate"><span class="pre">stable</span></code>、<code class="docutils literal notranslate"><span class="pre">obsolete</span></code>;</p></li>
+<li><p>發佈代碼庫的實體的聯絡人;</p></li>
+<li><p>維護人員(若有)的聯絡資訊，包括維護合約到期日;</p></li>
+<li><p>專案或產品設計時的法律背景資訊;</p></li>
+<li><p>相依性</p></li>
+</ul>
+<p>與其他。</p>
+<section id="id3">
+<h2>請參閱<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developers.italia.it/en/reuse">更多有關重複利用軟體的資訊</a></p></li>
+<li><p><a class="reference external" href="https://publiccode-editor.developers.italia.it/">publiccode.yml 網路編輯器</a></p></li>
+</ul>
+</section>
+<section id="id6">
+<h2>目錄<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="schema.core.html">1. 標準(核心)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="schema.core.html#top-level">1.1. Top-Level 鍵與段落</a></li>
+<li class="toctree-l2"><a class="reference internal" href="schema.core.html#id10">1.2. 特別資料格式</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="country.html">2. 特定國家段落</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="country.html#italian-sections">2.1. 義大利</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="forks.html">3. 分支與變種</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="forks.html#id2">3.1. 技術分支 (也就是發布補丁)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forks.html#id5">3.2. 軟體變種</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="categories-list.html">4. 軟體類別清單</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="categories-list.html#id2">4.1. 有效標籤</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scope-list.html">5. 範圍列表</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scope-list.html#id2">5.1. 有效標籤</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">6. 範例</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="example.html#id2">6.1. 精簡版本</a></li>
+<li class="toctree-l2"><a class="reference internal" href="example.html#id3">6.2. 詳盡版本</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Python</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="schema.core.html">1. 標準(核心)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="country.html">2. 特定國家段落</a></li>
+<li class="toctree-l1"><a class="reference internal" href="forks.html">3. 分支與變種</a></li>
+<li class="toctree-l1"><a class="reference internal" href="categories-list.html">4. 軟體類別清單</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scope-list.html">5. 範圍列表</a></li>
+<li class="toctree-l1"><a class="reference internal" href="example.html">6. 範例</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="schema.core.html" title="next chapter"><span class="section-number">1. </span>標準(核心)</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
