@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-01 12:28+0800\n"
-"PO-Revision-Date: 2023-05-05 04:42+0000\n"
+"PO-Revision-Date: 2023-05-11 04:42+0000\n"
 "Last-Translator: Weblate Admin <toomore0929@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "pmpc/publiccodeyml-publiccode-yml/zh_Hant/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 4.17\n"
 
 #
 #: ./en-md/categories-list.md:block 1 (paragraph)
@@ -893,7 +893,7 @@ msgstr ""
 #: ./en-md/forks.md:block 22 (paragraph)
 msgid ""
 "Authors that are willing to publish a fork as a variant **MUST** at least:"
-msgstr "將分支作為變體發佈的作者 **必須** 至少："
+msgstr "將分支作為變體發佈的作者至少 **必須**："
 
 #: ./en-md/forks.md:block 23 (unordered list)
 msgid ""
